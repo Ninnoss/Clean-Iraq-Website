@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'arabic-regular';
+  src: url(./assets/Fonts/IBMPlexSansArabic-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'arabic-medium';
+  src: url(./assets/Fonts/IBMPlexSansArabic-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'arabic-thin';
+  src: url(./assets/Fonts/IBMPlexSansArabic-Thin.ttf);
+}
+
+@font-face {
+  font-family: 'arabic-light';
+  src: url(./assets/Fonts/IBMPlexSansArabic-Light.ttf);
+}
+
+@font-face {
+  font-family: 'arabic-extra-light';
+  src: url(./assets/Fonts/IBMPlexSansArabic-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: 'arabic-semibold';
+  src: url(./assets/Fonts/IBMPlexSansArabic-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'arabic-bold';
+  src: url(./assets/Fonts/IBMPlexSansArabic-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'English-poppins';
+  src: url(./assets/Fonts/Poppins-Regular.ttf);
+}
