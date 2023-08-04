@@ -22,13 +22,13 @@ const Footer = () => {
                 />
                 <figcaption className="sr-only">Clean Iraq Campaign Logo</figcaption>
               </figure>
-              <span className="text-md lg:text-xl text-highlightGrey font-arabicMedium  md:font-arabicSemibold mx-3 ">سفراء النظافة</span>
+              <span className="text-Heading-6 md:text-Heading-5 text-highlightGrey mx-3 ">سفراء النظافة</span>
             </div>
           </NavLink>
         </div>
 
         <div>
-          <ul className="grid grid-cols-3 lg:grid-cols-6 justify-center gap-4 lg:gap-x-10  text-lg text-highlightGrey font-arabicMedium">
+          <ul className="grid grid-cols-3 lg:grid-cols-6 justify-center gap-4 lg:gap-x-10  text-Subtitile-M text-highlightGrey">
             <li className="hover:text-primaryGreen">
               <NavLink
                 onClick={scrollToTop}

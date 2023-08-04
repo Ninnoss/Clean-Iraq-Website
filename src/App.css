@@ -29,5 +29,5 @@
 /* React Router NavLink active class */
 .active {
   color: #548C67;
-  /* font-weight: 600; */
+  font-weight: 600;
 }
