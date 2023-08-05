@@ -4,19 +4,17 @@ import Button from '../Button';
 
 const Hero = () => {
   return (
-    <section className="py-36 px-8">
-      <div className="flex flex-col-reverse md:flex-row gap-14 justify-around items-center">
-        
-        <div className="relative">
-          {/* <div className="absolute w-24 h-24 md:w-36 md:h-36 lg:w-44 lg:h-44 -top-8 left-64 md:-top-12 md:left-[11.5rem] rounded-lg bg-[#bbd1c2] -z-10"></div>
-          <div className="absolute w-20 h-20 md:w-36 md:h-36 -top-4 right-10 md:right-4 rounded-lg bg-[#F4DDBC] -z-10"></div> */}
-
-          <figure>
+    <section className="pt-12 md:pt-36 pb-24  px-8">
+      <div className="flex flex-col-reverse md:flex-row gap-28 md:gap-14 justify-around items-center">
+        <div>
+          <figure className=" relative">
             <img
               className="h-[350px] sm:h-[400px] md:h-[450px] w-[450px] rounded-lg z-10"
               src={images.girlWithTrashCan}
               alt="A girl picking up trash"
             />
+            <div className="w-36 h-36 lg:w-44 lg:h-44 absolute -top-10 -right-4 lg:-top-20  lg:-right-8 rounded-lg bg-[#bbd1c2] -z-10"></div>
+            <div className="w-36 h-36 absolute -top-5 right-10 lg:-top-10 lg:right-20  rounded-lg bg-[#F4DDBC] -z-10"></div>
             <figcaption className="sr-only">A girl picking up trash</figcaption>
           </figure>
         </div>
@@ -29,7 +27,13 @@ const Hero = () => {
             إن كل فردٍ يساهم في هذه الحملة يكون جزءًا من تغيير إيجابي يشمل المجتمع بأكمله. ابدأ بنفسك وكن النموذج الذي يحتذى به، ودع طاقتك الإيجابية تشع بالحماس
             والتحفيز لمن حولك. تذكَّر أن العمل الجماعي يؤدي إلى نتائج مذهلة، والتحديات التي تواجهنا ستبدو هشة بجانب إرادتنا وتصميمنا على تحقيق التغيير.
           </p>
-          <Button className="mt-10 px-3 py-1 lg:px-6 tracking-wider lg:py-2 text-Button-M font-medium">أنضم الينا</Button>
+          <Button
+            type="button"
+            role="link"
+            aria-label="Join us"
+            className="mt-10 px-3 py-1 lg:px-6 tracking-wider lg:py-2 text-Button-M font-medium">
+            أنضم الينا
+          </Button>
         </div>
       </div>
     </section>
