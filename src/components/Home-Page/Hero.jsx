@@ -7,13 +7,13 @@ const Hero = () => {
     <section className="pt-12 md:pt-36 pb-24  px-8">
       <div className="flex flex-col-reverse md:flex-row gap-28 md:gap-14 justify-around items-center">
         <div>
-          <figure className=" relative">
+          <figure className="relative">
             <img
               className="h-[350px] sm:h-[400px] md:h-[450px] w-[450px] rounded-lg z-10"
               src={images.girlWithTrashCan}
               alt="A girl picking up trash"
             />
-            <div className="w-36 h-36 lg:w-44 lg:h-44 absolute -top-10 -right-4 lg:-top-20  lg:-right-8 rounded-lg bg-[#bbd1c2] -z-10"></div>
+            <div className="w-36 h-36 lg:w-44 lg:h-44 absolute -top-10 -right-4 lg:-top-20 lg:-right-8 rounded-lg bg-[#bbd1c2] -z-10"></div>
             <div className="w-36 h-36 absolute -top-5 right-10 lg:-top-10 lg:right-20  rounded-lg bg-[#F4DDBC] -z-10"></div>
             <figcaption className="sr-only">A girl picking up trash</figcaption>
           </figure>

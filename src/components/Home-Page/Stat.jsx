@@ -21,7 +21,7 @@ const Stat = ({ title, number, logo }) => {
     <article>
       <div className="flex flex-col justify-center items-center px-24 py-5 border-2 border-[#eceef1] rounded-3xl space-y-4">
         <LogoComponent
-          size={60}
+          size={48}
           color="#C1C7CD"
         />
         <CountUp

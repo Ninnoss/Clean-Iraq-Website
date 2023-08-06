@@ -1,5 +1,5 @@
 import images from '../../data/images';
-import Button from '../Button';
+// import Button from '../Button';
 
 const Info = () => {
   return (
@@ -8,18 +8,18 @@ const Info = () => {
         <div>
           <h2 className="text-Heading-2 ">بعيد وما تكدر تتواجد ويانه؟</h2>
           <p className="text-Body-S md:text-Body-L max-w-lg mt-8 text-highlightBlack ">
-            شارك وية اصدقائك بتنظيف مكان يمنطقتك واستخدم هاشتاك #اليوم_الوطني_للتنظيف , لأن الهدف من الحملة ننظف أكبر عدد من الأماكن بالعراق وننشر الوعي بأهمية
-            الحفاظ على النظافة.
+            شارك وية اصدقائك بتنظيف مكان يمنطقتك واستخدم هاشتاك <strong>#اليوم_الوطني_للتنظيف</strong> لأن الهدف من الحملة ننظف أكبر عدد من الأماكن بالعراق
+            وننشر الوعي بأهمية الحفاظ على النظافة.
           </p>
         </div>
         <div>
-          <Button
+          {/* <Button
             type="button"
             role="link"
             aria-label="Join us"
             className="text-Button-L bg-[#EF466F] absolute top-0 right-0  md:top-10 md:right-8 lg:top-10 lg:right-32 rounded-lg hover:bg-[#EF466F]">
             سفراء النظافة
-          </Button>
+          </Button> */}
           <figure>
             <img
               className="h-[350px] sm:h-[400px] md:h-[500px] w-[450px] rounded-lg z-10"

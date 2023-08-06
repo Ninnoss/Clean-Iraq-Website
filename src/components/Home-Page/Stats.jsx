@@ -8,12 +8,12 @@ const Stats = () => {
   });
 
   return (
-    <section className="h-[44rem] py-16">
+    <section className="py-16">
       <h2 className="text-center text-Heading-2">احصائيات</h2>
 
       <div
         ref={ref}
-        className="pt-14 flex flex-row-reverse justify-center gap-10">
+        className="pt-14 flex flex-row-reverse flex-wrap-reverse justify-center gap-10">
         {stats.map((stat) => (
           <Stat
             key={stat.title}

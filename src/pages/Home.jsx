@@ -1,6 +1,7 @@
 import Hero from '../components/Home-Page/Hero';
 import Info from '../components/Home-Page/Info';
 import Stats from '../components/Home-Page/Stats';
+import UpcomingEvents from '../components/Home-Page/UpcomingEvents';
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <Info />
       <Stats />
+      <UpcomingEvents />
     </main>
   );
 };
