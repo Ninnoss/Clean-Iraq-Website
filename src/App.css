@@ -103,13 +103,13 @@
   }
 }
 
-.animate-sun {
+/* .animate-sun {
   animation: translate-sun 12s linear infinite alternate;
 }
 
 .animate-moon {
   animation: translate-moon 12s linear infinite alternate;
-}
+} */
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* circular-like radial motion for the whole structure*/
@@ -131,6 +131,6 @@
   }
 }
 
-.animate-test {
+/* .animate-test {
   animation: translate-test 15s linear infinite alternate;
-}
+} */

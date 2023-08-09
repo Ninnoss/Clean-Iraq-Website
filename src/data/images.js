@@ -2,6 +2,7 @@
 import navLogo from '../assets/Imgs/Logo.webp';
 import girlWithTrashCan from '../assets/Imgs/Home-Page/girl-with-trash-can.webp';
 import murtadha from '../assets/Imgs/Home-Page/Murtadha.webp';
+import iraqMap from '../assets/Imgs/Home-Page/Iraq-map.webp';
 
 // For the campaign faces
 import john from '../assets/Imgs/Home-Page/John.webp';
@@ -14,11 +15,11 @@ export default {
   navLogo,
   girlWithTrashCan,
   murtadha,
-
+  iraqMap,
   // For the campaign faces
   john,
   jane,
   david,
   mona,
-  sarah
+  sarah,
 };

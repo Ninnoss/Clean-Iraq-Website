@@ -1,4 +1,5 @@
 import CampaignFaces from '../components/Home-Page/CampaignFaces';
+import CampaignLocations from '../components/Home-Page/CampaignLocations';
 import Hero from '../components/Home-Page/Hero';
 import Info from '../components/Home-Page/Info';
 import Stats from '../components/Home-Page/Stats';
@@ -12,6 +13,7 @@ const Home = () => {
       <Stats />
       <UpcomingEvents />
       <CampaignFaces />
+      <CampaignLocations />
     </main>
   );
 };

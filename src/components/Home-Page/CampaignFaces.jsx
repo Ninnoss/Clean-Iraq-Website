@@ -4,7 +4,7 @@ import OrbitImage from './OrbitImage';
 const CampaignFaces = () => {
   return (
     <section className="flex flex-col-reverse lg:flex-row justify-evenly items-center px-2 md:px-16">
-      <div className="relative flex justify-center items-center scale-[0.55] md:scale-90 xl:scale-100 h-[30rem] md:h-[38rem] lg:h-[42rem] animate-test">
+      <div className="relative flex justify-center items-center scale-[0.55] md:scale-90 xl:scale-100 h-[30rem] md:h-[38rem] lg:h-[42rem]  xl:animate-test">
         {/* Orbit 1 */}
         <div className="w-[10rem] h-[10rem] border-2 border-[##EFECEB] rounded-full absolute animate-orbit1">
           {orbits[0].map((item) => (
