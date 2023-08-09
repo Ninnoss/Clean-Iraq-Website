@@ -28,6 +28,109 @@
 
 /* React Router NavLink active class */
 .active {
-  color: #548C67;
+  color: #548c67;
   font-weight: 600;
 }
+
+/* Solar system stuff: Rotating the images on the orbit paths */
+@keyframes rotate360 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate360-reverse {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+/* .animate-orbit1 {
+  animation: rotate360 15s linear infinite;
+}
+
+.animate-orbit2 {
+  animation: rotate360-reverse 45s linear infinite;
+}
+
+.animate-orbit3 {
+  animation: rotate360 45s linear infinite;
+} */
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Solar system stuff */
+
+@keyframes translate-sun {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(2rem) translateY(2rem);
+  }
+
+  50% {
+    transform: translateX(4rem) translateY(4rem);
+  }
+  75% {
+    transform: translateX(5rem) translateY(6rem);
+  }
+  100% {
+    transform: translateX(6rem) translateY(8rem);
+  }
+}
+
+@keyframes translate-moon {
+  0% {
+    transform: translateX(1rem) translateY(-1);
+  }
+  25% {
+    transform: translateX(2rem) translateY(-2rem);
+  }
+  50% {
+    transform: translateX(3rem) translateY(-2rem);
+  }
+  75% {
+    transform: translateX(4rem) translateY(-4rem);
+  }
+  100% {
+    transform: translateX(5rem) translateY(-6rem);
+  }
+}
+
+/* .animate-sun {
+  animation: translate-sun 12s linear infinite alternate;
+}
+
+.animate-moon {
+  animation: translate-moon 12s linear infinite alternate;
+} */
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* circular-like radial motion for the whole structure*/
+@keyframes translate-test {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(0.5rem) translateY(-0.5rem);
+  }
+  50% {
+    transform: translateX(1rem) translateY(-1rem);
+  }
+  75% {
+    transform: translateX(1.5rem) translateY(-1.5rem);
+  }
+  100% {
+    transform: translateX(2rem) translateY(-2rem);
+  }
+}
+
+/* .animate-test {
+  animation: translate-test 15s linear infinite alternate;
+} */
