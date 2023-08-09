@@ -23,7 +23,7 @@ const Navbar = () => {
                 />
                 <figcaption className="sr-only">Clean Iraq Campaign Logo</figcaption>
               </figure>
-              <span className="text-md lg:text-xl text-black font-arabicMedium  md:font-arabicSemibold  mx-3 ">سفراء النظافة</span>
+              <span className="text-Heading-6 md:text-Heading-5 text-black font-medium mx-3 ">سفراء النظافة</span>
             </div>
           </NavLink>
         </div>
@@ -33,7 +33,7 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:block">
-          <ul className="flex gap-x-4 lg:gap-x-10  text-lg text-highlightBlack font-arabicMedium">
+          <ul className="flex gap-x-4 lg:gap-x-10 text-Subtitile-M  text-highlightBlack">
             <li className="hover:text-primaryGreen">
               <NavLink
                 to="/"
@@ -65,7 +65,7 @@ const Navbar = () => {
           color="#202020"
           aria-label="Open Menu"
         />
-        <Button className="rounded-3xl px-3 py-1 lg:px-4 lg:py-2 font-medium hidden md:block ">أنضم الينا</Button>
+        <Button className="rounded-3xl px-3 py-1 lg:px-4 lg:py-2 hidden md:block text-Button-M font-medium">أنضم الينا</Button>
       </nav>
     </header>
   );

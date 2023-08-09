@@ -1,11 +1,23 @@
-import Button from '../components/Button';
+import CampaignFAQ from '../components/Home-Page/CampaignFAQ';
+import CampaignFaces from '../components/Home-Page/CampaignFaces';
+import CampaignLocations from '../components/Home-Page/CampaignLocations';
+import Hero from '../components/Home-Page/Hero';
+import Info from '../components/Home-Page/Info';
+import Newsletter from '../components/Home-Page/Newsletter';
+import Stats from '../components/Home-Page/Stats';
+import UpcomingEvents from '../components/Home-Page/UpcomingEvents';
 
 const Home = () => {
   return (
-    <main className="flex justify-center pt-12 ">
-      Hello World
-      <Button className="font-arabicRegular ml-14">هاي</Button>
-      <span className="font-arabicBold ml-14">تيست</span>
+    <main>
+      <Hero />
+      <Info />
+      <Stats />
+      <UpcomingEvents />
+      <CampaignFaces />
+      <CampaignLocations />
+      <CampaignFAQ />
+      <Newsletter />
     </main>
   );
 };
