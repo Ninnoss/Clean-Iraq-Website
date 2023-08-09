@@ -44,8 +44,8 @@
   transform: translateY(0px);
   opacity: 1;
 }
-=======
-  color: #548c67;
+.active {
+   color: #548c67;
   font-weight: 600;
 }
 
