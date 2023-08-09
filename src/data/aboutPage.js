@@ -23,3 +23,18 @@ export const rowsData = [
     imageAlt: 'Image of Clean Iraq',
   },
 ];
+
+export const ourTeamImage =[
+  {
+    imageSrc: images.girl,
+    imageAlt: 'Image of Clean Iraq',
+  },
+  {
+    imageSrc: images.girl,
+    imageAlt: 'Image of Clean Iraq',
+  },{
+    imageSrc: images.girl,
+    imageAlt: 'Image of Clean Iraq',
+  },
+]
+
