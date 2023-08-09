@@ -1,5 +1,7 @@
+import CardSection from '../components/Campaigns/CardSection';
+
 const Campaigns = () => {
-  return <div>Campaigns</div>;
+  return <CardSection />;
 };
 
 export default Campaigns;
