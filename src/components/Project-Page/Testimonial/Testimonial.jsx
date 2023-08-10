@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+/* eslint-disable react/prop-types */
+import { useState } from 'react';
 import TestimonialCard from "./TestimonialCard";
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 
