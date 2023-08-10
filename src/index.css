@@ -15,3 +15,12 @@
 * {
   font-family: 'IBMPlexSansArabic', sans-serif;
 }
+@layer utilities {
+
+  .clip-circle {
+
+    clip-path: circle();
+
+  }
+
+}
