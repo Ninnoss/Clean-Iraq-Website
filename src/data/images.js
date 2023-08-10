@@ -18,10 +18,6 @@ import clean from '../assets/Imgs/AboutPage/clean.svg'
 import clean1 from '../assets/Imgs/AboutPage/clean1.svg'
 
 // Project page
-import chart from "../assets/Imgs/Projects-Page/chart.svg"
-import location from "../assets/Imgs/Projects-Page/location.svg"
-import people from "../assets/Imgs/Projects-Page/people.svg"
-import trush from "../assets/Imgs/Projects-Page/trush-square.svg"
 import pic from "../assets/Imgs/Projects-Page/project.png"
 import user from "../assets/Imgs/Projects-Page/User.png"
 
@@ -41,10 +37,6 @@ export default {
   mona,
   sarah,
   //for the project page
-  chart,
-  location,
-  people,
-  trush,
   pic,
   user,
 };
