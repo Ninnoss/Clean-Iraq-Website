@@ -16,7 +16,10 @@ export default function SuggestionForm() {
     return (
         <div >
             <h1 className=' text-center font-bold text-[#23262F] text-4xl my-10'>وين تريد تكون حملتنه الجاية؟</h1>
-      <form className='max-w-[400px] my-0 mx-auto max-[320px]:max-w-[90%] w-[77%]'>
+      <form className='max-w-[400px] my-0 mx-auto max-[320px]:max-w-[90%] w-[77%]'
+      onSubmit={e => {
+        e.preventDefault}}
+      >
         <label htmlFor="email" className=' block w-[100%] mb-[10px] text-right text-[#777E90]'>البريد الالكتروني</label>
         <input
         className=' block w-[100%] mb-[10px] bg-[#F4F5F6] rounded-[10px] h-8 
