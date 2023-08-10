@@ -1,5 +1,10 @@
 // // Nav, Home, Footer
 import navLogo from '../assets/Imgs/Logo.webp';
+
+//Campaigns page
+import cardLogo from '../assets/Imgs/Campaigns/campaigns-img.jpg';
+import pin from '../assets/Imgs/Campaigns/Pin.svg';
+
 import girlWithTrashCan from '../assets/Imgs/Home-Page/girl-with-trash-can.webp';
 import murtadha from '../assets/Imgs/Home-Page/Murtadha.webp';
 import iraqMap from '../assets/Imgs/Home-Page/Iraq-map.webp';
@@ -24,6 +29,10 @@ import user from "../assets/Imgs/Projects-Page/User.png"
 
 export default {
   navLogo,
+// Campaigns-page
+  cardLogo,
+  pin,
+  
   girl,
   clean,
   clean1,
