@@ -72,6 +72,7 @@ const CardSection = () => {
                     img={card.img}
                     date={card.date}
                     place={card.place}
+                    pin={images.pin}
                     />
                 </div>
             ))}

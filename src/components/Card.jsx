@@ -1,6 +1,4 @@
-import images from '../data/images';
-
-const Card = ({ name, img, description, date, place }) => {
+const Card = ({ name, img, description, date, place, pin }) => {
     return (
       <article className="w-72 sm:w-80 bg-white border border-gray-200 rounded-lg shadow transition-all duration-300 hover:shadow-lg hover:bg-[whitesmoke]">
         <figure>
@@ -22,7 +20,7 @@ const Card = ({ name, img, description, date, place }) => {
 
         <div className="flex justify-between p-8">
           <div className="text-Body-M text-highlightBlack">{date}</div>
-          <div className="flex justify-end text-Body-M text-primaryGreen "><img src={images.pin}/>{place}</div>
+          <div className="flex justify-end text-Body-M text-primaryGreen "><img src={pin}/>{place}</div>
         </div>
       </article>
     );
