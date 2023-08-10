@@ -17,6 +17,9 @@ import girl from '../assets/Imgs/AboutPage/girl.svg'
 import clean from '../assets/Imgs/AboutPage/clean.svg'
 import clean1 from '../assets/Imgs/AboutPage/clean1.svg'
 
+// Project page
+import pic from "../assets/Imgs/Projects-Page/project.png"
+import user from "../assets/Imgs/Projects-Page/User.png"
 
 
 export default {
@@ -33,4 +36,7 @@ export default {
   david,
   mona,
   sarah,
+  //for the project page
+  pic,
+  user,
 };
