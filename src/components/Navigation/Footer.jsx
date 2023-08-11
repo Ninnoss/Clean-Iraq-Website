@@ -1,6 +1,6 @@
-import { NavLink } from 'react-router-dom';
-import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
-import images from '../../data/images';
+import { NavLink } from "react-router-dom";
+import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
+import images from "../../data/images";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -10,9 +10,7 @@ const Footer = () => {
     <footer className="bg-highlightBlack px-2">
       <div className="mx-auto  w-full max-w-screen-xl p-4 py-6 lg:py-8 flex flex-col gap-y-4 md:flex-row items-center justify-between">
         <div>
-          <NavLink
-            to={'/'}
-            end>
+          <NavLink to={"/"} end>
             <div className="flex items-center">
               <figure>
                 <img
@@ -20,9 +18,13 @@ const Footer = () => {
                   src={images.navLogo}
                   alt="Clean Iraq Campaign Logo"
                 />
-                <figcaption className="sr-only">Clean Iraq Campaign Logo</figcaption>
+                <figcaption className="sr-only">
+                  Clean Iraq Campaign Logo
+                </figcaption>
               </figure>
-              <span className="text-Heading-6 md:text-Heading-5 text-highlightGrey mx-3 ">سفراء النظافة</span>
+              {/* <span className="text-Heading-6 md:text-Heading-5 text-highlightGrey mx-3 ">
+                سفراء النظافة
+              </span> */}
             </div>
           </NavLink>
         </div>
@@ -30,45 +32,32 @@ const Footer = () => {
         <div>
           <ul className="grid grid-cols-3 lg:grid-cols-6 justify-center gap-4 lg:gap-x-10  text-Subtitile-M text-highlightGrey">
             <li className="hover:text-primaryGreen">
-              <NavLink
-                onClick={scrollToTop}
-                to="/"
-                end>
+              <NavLink onClick={scrollToTop} to="/" end>
                 الرئيسية
               </NavLink>
             </li>
             <li className="hover:text-primaryGreen ">
-              <NavLink
-                onClick={scrollToTop}
-                to="/about">
+              <NavLink onClick={scrollToTop} to="/about">
                 من نحن
               </NavLink>
             </li>
             <li className="hover:text-primaryGreen">
-              <NavLink
-                onClick={scrollToTop}
-                to="/campaigns">
+              <NavLink onClick={scrollToTop} to="/campaigns">
                 حملاتنا
               </NavLink>
             </li>
             <li className="hover:text-primaryGreen">
-              <NavLink
-                onClick={scrollToTop}
-                to="/projects">
+              <NavLink onClick={scrollToTop} to="/projects">
                 مبادراتنا
               </NavLink>
             </li>
             <li className="hover:text-primaryGreen">
-              <NavLink
-                onClick={scrollToTop}
-                to="/blogs">
+              <NavLink onClick={scrollToTop} to="/blogs">
                 المدونة
               </NavLink>
             </li>
             <li className="hover:text-primaryGreen">
-              <NavLink
-                onClick={scrollToTop}
-                to="/contact">
+              <NavLink onClick={scrollToTop} to="/contact">
                 اتصل بنا
               </NavLink>
             </li>
@@ -80,33 +69,39 @@ const Footer = () => {
             <a
               href="#"
               className=" hover:scale-110 transition-all duration-200 mx-2"
-              aria-label="Instagram">
+              aria-label="Instagram"
+            >
               <FaInstagram />
             </a>
             <a
               href="#"
               className=" hover:scale-110 transition-all duration-200 mx-2"
-              aria-label="Instagram">
+              aria-label="Instagram"
+            >
               <FaYoutube />
             </a>
 
             <a
               href="#"
               className=" hover:scale-110 transition-all duration-200 mx-2"
-              aria-label="Facebook">
+              aria-label="Facebook"
+            >
               <FaFacebook />
             </a>
             <a
               href="#"
               className=" hover:scale-110 transition-all duration-200 mx-2"
-              aria-label="Twitter">
+              aria-label="Twitter"
+            >
               <FaTwitter />
             </a>
           </div>
         </div>
       </div>
       <hr className="my-2 border-gray-200/50 mx-auto w-[80vw]" />
-      <small className="text-white block py-4 text-center">© 2023 حملة تنضيف العراق™. كل الحقوق محفوظة.</small>
+      <small className="text-white block py-4 text-center">
+        © 2023 حملة تنضيف العراق™. كل الحقوق محفوظة.
+      </small>
     </footer>
   );
 };

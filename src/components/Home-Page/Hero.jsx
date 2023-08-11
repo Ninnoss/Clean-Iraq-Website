@@ -1,5 +1,5 @@
-import images from '../../data/images';
-import Button from '../Button';
+import images from "../../data/images";
+import Button from "../Button";
 // import { Link } from 'react-router-dom';
 
 const Hero = () => {
@@ -20,18 +20,28 @@ const Hero = () => {
         </div>
 
         <div>
-          <span className="text-Heading-6 md:text-Heading-5 block ">سفراء النظافة</span>
-          <h1 className="text-Heading-3 md:text-Heading-1 mb-4">العراق فخور بيكم !</h1>
-          <span className="text-Heading-5 md:text-Heading-4 font-normal">كن جزء من التغيير إيجابي, ابدأ بنفسك </span>
+          <span className="text-Heading-6 md:text-Heading-5 block ">
+            سفراء النظافة
+          </span>
+          <h1 className="text-Heading-3 md:text-Heading-1 mb-4">
+            العراق فخور بيكم !
+          </h1>
+          <span className="text-Heading-5 md:text-Heading-4 font-normal">
+            كن جزء من التغيير إيجابي, ابدأ بنفسك{" "}
+          </span>
           <p className="text-Body-S md:text-Body-L max-w-lg mt-8 text-highlightBlack  ">
-            إن كل فردٍ يساهم في هذه الحملة يكون جزءًا من تغيير إيجابي يشمل المجتمع بأكمله. ابدأ بنفسك وكن النموذج الذي يحتذى به، ودع طاقتك الإيجابية تشع بالحماس
-            والتحفيز لمن حولك. تذكَّر أن العمل الجماعي يؤدي إلى نتائج مذهلة، والتحديات التي تواجهنا ستبدو هشة بجانب إرادتنا وتصميمنا على تحقيق التغيير.
+            إن كل فردٍ يساهم في هذه الحملة يكون جزءًا من تغيير إيجابي يشمل
+            المجتمع بأكمله. ابدأ بنفسك وكن النموذج الذي يحتذى به، ودع طاقتك
+            الإيجابية تشع بالحماس والتحفيز لمن حولك. تذكَّر أن العمل الجماعي
+            يؤدي إلى نتائج مذهلة، والتحديات التي تواجهنا ستبدو هشة بجانب إرادتنا
+            وتصميمنا على تحقيق التغيير.
           </p>
           <Button
             type="button"
             role="link"
             aria-label="Join us"
-            className="mt-10 px-3 py-1 lg:px-6 tracking-wider lg:py-2 text-Button-M font-medium">
+            className="mt-10 px-3 py-1 lg:px-6 tracking-wider lg:py-2 text-Button-M font-medium"
+          >
             أنضم الينا
           </Button>
         </div>

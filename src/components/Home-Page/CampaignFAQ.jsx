@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { faqData } from '../../data/faqData';
+import { useState } from "react";
+import { faqData } from "../../data/faqData";
 
 const CampaignFAQ = () => {
   const [selectedIdx, setSelectedIdx] = useState(null);
@@ -18,13 +18,24 @@ const CampaignFAQ = () => {
               <div key={index}>
                 <div
                   className="cursor-pointer border border-gray-200 rounded-sm p-3 bg-white transition-all duration-300 ease-in-out transform "
-                  onClick={() => toggleQuestion(index)}>
+                  onClick={() => toggleQuestion(index)}
+                >
                   <div>
-                    <span className={`transition-transform  font-semibold text-xl ml-4 transform ${selectedIdx === index ? 'rotate-45' : 'rotate-0'}`}>+</span>
+                    <span
+                      className={`transition-transform  font-semibold text-xl ml-4 transform ${
+                        selectedIdx === index ? "rotate-45" : "rotate-0"
+                      }`}
+                    >
+                      +
+                    </span>
                     {item.question}
                   </div>
                 </div>
-                <div className={`faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 ${selectedIdx === index ? 'max-h-screen' : ''}`}>
+                <div
+                  className={`faq-answer overflow-hidden transition-all duration-300 ease-in-out max-h-0 ${
+                    selectedIdx === index ? "max-h-screen" : ""
+                  }`}
+                >
                   {item.answer}
                 </div>
               </div>

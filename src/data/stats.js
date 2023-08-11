@@ -1,22 +1,22 @@
 export const stats = [
   {
-    title: 'حملة تنظيف',
+    title: "حملة تنظيف",
     number: 250,
-    logo: 'campaigns',
+    logo: "campaigns",
   },
   {
-    title: 'مدينة',
+    title: "مدينة",
     number: 20,
-    logo: 'cities',
+    logo: "cities",
   },
   {
-    title: 'متطوع',
+    title: "متطوع",
     number: 2800,
-    logo: 'volunteers',
+    logo: "volunteers",
   },
   {
-    title: 'كيس نفايات',
+    title: "كيس نفايات",
     number: 8000,
-    logo: 'trashBags',
+    logo: "trashBags",
   },
 ];
