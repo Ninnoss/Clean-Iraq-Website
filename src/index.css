@@ -3,24 +3,20 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'IBMPlexSansArabic';
+  font-family: "IBMPlexSansArabic";
   src: url(./assets/Fonts/IBMPlexSansArabic-Regular.ttf);
 }
 
 @font-face {
-  font-family: 'English-poppins';
+  font-family: "English-poppins";
   src: url(./assets/Fonts/Poppins-Regular.ttf);
 }
 
 * {
-  font-family: 'IBMPlexSansArabic', sans-serif;
+  font-family: "IBMPlexSansArabic", sans-serif;
 }
 @layer utilities {
-
   .clip-circle {
-
     clip-path: circle();
-
   }
-
 }

@@ -1,4 +1,4 @@
-import images from '../../data/images';
+import images from "../../data/images";
 // import Button from '../Button';
 
 const Info = () => {
@@ -8,8 +8,9 @@ const Info = () => {
         <div>
           <h2 className="text-Heading-2 ">بعيد وما تكدر تتواجد ويانه؟</h2>
           <p className="text-Body-S md:text-Body-L max-w-lg mt-8 text-highlightBlack ">
-            شارك وية اصدقائك بتنظيف مكان يمنطقتك واستخدم هاشتاك <strong>#اليوم_الوطني_للتنظيف</strong> لأن الهدف من الحملة ننظف أكبر عدد من الأماكن بالعراق
-            وننشر الوعي بأهمية الحفاظ على النظافة.
+            شارك وية اصدقائك بتنظيف مكان يمنطقتك واستخدم هاشتاك{" "}
+            <strong>#اليوم_الوطني_للتنظيف</strong> لأن الهدف من الحملة ننظف أكبر
+            عدد من الأماكن بالعراق وننشر الوعي بأهمية الحفاظ على النظافة.
           </p>
         </div>
         <div>
