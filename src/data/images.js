@@ -22,10 +22,9 @@ import clean1 from '../assets/Imgs/AboutPage/clean1.svg'
 
 export default {
   navLogo,
- AboutUs-page,
   girl,
   clean,
-  clean1
+  clean1,
   girlWithTrashCan,
   murtadha,
   iraqMap,
@@ -35,5 +34,4 @@ export default {
   david,
   mona,
   sarah,
- Dev
 };
