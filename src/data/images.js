@@ -9,6 +9,8 @@ import jane from '../assets/Imgs/Home-Page/Jane.webp';
 import david from '../assets/Imgs//Home-Page/David.webp';
 import mona from '../assets/Imgs/Home-Page/Mona.webp';
 import sarah from '../assets/Imgs//Home-Page/Sarah.webp';
+import video from '../assets/Imgs//Home-Page/cleaniraq.mp4';
+
 
 // About page
 import murtadhaPeaceSign from '../assets/Imgs/About-Page/Murtadha-peace-sign.webp';
@@ -29,6 +31,7 @@ export default {
   john,
   jane,
   david,
+  video,
   mona,
   sarah,
   // About page
