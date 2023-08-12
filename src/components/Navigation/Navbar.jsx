@@ -1,3 +1,4 @@
+import Modal from '../Modal';
 import { NavLink } from "react-router-dom";
 import images from "../../data/images";
 import Button from "../Button";
@@ -7,6 +8,7 @@ import MobileNavbar from "./MobileNavbar";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [open, setOpen] = useState(false);
   return (
     <header>
       <nav className="flex justify-between md:justify-around items-center px-4 py-2 border-b-[#DDE1E6] border-[1px]">
@@ -54,9 +56,11 @@ const Navbar = () => {
               <NavLink to="/blogs">المدونة</NavLink>
             </li>
             <li className="hover:text-primaryGreen ">
-              <NavLink to="/contact">اتصل بنا</NavLink>
+              <button onClick={() => setOpen(true)}>اتصل بنا</button>
             </li>
           </ul>
+          <Modal open={open} onClose={() => setOpen(false)} />
+        
         </div>
         <HiMenuAlt2
           className="md:hidden"

@@ -1,8 +1,10 @@
 /* eslint-disable react/prop-types */
+import { useState } from 'react';
+import Modal from '../Modal';
 import { NavLink } from "react-router-dom";
 import { AiOutlineClose } from "react-icons/ai";
-
 const MobileNavbar = ({ setToggleMenu }) => {
+  const [open, setOpen] = useState(false);
   return (
     <nav
       role="dialog"
@@ -65,15 +67,10 @@ const MobileNavbar = ({ setToggleMenu }) => {
           </NavLink>
         </li>
         <li className="hover:text-primaryGreen tracking-wider">
-          <NavLink
-            onClick={() => setToggleMenu(false)}
-            to={"/contact"}
-            role="menuitem"
-          >
-            اتصل بنا
-          </NavLink>
+        <button onClick={() => setOpen(true)}>اتصل بنا</button>
         </li>
       </ul>
+      <Modal open={open} onClose={() => setOpen(false)} />
     </nav>
   );
 };
