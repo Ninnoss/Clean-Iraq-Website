@@ -11,7 +11,6 @@ import mona from '../assets/Imgs/Home-Page/Mona.webp';
 import sarah from '../assets/Imgs//Home-Page/Sarah.webp';
 import video from '../assets/Imgs//Home-Page/cleaniraq.mp4';
 
-
 // About page
 import murtadhaPeaceSign from '../assets/Imgs/About-Page/Murtadha-peace-sign.webp';
 
@@ -25,10 +24,6 @@ import pin from '../assets/Imgs/Campaigns/Pin.svg';
 
 export default {
   navLogo,
-
-  girl,
-  clean,
-  clean1,
   girlWithTrashCan,
   murtadha,
   iraqMap,
