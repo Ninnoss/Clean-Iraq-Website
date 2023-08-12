@@ -66,8 +66,7 @@ const SuggestionForm = () => {
             onChange={handleChange}
             rows="4"
             required
-          minLength={50}
-          ></textarea>
+            minLength={50}></textarea>
         </fieldset>
 
         <Button

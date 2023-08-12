@@ -40,7 +40,7 @@ const MobileNavbar = ({ setToggleMenu }) => {
         <li className="hover:text-primaryGreen tracking-wider">
           <NavLink
             onClick={() => setToggleMenu(false)}
-            to={"/campagins"}
+            to={"/campaigns"}
             role="menuitem"
           >
             حملاتنا
