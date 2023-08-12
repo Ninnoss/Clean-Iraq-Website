@@ -1,11 +1,11 @@
 import UpcomingCampaigns from '../components/Campaigns-Page/UpcomingCampaigns';
-import JoinSection from '../components/Campaigns-Page/JoinSection';
+import JoinUs from '../components/Campaigns-Page/JoinUs';
 
 const Campaigns = () => {
   return (
     <>
       <UpcomingCampaigns />
-      <JoinSection />
+      <JoinUs />
     </>
   );
 };

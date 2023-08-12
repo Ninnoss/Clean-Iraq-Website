@@ -3,11 +3,11 @@ import Modal from '../Modal';
 import { NavLink } from "react-router-dom";
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import images from "../../data/images";
+import { scrollToTop } from '../../utils/scrollToTop';
+
 const Footer = () => {
   const [open, setOpen] = useState(false);
-  const scrollToTop = () => {
-    window.scrollTo(0, 0);
-  };
+
   return (
     <footer className="bg-highlightBlack px-2">
       <div className="mx-auto  w-full max-w-screen-xl p-4 py-6 lg:py-8 flex flex-col gap-y-4 md:flex-row items-center justify-between">

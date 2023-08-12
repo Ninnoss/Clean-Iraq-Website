@@ -1,6 +1,8 @@
 /* eslint-disable react/prop-types */
 import { TfiLocationPin } from 'react-icons/tfi';
 import Button from './Button';
+import { Link } from 'react-router-dom';
+import { scrollToTop } from '../utils/scrollToTop';
 
 const Card = ({ name, img, description, trashBags, volunteers, date, location }) => {
   return (
@@ -30,13 +32,16 @@ const Card = ({ name, img, description, trashBags, volunteers, date, location })
               <TfiLocationPin color="#548C67" /> {location}
             </div>
           </div>
-          <Button
-            type="button"
-            role="link"
-            aria-label="Join us"
-            className="my-5 tracking-wider text-Button-M block mx-auto font-medium">
-            شارك بالحملة
-          </Button>
+          <Link to={`/campaigns/${name}`}>
+            <Button
+              onClick={scrollToTop}
+              type="button"
+              role="link"
+              aria-label="Join us"
+              className="my-5 tracking-wider text-Button-M block mx-auto font-medium">
+              شارك بالحملة
+            </Button>
+          </Link>
         </>
       )}
       {date && trashBags && volunteers && (

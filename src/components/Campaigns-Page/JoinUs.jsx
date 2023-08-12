@@ -1,6 +1,6 @@
 import JoinUsForm from './JoinUsForm';
 
-const JoinSection = () => {
+const JoinUs = () => {
   return (
     <section className="bg-[#FAFBFA] py-16">
       <header className="text-center">
@@ -13,4 +13,4 @@ const JoinSection = () => {
   );
 };
 
-export default JoinSection;
+export default JoinUs;
