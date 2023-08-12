@@ -32,7 +32,7 @@ const SuggestionForm = () => {
       </div>
 
       <form
-        className="mx-auto w-9/12 sm:w-7/12 md:w-6/12 lg:w-3/12 "
+        className="mx-auto w-9/12 sm:w-7/12 md:w-6/12 lg:w-3/12"
         onSubmit={handleSubmit}>
         <fieldset className="mb-8">
           <label
@@ -41,8 +41,7 @@ const SuggestionForm = () => {
             البريد الالكتروني
           </label>
           <input
-            className=" form-inputs
-        "
+            className=" form-inputs"
             type="email"
             id="email"
             name="email"

@@ -1,100 +1,99 @@
-import {useState} from 'react'
+/* eslint-disable react/prop-types */
+import { useState } from 'react';
+import Button from '../Button';
 
-export default function ContactForm({open, onClose}) {
-    
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
-  
-    
-    const handleNameChange = (event) => {
-      setName(event.target.value);
-    };
-    const handleEmailChange = (event) => {
-      setEmail(event.target.value);
-    };
-  
-    const handleMessageChange = (event) => {
-      setMessage(event.target.value);
-    };
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      setName('');
-      setEmail('');
-      setMessage('');
-      onClose();
-    };
-    const handleInputClick = (e) => {
-      e.stopPropagation();
-    };
+const ContactForm = ({ onClose }) => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
 
-    return (
-      
-        <div className=' w-[550px]'>
-           
-      <form className='max-w-[400px] my-0 mx-auto max-[320px]:max-w-[90%] w-[77%] pt-[3rem]'
-      onSubmit={handleSubmit}
-      >
-         <label htmlFor="name" className=' block w-[100%] mb-[10px] text-right text-[#777E90]'>
-         الاسم
-         </label>
-        <input
-        className=' text-right p-[0.5rem] block w-[100%] mb-[10px] bg-[#F4F5F6] rounded-[10px] h-8 
-        placeholder-slate-400
-      focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500
-      disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
-      invalid:border-red-500 invalid:text-red-600
-      focus:invalid:border-red-500 focus:invalid:ring-red-500
-      text-sm shadow-sm
-        '
-          type="text"
-          id="name"
-          value={name}
-          onChange={handleNameChange}
-          onClick={handleInputClick}
-          required
-        />
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormData((prevData) => ({ ...prevData, [name]: value }));
+  };
 
-        <label htmlFor="email" className=' block w-[100%] mb-[10px] text-right text-[#777E90]'>البريد الالكتروني</label>
-        <input
-        className=' text-right p-[0.5rem] block w-[100%] mb-[10px] bg-[#F4F5F6] rounded-[10px] h-8 
-        placeholder-slate-400
-      focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500
-      disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
-      invalid:border-red-500 invalid:text-red-600
-      focus:invalid:border-red-500 focus:invalid:ring-red-500
-      text-sm shadow-sm
-        '
-          type="email"
-          id="email"
-          value={email}
-          onChange={handleEmailChange}
-          onClick={handleInputClick}
-          required
-        />
-  
-        <label htmlFor="message" className=' block w-[100%] mb-[10px] text-right text-[#777E90]'>رسالتك</label>
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(formData);
+    setFormData({
+      name: '',
+      email: '',
+      message: '',
+    });
+    onClose();
+  };
+
+  // const handleInputClick = (e) => {
+  //   e.stopPropagation();
+  // };
+
+  return (
+    <div className="w-[300px]  md:w-[500px]">
+      <form
+        className="mx-auto mt-10 w-10/12 md:w-8/12 lg:w-9/12"
+        onSubmit={handleSubmit}>
+        <div className="mb-4">
+          <label
+            htmlFor="name"
+            className="block mb-4  text-[#777E90]">
+            الاسم
+          </label>
+          <input
+            className="form-inputs h-4 md:h-8"
+            type="text"
+            id="name"
+            name="name"
+            value={formData.name}
+            onChange={handleInputChange}
+            // onClick={handleInputClick}
+            required
+          />
+        </div>
+
+        <div className="mb-4">
+          <label
+            htmlFor="email"
+            className="block mb-4 text-[#777E90]">
+            البريد الالكتروني
+          </label>
+          <input
+            className="form-inputs h-4 md:h-8"
+            type="email"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleInputChange}
+            // onClick={handleInputClick}
+            required
+          />
+        </div>
+
+        <label
+          htmlFor="message"
+          className="block mb-4 text-[#777E90]">
+          رسالتك
+        </label>
         <textarea
-        className=' text-right p-[0.5rem] block w-[100%] mb-[10px] bg-[#F4F5F6] rounded-[10px] 
-        focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500
-      disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
-      invalid:border-red-500 invalid:text-red-600
-      focus:invalid:border-red-500 focus:invalid:ring-red-500
-      text-sm shadow-sm
-      h-[200px]
-        '
+          className="form-inputs !h-24 md:!h-44"
           id="message"
-          value={message}
-          onChange={handleMessageChange}
-          onClick={handleInputClick}
+          name="message"
+          value={formData.message}
+          onChange={handleInputChange}
+          // onClick={handleInputClick}
           rows="4"
-          required
-        ></textarea>
-        <div className='grid place-items-center'>
-        <button 
-        type="submit" className='w-[100%] mb-[10px] bg-primaryGreen rounded-3xl max-w-[25%] h-11 text-md text-[#FCFCFD]'>ارسل الان</button>
-      </div>
+          required></textarea>
+
+        <Button
+          role="submit"
+          aria-label="Send a message"
+          className="mt-10 px-3 py-1 mx-auto block lg:px-6 tracking-wider lg:py-2 text-Button-M font-medium">
+          ارسل الان
+        </Button>
       </form>
-      </div>
-    );
-}
+    </div>
+  );
+};
+
+export default ContactForm;
