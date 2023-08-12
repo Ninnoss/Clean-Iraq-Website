@@ -1,7 +1,10 @@
 /* eslint-disable react/prop-types */
-const Card = ({ name, img, description, date, place, pin }) => {
+import { TfiLocationPin } from 'react-icons/tfi';
+import Button from './Button';
+
+const Card = ({ name, img, description, date, place }) => {
   return (
-    <article className="w-72 sm:w-80 bg-white border border-gray-200 rounded-lg shadow transition-all duration-300 hover:shadow-lg hover:bg-[whitesmoke]">
+    <article className="relative w-72 sm:w-80 bg-white border border-gray-200 rounded-lg shadow transition-all duration-300 hover:shadow-lg hover:bg-[whitesmoke]">
       <figure>
         <img
           className="rounded-t-lg max-h-[200px] w-full"
@@ -16,17 +19,25 @@ const Card = ({ name, img, description, date, place, pin }) => {
         <header className="">
           <h3 className="my-4 text-Heading-4 text-center tracking-tight">{name}</h3>
         </header>
-        <p className="mb-3 text-Body-S text-center text-[#777E90]">{description}</p>
+        <p className="mb-3 text-Body-S text-center h-28 md:h-20 text-[#777E90]">{description}</p>
       </div>
 
       {date && place && (
-        <div className="flex justify-between p-8">
-          <div className="text-Body-M text-highlightBlack">{date}</div>
-          <div className="flex justify-end text-Body-M text-primaryGreen ">
-            <img src={pin} />
-            {place}
+        <>
+          <div className="flex justify-between items-center mt-8 p-5 date-place">
+            <span className="text-Body-M block text-highlightBlack">{date}</span>
+            <div className="flex items-center gap-3">
+              <TfiLocationPin color="#548C67" /> {place}
+            </div>
           </div>
-        </div>
+          <Button
+            type="button"
+            role="link"
+            aria-label="Join us"
+            className="my-5 tracking-wider text-Button-M block mx-auto font-medium">
+            شارك بالحملة
+          </Button>
+        </>
       )}
     </article>
   );

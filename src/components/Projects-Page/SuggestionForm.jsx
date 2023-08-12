@@ -41,13 +41,7 @@ const SuggestionForm = () => {
             البريد الالكتروني
           </label>
           <input
-            className=" w-full bg-[#F4F5F6] rounded-lg h-12 p-2
-        placeholder-slate-400
-      focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500
-      disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
-      invalid:border-red-500 invalid:text-red-600
-      focus:invalid:border-red-500 focus:invalid:ring-red-500
-      text-sm shadow-sm
+            className=" form-inputs
         "
             type="email"
             id="email"
@@ -65,20 +59,15 @@ const SuggestionForm = () => {
             رسالتك
           </label>
           <textarea
-            className="p-2 block w-[100%] mb-[10px] bg-[#F4F5F6] rounded-lg 
-        focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500
-      disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
-      invalid:border-red-500 invalid:text-red-600
-      focus:invalid:border-red-500 focus:invalid:ring-red-500
-      text-sm shadow-sm
-      h-[200px]
-        "
+            className="form-inputs !h-24 md:!h-44"
             id="message"
             name="message"
             value={formData.message}
             onChange={handleChange}
             rows="4"
-            required></textarea>
+            required
+          minLength={50}
+          ></textarea>
         </fieldset>
 
         <Button

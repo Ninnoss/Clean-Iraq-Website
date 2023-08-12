@@ -1,16 +1,14 @@
-import Form from "./Form";
+import JoinUsForm from './JoinUsForm';
 
 const JoinSection = () => {
   return (
-    <section>
+    <section className="bg-[#FAFBFA] py-16">
       <header className="text-center">
         <h2 className="text-Heading-2 text-primaryOrange">أنظم الينا</h2>
-        <h5 className="text-Heading-5 text-highlightBlack">
-          سجل أسمك مع #سفراء_النظافة
-        </h5>
+        <h5 className="text-Heading-5 text-highlightBlack">سجل أسمك مع #سفراء_النظافة</h5>
       </header>
 
-      <Form />
+      <JoinUsForm />
     </section>
   );
 };

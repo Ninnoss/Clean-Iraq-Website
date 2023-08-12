@@ -1,10 +1,10 @@
-import CardSection from "../components/Campaigns-Page/CardSection";
-import JoinSection from "../components/Campaigns-Page/JoinSection";
+import UpcomingCampaigns from '../components/Campaigns-Page/UpcomingCampaigns';
+import JoinSection from '../components/Campaigns-Page/JoinSection';
 
 const Campaigns = () => {
   return (
     <>
-      <CardSection />
+      <UpcomingCampaigns />
       <JoinSection />
     </>
   );
