@@ -44,11 +44,8 @@
   transform: translateY(0px);
   opacity: 1;
 }
-<<<<<<< HEAD
-.active{
-=======
+
 .active {
->>>>>>> d4545169db2470d11d88e5cfcad2aa23679b4a15
   color: #548c67;
   font-weight: 600;
 }
