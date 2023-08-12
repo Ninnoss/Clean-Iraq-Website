@@ -28,7 +28,7 @@ const Testimonials = () => {
           <FaAngleLeft className="h-6 w-6 text-gray-600 group-hover:text-white" />
         </button>
         <button
-          className="absolute right-[2%] rmd:ight-[6%] xl:right-[12%] top-64 md:top-40 transform translate-y-1/2 bg-white hover:bg-primaryGreen   group p-2 rounded-full shadow-lg"
+          className="absolute right-[2%] md:right-[6%] xl:right-[12%] top-64 md:top-40 transform translate-y-1/2 bg-white hover:bg-primaryGreen   group p-2 rounded-full shadow-lg"
           onClick={nextReview}
           aria-label="Next Review">
           <FaAngleRight className="h-6 w-6 text-gray-600 group-hover:text-white" />
