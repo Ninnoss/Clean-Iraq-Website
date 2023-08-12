@@ -1,6 +1,6 @@
-import { useInView } from 'react-intersection-observer';
-import Stat from './Stat';
-import { stats } from '../../data/stats';
+import { useInView } from "react-intersection-observer";
+import Stat from "./Stat";
+import { stats } from "../../data/stats";
 
 const Stats = () => {
   const [ref, inView] = useInView({
@@ -13,7 +13,8 @@ const Stats = () => {
 
       <div
         ref={ref}
-        className="pt-14 flex flex-row-reverse flex-wrap-reverse justify-center gap-10">
+        className="pt-14 flex flex-row-reverse flex-wrap-reverse justify-center gap-10"
+      >
         {stats.map((stat) => (
           <Stat
             key={stat.title}

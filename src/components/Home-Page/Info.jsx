@@ -1,7 +1,23 @@
+import { useState, useEffect } from 'react';
 import images from '../../data/images';
-// import Button from '../Button';
+import { useInView } from 'react-intersection-observer';
+import ReactPlayer from 'react-player/file';
+import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
 
 const Info = () => {
+  const [playVideo, setPlayVideo] = useState(false);
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.5,
+  });
+
+  useEffect(() => {
+    setPlayVideo(inView);
+  }, [inView]);
+
+  const handleVideoToggle = () => {
+    setPlayVideo(!playVideo);
+  };
   return (
     <section className="bg-[#f6f6f6c2] py-16 px-8 relative">
       <div className="flex flex-col md:flex-row gap-14 justify-around items-center">
@@ -12,22 +28,36 @@ const Info = () => {
             وننشر الوعي بأهمية الحفاظ على النظافة.
           </p>
         </div>
-        <div>
-          {/* <Button
-            type="button"
-            role="link"
-            aria-label="Join us"
-            className="text-Button-L bg-[#EF466F] absolute top-0 right-0  md:top-10 md:right-8 lg:top-10 lg:right-32 rounded-lg hover:bg-[#EF466F]">
-            سفراء النظافة
-          </Button> */}
-          <figure>
-            <img
-              className="h-[350px] sm:h-[400px] md:h-[500px] w-[450px] rounded-lg z-10"
-              src={images.murtadha}
-              alt="Campaign Picture"
-            />
-            <figcaption className="sr-only">Campaign Picture</figcaption>
-          </figure>
+        <div
+          ref={ref}
+          className="md:h-[500px] relative overlay  rounded-lg overflow-hidden">
+          <ReactPlayer
+            url={images.video}
+            playing={playVideo}
+            playsinline={true}
+            type="video/mp4"
+            loop={true}
+            muted={true}
+            width="100%"
+            height="100%"
+          />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div
+              className="w-12 h-12 rounded-full border-2 border-primaryGreen flex items-center justify-center cursor-pointer"
+              onClick={handleVideoToggle}>
+              {playVideo ? (
+                <BsPauseFill
+                  color="#fff"
+                  fontSize={30}
+                />
+              ) : (
+                <BsFillPlayFill
+                  color="#fff"
+                  fontSize={30}
+                />
+              )}
+            </div>
+          </div>
         </div>
       </div>
     </section>

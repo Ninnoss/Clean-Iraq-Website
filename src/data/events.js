@@ -1,3 +1,4 @@
+// For the home page events highlights
 export const events = [
   {
     title: 'حملة البصرة',

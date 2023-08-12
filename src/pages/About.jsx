@@ -1,17 +1,13 @@
-import AboutDetails from '../components/About_Page/AboutDetails';
-import Parenrs from '../components/About_Page/Partners';
-import OurTeam from '../components/About_Page/OurTeam';
-
+import AboutDetails from '../components/About-Page/AboutDetails';
+import OurTeam from '../components/About-Page/OurTeam';
 
 const About = () => {
   return (
     <>
       <AboutDetails />
-      <OurTeam/>
-      <Parenrs/>
+      <OurTeam />
     </>
-  );;
+  );
 };
 
 export default About;
-
