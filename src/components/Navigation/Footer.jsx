@@ -1,8 +1,10 @@
+import { useState } from 'react';
+import Modal from '../Modal';
 import { NavLink } from "react-router-dom";
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import images from "../../data/images";
-
 const Footer = () => {
+  const [open, setOpen] = useState(false);
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
@@ -57,11 +59,10 @@ const Footer = () => {
               </NavLink>
             </li>
             <li className="hover:text-primaryGreen">
-              <NavLink onClick={scrollToTop} to="/contact">
-                اتصل بنا
-              </NavLink>
+            <button onClick={() => setOpen(true)}>اتصل بنا</button>
             </li>
           </ul>
+          <Modal open={open} onClose={() => setOpen(false)} />
         </div>
 
         <div>
