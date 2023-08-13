@@ -1,10 +1,10 @@
 // for the campaigns page
-import baghdad from '../assets/Imgs/Campaigns/baghdad.jpg'
-import basrah from '../assets/Imgs/Campaigns/basrah.jpg'
-import diua from '../assets/Imgs/Campaigns/diua.jpg'
-import maysan from '../assets/Imgs/Campaigns/maysan.jpg'
-import mousel from '../assets/Imgs/Campaigns/mousel.jpg'
-import nsryah from '../assets/Imgs/Campaigns/nsryah.jpg'
+import baghdad from '../assets/Imgs/Campaigns/baghdad.jpg';
+import basrah from '../assets/Imgs/Campaigns/basrah.jpg';
+import diua from '../assets/Imgs/Campaigns/diua.jpg';
+import maysan from '../assets/Imgs/Campaigns/maysan.jpg';
+import mousel from '../assets/Imgs/Campaigns/mousel.jpg';
+import nsryah from '../assets/Imgs/Campaigns/nsryah.jpg';
 
 export const upcomingCampaigns = [
   {
@@ -16,8 +16,7 @@ export const upcomingCampaigns = [
   },
   {
     name: 'حملة تنظيف بغداد',
-    description:
-      'هناك حملة تنظيف بغداد يوم الأحد في منطقة التحرير! هناك حملة تنظيف بغداد يوم الأحد في منطقة التحرير هناك حملة تنظيف بغداد',
+    description: 'هناك حملة تنظيف بغداد يوم الأحد في منطقة التحرير! هناك حملة تنظيف بغداد يوم الأحد في منطقة التحرير هناك حملة تنظيف بغداد',
     img: baghdad,
     date: 'الأحد، الساعة 3 مساءً',
     place: 'بغداد',
@@ -45,8 +44,7 @@ export const upcomingCampaigns = [
   },
   {
     name: 'حملة تنظيف الديوانية',
-    description:
-      'الخميس هو يوم بداية حملة تنظيف الديوانية! انضموا لجعل المدينة أكثر نظافة وجمالاً. الخميس هو يوم بداية حملة تنظيف الديوانية!.',
+    description: 'الخميس هو يوم بداية حملة تنظيف الديوانية! انضموا لجعل المدينة أكثر نظافة وجمالاً. الخميس هو يوم بداية حملة تنظيف الديوانية!.',
     img: diua,
     date: 'الخميس، الساعة 7 مساءً',
     place: 'الديوانية',

@@ -11,14 +11,13 @@ import mona from '../assets/Imgs/Home-Page/Mona.webp';
 import sarah from '../assets/Imgs//Home-Page/Sarah.webp';
 import video from '../assets/Imgs//Home-Page/cleaniraq.mp4';
 
-
 // About page
 import murtadhaPeaceSign from '../assets/Imgs/About-Page/Murtadha-peace-sign.webp';
-import teamSectionMember from '../assets/Imgs/About-Page/team-section-image.png'
-import computiq from '../assets/Imgs/About-Page/computiq.svg'
-import giz from '../assets/Imgs/About-Page/giz.svg'
-import earthlink from '../assets/Imgs/About-Page/earthlink.svg'
-import asiacell from '../assets/Imgs/About-Page/asiacell.svg'
+import teamSectionMember from '../assets/Imgs/About-Page/team-section-image.png';
+import computiq from '../assets/Imgs/About-Page/computiq.svg';
+import giz from '../assets/Imgs/About-Page/giz.svg';
+import earthlink from '../assets/Imgs/About-Page/earthlink.svg';
+import asiacell from '../assets/Imgs/About-Page/asiacell.svg';
 
 // Project page
 import cardPlaceHolder from '../assets/Imgs/Projects-Page/card-place-holder.png';
@@ -26,7 +25,6 @@ import user from '../assets/Imgs/Projects-Page/User.png';
 
 //Campaigns page
 import cardLogo from '../assets/Imgs/Campaigns/campaigns-img.jpg';
-import pin from '../assets/Imgs/Campaigns/Pin.svg';
 
 export default {
   navLogo,
@@ -48,7 +46,6 @@ export default {
   asiacell,
   // Campaigns-page
   cardLogo,
-  pin,
   //Projects page
   cardPlaceHolder,
   user,
