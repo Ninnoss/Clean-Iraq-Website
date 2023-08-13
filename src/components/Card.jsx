@@ -4,12 +4,12 @@ import Button from './Button';
 import { Link } from 'react-router-dom';
 import { scrollToTop } from '../utils/scrollToTop';
 
-const Card = ({ name, img, description, trashBags, volunteers, date, location }) => {
+const Card = ({ name, img, description, trashBags, volunteers, date, location, imgStyle = "rounded-t-lg max-h-[200px] w-full"}) => {
   return (
     <article className="relative w-72 sm:w-80 bg-white border border-gray-200 rounded-lg shadow transition-all duration-300 hover:shadow-lg hover:bg-[whitesmoke]">
       <figure>
         <img
-          className="rounded-t-lg max-h-[200px] w-full"
+          className={imgStyle}
           src={img}
           loading="lazy"
           alt={`Image of ${name}`}

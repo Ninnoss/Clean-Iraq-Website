@@ -8,11 +8,11 @@ const OurTeam = () => {
       </div>
 
       {/*TODO: Placeholder Imgs. CHANGE THEM */}
-      <div className="pt-24 pb-6 flex justify-center flex-wrap gap-10">
+      <div className="py-20 px-10 flex justify-center flex-wrap gap-10">
         {[1, 2, 3, 4].map((image, index) => (
           <figure key={index}>
             <img
-              className="w-[300px] h-[350px] rounded-lg"
+              className="w-[200px] h-[250px] rounded-lg"
               src={images.murtadhaPeaceSign}
               loading="lazy"
               alt={'Murtadha throwing peace sign'}

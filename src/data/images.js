@@ -14,6 +14,11 @@ import video from '../assets/Imgs//Home-Page/cleaniraq.mp4';
 
 // About page
 import murtadhaPeaceSign from '../assets/Imgs/About-Page/Murtadha-peace-sign.webp';
+import teamSectionMember from '../assets/Imgs/About-Page/team-section-image.png'
+import computiq from '../assets/Imgs/About-Page/computiq.svg'
+import giz from '../assets/Imgs/About-Page/giz.svg'
+import earthlink from '../assets/Imgs/About-Page/earthlink.svg'
+import asiacell from '../assets/Imgs/About-Page/asiacell.svg'
 
 // Project page
 import cardPlaceHolder from '../assets/Imgs/Projects-Page/card-place-holder.png';
@@ -36,6 +41,11 @@ export default {
   sarah,
   // About page
   murtadhaPeaceSign,
+  teamSectionMember,
+  computiq,
+  giz,
+  earthlink,
+  asiacell,
   // Campaigns-page
   cardLogo,
   pin,

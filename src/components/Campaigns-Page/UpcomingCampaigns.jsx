@@ -17,6 +17,7 @@ const UpcomingCampaigns = () => {
             img={campaign.img}
             date={campaign.date}
             location={campaign.place}
+            imgStyle="rounded-t-lg max-h-[640px] max-w-[640px] w-full"
           />
         ))}
       </div>
