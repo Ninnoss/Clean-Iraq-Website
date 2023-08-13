@@ -13,6 +13,7 @@ import video from '../assets/Imgs//Home-Page/cleaniraq.mp4';
 
 // About page
 import murtadhaPeaceSign from '../assets/Imgs/About-Page/Murtadha-peace-sign.webp';
+import murtadha2 from '../assets/Imgs/About-Page/Murtadha.jpg';
 import teamSectionMember from '../assets/Imgs/About-Page/team-section-image.png';
 import computiq from '../assets/Imgs/About-Page/computiq.svg';
 import giz from '../assets/Imgs/About-Page/giz.svg';
@@ -39,6 +40,7 @@ export default {
   sarah,
   // About page
   murtadhaPeaceSign,
+  murtadha2,
   teamSectionMember,
   computiq,
   giz,
