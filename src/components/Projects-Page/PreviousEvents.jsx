@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Card from '../Card';
 import images from '../../data/images';
+import Slider from './HeadingSlider/Slider';
 
 const PreviousEvents = () => {
   const [events, setEvents] = useState([]);
@@ -30,7 +31,8 @@ const PreviousEvents = () => {
   return (
     <section className="py-10 md:py-16 px-8 mb-10">
       <div className="text-center mb-8 md:mb-16">
-        <span className="text-Heading-5 block mb-4  text-primaryOrange">سفراء النظافة بكل مكان</span>
+        {/* <span className="text-Heading-5 block mb-4  text-primaryOrange">سفراء النظافة بكل مكان</span> */}
+        <Slider />
         <p className="text-Heading-3 font-medium py-4">شكراً لكل المشاركين في حملة التنظيف، بفضلكم حققنا تغييراً كبيراً وجعلنا هذه الأماكن نظيفة وجميلة.</p>
       </div>
 
