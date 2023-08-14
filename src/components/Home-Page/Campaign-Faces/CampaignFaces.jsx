@@ -1,4 +1,4 @@
-import { orbits } from '../../data/orbits';
+import { orbits } from '../../../data/orbits';
 import OrbitImage from './OrbitImage';
 
 const CampaignFaces = () => {

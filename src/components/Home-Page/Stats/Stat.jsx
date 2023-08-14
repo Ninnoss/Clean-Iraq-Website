@@ -9,7 +9,7 @@ const Stat = ({ title, number, logo }) => {
   // Create a mapping between logo names and corresponding icon components
   const logoComponents = {
     campaigns: TfiStatsUp,
-    cities: TfiLocationPin,
+    places: TfiLocationPin,
     volunteers: PiUsersThree,
     trashBags: FiTrash2,
   };

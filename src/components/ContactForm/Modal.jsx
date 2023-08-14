@@ -5,7 +5,6 @@ import ContactForm from '../ContactForm/ContactForm';
 // import useOutsideClick from '../../hooks/useOutsideClick';
 
 const Modal = ({ open, onClose }) => {
-  console.log(open);
   // const modalRef = useRef(null);
   // useOutsideClick(modalRef, onClose);
 
