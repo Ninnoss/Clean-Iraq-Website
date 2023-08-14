@@ -1,15 +1,16 @@
-import Modal from '../Modal';
-import { NavLink } from 'react-router-dom';
-import images from '../../data/images';
-import Button from '../Button';
-import { HiMenuAlt2 } from 'react-icons/hi';
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import MobileNavbar from './MobileNavbar';
+import Button from '../Button';
+import images from '../../data/images';
+import { HiMenuAlt2 } from 'react-icons/hi';
 import { scrollToTop } from '../../utils/scrollToTop';
+import DesktopMenus from './DesktopMenus';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [open, setOpen] = useState(false);
+
   return (
     <header>
       <nav className="flex justify-between md:justify-around items-center px-4 py-2 border-b-[#DDE1E6] border-[1px]">
@@ -34,39 +35,21 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
-        {toggleMenu && <MobileNavbar setToggleMenu={setToggleMenu} />}
+        {toggleMenu && (
+          <MobileNavbar
+            open={open}
+            setOpen={setOpen}
+            setToggleMenu={setToggleMenu}
+          />
+        )}
 
         {/* Desktop Menu */}
-        <div className="hidden md:block">
-          <ul className="flex gap-x-4 lg:gap-x-10 text-Subtitile-M  text-highlightBlack">
-            <li className="hover:text-primaryGreen">
-              <NavLink
-                to="/"
-                end>
-                الرئيسية
-              </NavLink>
-            </li>
-            <li className="hover:text-primaryGreen ">
-              <NavLink to="/about">من نحن</NavLink>
-            </li>
-            <li className="hover:text-primaryGreen ">
-              <NavLink to="/campaigns">حملاتنا</NavLink>
-            </li>
-            <li className="hover:text-primaryGreen ">
-              <NavLink to="/projects">مبادراتنا</NavLink>
-            </li>
-            <li className="hover:text-primaryGreen ">
-              <NavLink to="/blogs">المدونة</NavLink>
-            </li>
-            <li className="hover:text-primaryGreen ">
-              <button onClick={() => setOpen(true)}>اتصل بنا</button>
-            </li>
-          </ul>
-          <Modal
-            open={open}
-            onClose={() => setOpen(false)}
-          />
-        </div>
+        <DesktopMenus
+          open={open}
+          setOpen={setOpen}
+        />
+        
+        {/* Hamburger button */}
         <HiMenuAlt2
           className="md:hidden"
           onClick={() => setToggleMenu(true)}
@@ -74,15 +57,16 @@ const Navbar = () => {
           color="#202020"
           aria-label="Open Menu"
         />
-        {/* <Button className="rounded-3xl px-3 py-1 lg:px-4 lg:py-2 hidden md:block text-Button-M font-medium">أنضم الينا</Button> */}
 
-        <NavLink to={`/campaigns`}>
+        <NavLink
+          to={`/campaigns`}
+          className={`hidden md:block `}>
           <Button
             onClick={scrollToTop}
             type="button"
             role="link"
             aria-label="Join us"
-            className="px-3 py-1 tracking-wider lg:py-2 text-Button-M font-medium">
+            className="rounded-3xl px-3 py-1 lg:px-4 lg:py-2 text-Button-M font-medium">
             أنضم الينا
           </Button>
         </NavLink>

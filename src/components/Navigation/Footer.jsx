@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Modal from '../Modal';
+import Modal from '../ContactForm/Modal';
 import { NavLink } from "react-router-dom";
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import images from "../../data/images";

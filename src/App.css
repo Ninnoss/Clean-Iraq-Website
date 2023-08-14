@@ -102,11 +102,3 @@
   border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
 }
 
-/* The partners greyed out logos*/
-.grayscale-hover {
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
-}
-.grayscale-hover:hover {
-  filter: none;
-}
