@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { TfiLocationPin } from 'react-icons/tfi';
+import pin from '../assets/Imgs/location.svg'
 import Button from './Button';
 import { Link } from 'react-router-dom';
 import { scrollToTop } from '../utils/scrollToTop';
@@ -29,7 +29,7 @@ const Card = ({ name, img, description, trashBags, volunteers, date, location, i
           <div className="flex justify-between items-center p-5 date-place">
             <span className="text-Body-M block text-highlightBlack">{date}</span>
             <div className="flex items-center gap-3">
-              <TfiLocationPin color="#548C67" /> {location}
+              <img src={pin} alt="pin" /> {location}
             </div>
           </div>
           <Link to={`/campaigns/${name}`}>
