@@ -13,15 +13,15 @@ const CampaignDetails = () => {
   if (selectedCampaign) {
     return (
       <>
-        <section className="text-center py-20 px-40 flex gap-20 bg-highlightGrey">
+        <section className="text-center pt-12 pb-6 px-4 lg:py-20 lg:px-40 flex flex-col sm:flex-row gap-20 bg-highlightGrey">
           <div>
             <img 
-              className="w-[274px] rounded-2xl border border-[#DDE1E6]"
+              className="min-w-[200px] max-w-[274px] rounded-2xl border inline-block border-[#DDE1E6]"
               src={selectedCampaign.img}
               />
           </div>
         
-          <div className="text-start max-w-[600px] pt-8">
+          <div className="text-start max-w-[600px] pt-6 sm:pt-8">
             <h2 className="text-Heading-2">{selectedCampaign.name}</h2>
             <p className="text-Body-L text-highlightBlack">{selectedCampaign.description}</p>
             
