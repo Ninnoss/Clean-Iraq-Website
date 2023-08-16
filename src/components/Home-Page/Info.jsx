@@ -2,10 +2,12 @@ import { useState, useEffect } from 'react';
 import images from '../../data/images';
 import { useInView } from 'react-intersection-observer';
 import ReactPlayer from 'react-player/file';
-import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
+import { BsFillPlayFill, BsPauseFill, BsVolumeMute, BsVolumeUpFill } from 'react-icons/bs';
 
 const Info = () => {
   const [playVideo, setPlayVideo] = useState(false);
+  const [muted, setMuted] = useState(true);
+
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.5,
@@ -18,6 +20,10 @@ const Info = () => {
   const handleVideoToggle = () => {
     setPlayVideo(!playVideo);
   };
+  const handleMuteToggle = () => {
+    setMuted(!muted);
+  };
+
   return (
     <section className="bg-[#f6f6f6c2] py-16 px-8 relative">
       <div className="flex flex-col md:flex-row gap-14 justify-around items-top">
@@ -37,14 +43,30 @@ const Info = () => {
             playsinline={true}
             type="video/mp4"
             loop={true}
-            muted={true}
+            muted={muted}
             width="100%"
             height="100%"
           />
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div
-              className="w-12 h-12 rounded-full border-2 border-primaryGreen flex items-center justify-center cursor-pointer"
-              onClick={handleVideoToggle}>
+          <div
+            className="absolute bottom-4 right-4 cursor-pointer z-10"
+            onClick={handleMuteToggle}>
+            {muted ? (
+              <BsVolumeMute
+                color="white"
+                size={24}
+              />
+            ) : (
+              <BsVolumeUpFill
+                color="white"
+                size={24}
+              />
+            )}
+          </div>
+
+          <div
+            onClick={handleVideoToggle}
+            className="absolute inset-0 flex items-center justify-center">
+            <div className="w-12 h-12 rounded-full border-2 border-primaryGreen flex items-center justify-center cursor-pointer">
               {playVideo ? (
                 <BsPauseFill
                   color="#fff"
