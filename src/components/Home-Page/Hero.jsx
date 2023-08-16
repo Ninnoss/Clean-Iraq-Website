@@ -2,8 +2,11 @@ import images from '../../data/images';
 import Button from '../Button';
 import { Link } from 'react-router-dom';
 import { scrollToTop } from '../../utils/scrollToTop';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="pt-12 md:pt-36 pb-24  px-8">
       <div className="flex flex-col-reverse md:flex-row gap-28 md:gap-14 justify-around items-center">
@@ -21,13 +24,10 @@ const Hero = () => {
         </div>
 
         <div>
-          <span className="text-Heading-6 md:text-Heading-5 block ">سفراء النظافة</span>
+          <span className="text-Heading-6 md:text-Heading-5 block ">{t('hero-title')}</span>
           <h1 className="text-Heading-3 md:text-Heading-1 mb-4">العراق فخور بيكم !</h1>
           <span className="text-Heading-5 md:text-Heading-4 font-normal">كن جزء من التغيير إيجابي, ابدأ بنفسك </span>
-          <p className="text-Body-S md:text-Body-L max-w-lg mt-8 text-highlightBlack  ">
-            إن كل فردٍ يساهم في هذه الحملة يكون جزءًا من تغيير إيجابي يشمل المجتمع بأكمله. ابدأ بنفسك وكن النموذج الذي يحتذى به، ودع طاقتك الإيجابية تشع بالحماس
-            والتحفيز لمن حولك. تذكَّر أن العمل الجماعي يؤدي إلى نتائج مذهلة، والتحديات التي تواجهنا ستبدو هشة بجانب إرادتنا وتصميمنا على تحقيق التغيير.
-          </p>
+          <p className="text-Body-S md:text-Body-L max-w-lg mt-8 text-highlightBlack  ">{t('description')}</p>
 
           <Link to={`/campaigns`}>
             <Button

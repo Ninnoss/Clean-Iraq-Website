@@ -6,6 +6,7 @@ import images from '../../data/images';
 import { HiMenuAlt2 } from 'react-icons/hi';
 import { scrollToTop } from '../../utils/scrollToTop';
 import DesktopMenus from './DesktopMenus';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -48,7 +49,7 @@ const Navbar = () => {
           open={open}
           setOpen={setOpen}
         />
-        
+
         {/* Hamburger button */}
         <HiMenuAlt2
           className="md:hidden"
@@ -70,6 +71,7 @@ const Navbar = () => {
             أنضم الينا
           </Button>
         </NavLink>
+        <LanguageSwitcher />
       </nav>
     </header>
   );
