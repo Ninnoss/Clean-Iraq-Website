@@ -30,7 +30,7 @@ const Info = () => {
         </div>
         <div
           ref={ref}
-          className="md:h-[500px] relative overlay  rounded-lg overflow-hidden">
+          className="md:h-[360px] relative overlay  rounded-lg overflow-hidden">
           <ReactPlayer
             url={images.video}
             playing={playVideo}
