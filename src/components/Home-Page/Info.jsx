@@ -20,7 +20,7 @@ const Info = () => {
   };
   return (
     <section className="bg-[#f6f6f6c2] py-16 px-8 relative">
-      <div className="flex flex-col md:flex-row gap-14 justify-around items-center">
+      <div className="flex flex-col md:flex-row gap-14 justify-around items-top">
         <div>
           <h2 className="text-Heading-2 ">بعيد وما تكدر تتواجد ويانه؟</h2>
           <p className="text-Body-S md:text-Body-L max-w-lg mt-8 text-highlightBlack ">

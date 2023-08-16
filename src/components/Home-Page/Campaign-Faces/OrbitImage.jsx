@@ -3,7 +3,7 @@ const OrbitImage = ({ img, alt, top, left }) => {
   return (
     <figure className="group">
       <img
-        className={`w-20 h-20 rounded-full absolute ${top} ${left} duration-300 transition-all group-hover:scale-150`}
+        className={`w-20 h-20 rounded-full absolute ${top} ${left} duration-300 border-4 border-separate transition-all group-hover:scale-150`}
         src={img}
         alt={alt}
       />

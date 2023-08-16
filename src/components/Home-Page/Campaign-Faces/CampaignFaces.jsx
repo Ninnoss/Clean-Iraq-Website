@@ -42,8 +42,9 @@ const CampaignFaces = () => {
         <div className="w-3 h-3 rounded-full bg-[#89807A] absolute top-[550px] left-60 animate-moon"></div>
       </div>
 
-      <div className="max-w-sm relative lg:right-52 xl:right-72 text-center lg:text-right my-16 lg:mt-0 ">
-        <h3 className="text-Heading-3">كن أحد وجوه الحملة ، شارك وأضف لمستك ومساهمتك لبلدك</h3>
+      <div className="max-w-lg relative lg:right-52 xl:right-52 text-center  lg:text-center my-16 lg:mt-0 ">
+        <h3 className="text-Heading-3 ">كن أحد وجوه الحملة ، شارك وأضف لمستك ومساهمتك لبلدك</h3>
+        <p className="text-Body-S md:text-Body-L max-w-lg mt-8 text-highlightBlack ">هاي الحملة هي حملة الشعب وهي مسؤوليتنا كلنا نحافظ عليها وننشر روح التغيير والتعاون والمحبة والحملة هاي  <strong> مو بس تخص التنظيف</strong> وانما رسالتها تشمل كل التغييرات الي محتاجين نسويها احنا بأيدنا العراق محتاج العديد من الحملات، سواء كانت تنظيف او غيرها. <strong>وهاي فقط البداية!!</strong></p>
       </div>
     </section>
   );
