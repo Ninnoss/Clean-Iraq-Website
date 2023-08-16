@@ -1,5 +1,6 @@
 // // Nav, Home, Footer
 import navLogo from '../assets/Imgs/Logo.webp';
+import logoPin from '../assets/Imgs/logo-pin.webp';
 import girlWithTrashCan from '../assets/Imgs/Home-Page/girl-with-trash-can.webp';
 import murtadha from '../assets/Imgs/Home-Page/Murtadha.webp';
 import iraqMap from '../assets/Imgs/Home-Page/Iraq-map.webp';
@@ -29,6 +30,7 @@ import cardLogo from '../assets/Imgs/Campaigns/campaigns-img.jpg';
 
 export default {
   navLogo,
+  logoPin,
   girlWithTrashCan,
   murtadha,
   iraqMap,

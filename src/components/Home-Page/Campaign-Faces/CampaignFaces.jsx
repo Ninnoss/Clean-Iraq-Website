@@ -7,9 +7,9 @@ const CampaignFaces = () => {
       <div className="relative flex justify-center items-center scale-[0.55] md:scale-90 xl:scale-100 h-[30rem] md:h-[38rem] lg:h-[42rem]">
         {/* Orbit 1 */}
         <div className="w-[10rem] h-[10rem] border-2 border-[##EFECEB] rounded-full absolute">
-          {orbits[0].map((item) => (
+          {orbits[0].map((item, index) => (
             <OrbitImage
-              key={item.alt}
+              key={index}
               {...item}
             />
           ))}
@@ -17,9 +17,9 @@ const CampaignFaces = () => {
 
         {/* Orbit 2*/}
         <div className="w-[20rem] h-[20rem] border-2 border-[##EFECEB] rounded-full absolute">
-          {orbits[1].map((item) => (
+          {orbits[1].map((item, index) => (
             <OrbitImage
-              key={item.alt}
+              key={index}
               {...item}
             />
           ))}
@@ -27,9 +27,9 @@ const CampaignFaces = () => {
 
         {/* Orbit 3*/}
         <div className="w-[30rem] h-[30rem] border-2 border-[##EFECEB] rounded-full absolute">
-          {orbits[2].map((item) => (
+          {orbits[2].map((item, index) => (
             <OrbitImage
-              key={item.alt}
+              key={index}
               {...item}
             />
           ))}
