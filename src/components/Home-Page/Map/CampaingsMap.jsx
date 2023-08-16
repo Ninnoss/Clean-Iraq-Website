@@ -14,8 +14,8 @@ const CampaignsMap = () => {
   };
 
   const mapStyles = {
-    height: '70vh',
-    width: '80%',
+    height: '65vh',
+    width: '70%',
     marginLeft: 'auto',
     marginRight: 'auto',
   };
@@ -25,13 +25,22 @@ const CampaignsMap = () => {
     lng: 44.361488,
   };
 
+  const mapOptions = [
+    { featureType: 'all', elementType: 'labels.icon', stylers: [{ visibility: 'off' }] },
+    { featureType: 'all', elementType: 'labels.text', stylers: [{ visibility: 'off' }] },
+    { featureType: 'all', elementType: 'labels.text.stroke', stylers: [{ visibility: 'off' }] },
+  ];
+
   return (
     <LoadScript
       googleMapsApiKey={apiKey}
       onLoad={handleMapLoad}>
-      <div className="md:px-4">
+      <div className="md:p-4">
         {mapLoaded ? (
           <GoogleMap
+            options={{
+              styles: mapOptions,
+            }}
             mapContainerStyle={mapStyles}
             zoom={6.1}
             center={defaultCenter}>
