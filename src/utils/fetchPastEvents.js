@@ -2,8 +2,8 @@ export const fetchData = () => {
   fetch('https://clean-iraq-campaigns.murtadha-altameemi2156.workers.dev/')
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
-      localStorage.setItem('eventsData', JSON.stringify(data));
+      // console.log(data);
+      sessionStorage.setItem('eventsData', JSON.stringify(data));
     })
     .catch((error) => {
       console.error('Error fetching data:', error);

@@ -23,7 +23,7 @@ const Stat = ({ title, number, logo }) => {
         <LogoComponent size={48} color="#C1C7CD" />
         <CountUp
           end={number} // Number to count to
-          duration={4} // Duration of the animation in seconds
+          duration={3} // Duration of the animation in seconds
           separator="," // Thousands separator
         >
           {({ countUpRef }) => (

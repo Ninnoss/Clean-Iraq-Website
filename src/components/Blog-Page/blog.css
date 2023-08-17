@@ -1,0 +1,45 @@
+.child {
+    transition: all 1.1s;
+}
+
+
+.parent:hover .child {
+    transform: scale(1.1);
+}
+
+.effect {
+    cursor: pointer;
+}
+
+.effect:after{
+    content: "";
+    position: absolute;
+    background-color: #548C67;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -6px;
+    transition: 0.3s;
+}
+
+.effect:hover:after{
+    width: 100%;
+}
+
+.wrapper {
+    text-align: center;
+    
+    width: 355px;
+    height: 350px;
+}
+.wrapper:hover .child {
+    transform: scale(1.1);
+}
+
+.test {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 348px;
+    height: 348px;
+    transition: all 1.1s;
+}
