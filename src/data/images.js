@@ -33,6 +33,23 @@ import user from '../assets/Imgs/Projects-Page/User.png';
 //Campaigns page
 import cardLogo from '../assets/Imgs/Campaigns/campaigns-img.jpg';
 
+//Blog-Page
+import banner from '../assets/Imgs/Blog-Page/banner.jpg';
+import facebookLogo from '../assets/Imgs/Blog-Page/facebook.svg';
+import instagramLogo from '../assets/Imgs/Blog-Page/Shape.svg';
+import youtubeLogo from '../assets/Imgs/Blog-Page/youtube.svg';
+import latest1 from '../assets/Imgs/Blog-Page/latest1.png';
+import latest2 from '../assets/Imgs/Blog-Page/latest2.png';
+import latest3 from '../assets/Imgs/Blog-Page/latest3.png';
+import most1 from '../assets/Imgs/Blog-Page/most_importint1.png';
+import most2 from '../assets/Imgs/Blog-Page/most_importint2.png';
+import most3 from '../assets/Imgs/Blog-Page/most_importint3.png';
+import most4 from '../assets/Imgs/Blog-Page/most_importint4.png';
+import most5 from '../assets/Imgs/Blog-Page/most_importint5.png';
+import most6 from '../assets/Imgs/Blog-Page/most_importint6.png';
+import share from '../assets/Imgs/Blog-Page/sharelogo.svg';
+import dot from '../assets/Imgs/Blog-Page/Dot.svg';
+
 export default {
   navLogo,
   logoPin,
@@ -63,4 +80,21 @@ export default {
   //Projects page
   cardPlaceHolder,
   user,
+
+   //Blog-Page
+   banner,
+   facebookLogo,
+   instagramLogo,
+   youtubeLogo,
+   latest1,
+   latest2,
+   latest3,
+   most1,
+   most2,
+   most3,
+   most4,
+   most5,
+   most6,
+   share,
+   dot,
 };

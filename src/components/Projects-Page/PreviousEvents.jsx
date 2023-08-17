@@ -8,7 +8,7 @@ const PreviousEvents = () => {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    const cachedData = localStorage.getItem('eventsData');
+    const cachedData = sessionStorage.getItem('eventsData');
     if (cachedData) {
       setEvents(JSON.parse(cachedData));
     } else {
