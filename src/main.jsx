@@ -8,7 +8,9 @@ import App from './App.jsx';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
-      <App />
+      <React.Suspense fallback="loading">
+        <App />
+      </React.Suspense>
     </Router>
   </React.StrictMode>
 );
