@@ -1,4 +1,220 @@
 {
-    "hero-title": "Clean Iraq",
-    "description": "Everyone who contributes to this campaign is part of a positive change for the entire community. Start with yourself and be a role model, and let your positive energy radiate enthusiasm and motivation to those around you. Remember that teamwork leads to amazing results, and the challenges we face will seem fragile next to our will and determination to achieve change."
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "campaigns": "Campaigns",
+    "projects": "Initiatives",
+    "blogs": "Blog",
+    "contact-us": "Contact Us",
+    "join-us-button": "Join Us",
+    "copyright": "© 2023 Clean Iraq™. All rights reserved."
+  },
+
+  "home-page": {
+    "hero-section": {
+      "small-header": "Cleanliness Ambassadors",
+      "header": "Iraq is Proud of You!",
+      "secondary-heading": "Be a Part of Positive Change, Start with Yourself",
+      "paragraph": "Every individual who contributes to this campaign becomes a part of a positive change that encompasses the entire society. Start with yourself and be the role model that others look up to. Let your positive energy radiate enthusiasm and motivation to those around you. Remember that collective efforts lead to remarkable results, and the challenges we face will seem fragile alongside our determination and commitment to make a change.",
+      "join-us-button": "Join Us"
+    },
+
+    "info-section": {
+      "header": "Far and Can't Join Us?",
+      "paragraph": "Join with your friends in cleaning up a place in your area and use the hashtag <strong>#اليوم_الوطني_للتنظيف</strong> because the goal of the campaign is to clean up as many places in Iraq as possible and raise awareness about the importance of maintaining cleanliness."
+    },
+
+    "stats-section": {
+      "header": "Statistics",
+      "trash-bags": "Trash Bags",
+      "volunteers": "Volunteers",
+      "places": "Places",
+      "campaign": "Cleaning Campaign"
+    },
+
+    "upcoming-events-section": {
+      "header": "Our Campaigns",
+      "paragraph": "Our message to all institutions, companies, departments, and the media... Join us and support the campaign so that together we can contribute to change on a day that brings all Iraqis together under the slogan ",
+      "hashtag": "#اليوم_الوطني_للتنظيف.",
+      "see-more-button": "See More"
+    },
+
+    "campaign-faces-section": {
+      "header": "Be One of the Campaign Faces, Participate and Contribute to Your Country",
+      "paragraph": [
+        "This campaign is the campaign of the people, and it's our responsibility to preserve it and spread the spirit of change, cooperation, love, and this campaign is not just about cleaning,",
+        " but its message includes all the changes we need to make ourselves. Iraq needs many campaigns, whether they're about cleaning or other issues.",
+        " And this is just the beginning!!"
+      ]
+    },
+
+    "map-section": {
+      "little-header": "Cleanliness Ambassadors",
+      "header": ["Our Campaigns Everywhere in Iraq", "Waiting for You!", " Join and Be Part of this Change"],
+      "paragraph": "Most of the waste we collect will contribute to recycling! These are: glass, plastic, aluminum. The first steps of recycling involve waste sorting."
+    },
+
+    "faq-section": {
+      "header": "Frequently Asked Questions",
+      "faq-data": [
+        {
+          "question": "What is the cleaning campaign?",
+          "answer": "The cleaning campaign is a collective effort to clean public areas and the environment in Iraq, aiming to improve the appearance of cities and preserve their cleanliness."
+        },
+        {
+          "question": "How can I participate in the cleaning campaign?",
+          "answer": "You can participate in the cleaning campaign by volunteering in dedicated events and following the announced instructions to participate effectively."
+        },
+        {
+          "question": "What are the benefits of participating in the cleaning campaign?",
+          "answer": "Your participation in the cleaning campaign contributes to improving the environment and maintaining the cleanliness of cities, and it enhances environmental awareness within the community."
+        },
+        {
+          "question": "Can I participate regardless of age?",
+          "answer": "Yes, everyone can participate in the cleaning campaign regardless of age, as raising awareness about cleanliness is important for everyone."
+        },
+        {
+          "question": "What should I bring to participate in the campaign?",
+          "answer": "You may need to bring gloves and simple cleaning tools like garbage bags and a brush to facilitate the cleaning process."
+        }
+      ]
+    },
+
+    "newsletter-section": {
+      "header": "Subscribe to Receive Our Latest News",
+      "paragraph": "Stay updated on our campaigns, events, and announcements! Feel free to subscribe with your email.",
+      "input-placeholder": "Enter your email",
+      "subscribe-button": "Subscribe"
+    }
+  },
+
+  "about-page": {
+    "paragraphs": [
+      {
+        "title": "How Did Our Idea Begin?",
+        "description": "The idea started with our friend Murtadha Al-Tamimi, who decided to clean the Tigris River so he could enjoy the sunset view on its banks. With the support of the Warriors team and the Tree Planting campaign, the initiative evolved into the #CleanAmbassadors campaign.",
+        "description2": "In a short period, the campaign reached most provinces of Baghdad and Iraq, with hundreds of people from all genders and age groups participating."
+      },
+      {
+        "title": "Who Are the Clean Ambassadors?",
+        "description": "This campaign is from and for all of you. We are all Clean Ambassadors when we care about the cleanliness of this country and commit to:",
+        "description2": "-Not littering in public places.-Educating others if we see them littering.-Contributing to cleaning public areas."
+      },
+      {
+        "title": "Campaign Message and Our Next Steps",
+        "description": "Campaign Message: Together, we can make a positive change and collaborate to achieve a cleaner and more beautiful Iraq.",
+        "description2": "Next Steps: Our team continues to expand the project and organize events that turn the campaign day into a big celebration of cleanliness and the achievements that #CleanAmbassadors achieve daily."
+      }
+    ],
+
+    "our-team-section": {
+      "header": "Our Outstanding Team, the Source of Our Strength and the Foundation of Clean Ambassadors"
+    },
+
+    "join-team-section": {
+      "header": "Be a Part of This Team",
+      "paragraph": "More than 50 campaigns across most provinces of Iraq, involving over 10,000 volunteers. We cleaned kilometers of rivers, collected over 75,000 bags of garbage. Join us and leave a significant mark by spreading the success of the Clean Ambassadors campaign with the dedicated volunteers who work day and night behind the scenes with sincerity and love for this country.",
+      "join-us-button": "Join Us"
+    }
+  },
+  "campaigns-page": {
+    "small-header": "Clean Ambassadors Everywhere",
+    "header": "With your efforts and participation, we will achieve the best for our country. Come join us in cleaning!",
+    "campaigns data": [
+      {
+        "name": "Basra Cleanup Campaign",
+        "description": "Join us in the Basra Cleanup Campaign on Saturday at the Corniche area! Join us in the Basra Cleanup Campaign on Saturday at the Corniche area!",
+        "date": "Saturday, 4:00 PM",
+        "place": "Basra"
+      },
+      {
+        "name": "Baghdad Cleanup Campaign",
+        "description": "There is a cleanup campaign in Baghdad on Sunday at Tahrir Square! There is a cleanup campaign in Baghdad on Sunday at Tahrir Square! There is a cleanup campaign in Baghdad.",
+        "date": "Sunday, 3:00 PM",
+        "place": "Baghdad"
+      },
+      {
+        "name": "Mosul Cleanup Campaign",
+        "description": "Join us on Monday in the streets of Mosul for a comprehensive cleanup campaign! Join now and participate in the cleaning on Monday in the forest area!",
+        "date": "Monday, 2:00 PM",
+        "place": "Mosul"
+      },
+      {
+        "name": "Nasiriyah Cleanup Campaign",
+        "description": "Gather with us on Tuesday in Nasiriyah to start a city-wide cleanup campaign! Gather with us on Tuesday at the Nasiriyah Park.",
+        "date": "Tuesday, 1:00 PM",
+        "place": "Nasiriyah"
+      },
+      {
+        "name": "Maysan Cleanup Campaign",
+        "description": "We invite you to join the Maysan Cleanup Campaign on Wednesday and make it more beautiful! We invite you to join on Wednesday.",
+        "date": "Wednesday, 6:00 PM",
+        "place": "Maysan"
+      },
+      {
+        "name": "Diwaniyah Cleanup Campaign",
+        "description": "Thursday marks the start of the Diwaniyah Cleanup Campaign! Join to make the city cleaner and more beautiful. Thursday marks the start of the Diwaniyah Cleanup Campaign!",
+        "date": "Thursday, 7:00 PM",
+        "place": "Diwaniyah"
+      }
+    ],
+    "join-campaign-button": "Join the Campaign",
+
+    "form-section": {
+      "header": "Join Us",
+      "secondary-header": "Register your name with #CleanAmbassadors",
+      "name": {
+        "label": "Name",
+        "placeholder": "Full Name"
+      },
+      "age": {
+        "label": "Age",
+        "placeholder": "Age"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "07xx-xxx-xxxx"
+      },
+      "sex": {
+        "label": "Gender",
+        "options": ["Male", "Female"]
+      },
+      "telegram": {
+        "label": "Telegram ID",
+        "placeholder": "@username"
+      },
+      "occupation": {
+        "label": "Occupation",
+        "options": ["Occupation", "Student", "Trader", "Employee (Private or Government)"]
+      },
+      "governorate": {
+        "label": "Governorate",
+        "note": "The governorate you will be cleaning this week (doesn't have to be your residence governorate)",
+        "options": [
+          "Governorate",
+          "Baghdad",
+          "Nineveh",
+          "Basra",
+          "Qadisiyah",
+          "Erbil",
+          "Najaf",
+          "Babel",
+          "Anbar",
+          "Dhi Qar",
+          "Kirkuk",
+          "Maysan",
+          "Sulaymaniyah",
+          "Dohuk",
+          "Salahaddin",
+          "Karbala",
+          "Diyala",
+          "Muthanna",
+          "Wasit"
+        ]
+      },
+      "important-note": "Fill out this form to receive your unique barcode and use it in Clean Ambassadors gatherings.",
+      "note": "Note: If you prefer not to share your information, you can still participate without filling out the form. However, you won't receive any campaign materials (such as t-shirts, water bottles, medals, etc.)",
+      "join-us-button": "Join Us"
+    }
+  }
 }

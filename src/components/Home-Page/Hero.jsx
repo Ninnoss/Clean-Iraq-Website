@@ -24,10 +24,10 @@ const Hero = () => {
         </div>
 
         <div>
-          <span className="text-Heading-6 md:text-Heading-5 block ">{t('hero-title')}</span>
-          <h1 className="text-Heading-3 md:text-Heading-1 mb-4">العراق فخور بيكم !</h1>
-          <span className="text-Heading-5 md:text-Heading-4 font-normal">كن جزء من التغيير إيجابي, ابدأ بنفسك </span>
-          <p className="text-Body-S md:text-Body-L max-w-lg mt-8 text-highlightBlack  ">{t('description')}</p>
+          <span className="text-Heading-6 md:text-Heading-5 block ">{t('home-page.hero-section.small-header')}</span>
+          <h1 className="text-Heading-3 md:text-Heading-1 mb-4">{t('home-page.hero-section.header')}</h1>
+          <span className="text-Heading-5 md:text-Heading-4 font-normal">{t('home-page.hero-section.secondary-heading')}</span>
+          <p className="text-Body-S md:text-Body-L max-w-lg mt-8 text-highlightBlack  ">{t('home-page.hero-section.paragraph')}</p>
 
           <Link to={`/campaigns`}>
             <Button
@@ -36,7 +36,7 @@ const Hero = () => {
               role="link"
               aria-label="Join us"
               className="mt-10 px-3 py-1 tracking-wider lg:py-2 text-Button-M font-medium">
-              أنضم الينا
+              {t('home-page.hero-section.join-us-button')}{' '}
             </Button>
           </Link>
         </div>

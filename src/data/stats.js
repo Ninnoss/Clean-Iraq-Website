@@ -13,22 +13,22 @@ pastEvents.forEach((event) => {
 
 export const stats = [
   {
-    title: 'حملة تنظيف',
+    title: 'campaign',
     number: pastEvents.length,
     logo: 'campaigns',
   },
   {
-    title: 'مكان',
+    title: 'places',
     number: pastEvents.length,
     logo: 'places',
   },
   {
-    title: 'متطوع',
+    title: 'volunteers',
     number: totalVolunteers,
     logo: 'volunteers',
   },
   {
-    title: 'كيس نفايات',
+    title: 'trash-bags',
     number: totalTrashBags,
     logo: 'trashBags',
   },

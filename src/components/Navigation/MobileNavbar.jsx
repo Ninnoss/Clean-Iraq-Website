@@ -1,9 +1,12 @@
 /* eslint-disable react/prop-types */
-import Modal from '..//ContactForm/Modal';
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { AiOutlineClose } from 'react-icons/ai';
+import Modal from '..//ContactForm/Modal';
 
 const MobileNavbar = ({ setToggleMenu, open, setOpen }) => {
+  const { t } = useTranslation(); 
+
   return (
     <nav
       role="dialog"
@@ -13,7 +16,7 @@ const MobileNavbar = ({ setToggleMenu, open, setOpen }) => {
         size={'2.2rem'}
         className="fixed top-5 right-5 text-highlightBlack hover:text-primaryGreen "
         onClick={() => setToggleMenu(false)}
-        aria-label="Close Menu"
+        aria-label={t('navigation.close-menu')} 
       />
       <ul
         role="menu"
@@ -21,33 +24,33 @@ const MobileNavbar = ({ setToggleMenu, open, setOpen }) => {
         <li className="hover:text-primaryGreen tracking-wider">
           <NavLink
             onClick={() => setToggleMenu(false)}
-            to={'/'}
+            to="/"
             role="menuitem">
-            الرئيسية
+            {t('navigation.home')}
           </NavLink>
         </li>
         <li className="hover:text-primaryGreen tracking-wider">
           <NavLink
             onClick={() => setToggleMenu(false)}
-            to={'/about'}
+            to="/about"
             role="menuitem">
-            من نحن
+            {t('navigation.about')}
           </NavLink>
         </li>
         <li className="hover:text-primaryGreen tracking-wider">
           <NavLink
             onClick={() => setToggleMenu(false)}
-            to={'/campaigns'}
+            to="/campaigns"
             role="menuitem">
-            حملاتنا
+            {t('navigation.campaigns')}
           </NavLink>
         </li>
         <li className="hover:text-primaryGreen tracking-wider">
           <NavLink
             onClick={() => setToggleMenu(false)}
-            to={'/projects'}
+            to="/projects"
             role="menuitem">
-            مبادراتنا
+            {t('navigation.projects')}
           </NavLink>
         </li>
         <li className="hover:text-primaryGreen tracking-wider">
@@ -55,11 +58,11 @@ const MobileNavbar = ({ setToggleMenu, open, setOpen }) => {
             onClick={() => setToggleMenu(false)}
             to="/blogs"
             role="menuitem">
-            المدونة
+            {t('navigation.blogs')}
           </NavLink>
         </li>
         <li className="hover:text-primaryGreen tracking-wider">
-          <button onClick={() => setOpen(true)}>اتصل بنا</button>
+          <button onClick={() => setOpen(true)}>{t('navigation.contact-us')}</button>
         </li>
       </ul>
       <Modal

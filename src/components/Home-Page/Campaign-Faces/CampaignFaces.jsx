@@ -1,7 +1,10 @@
 import { orbits } from '../../../data/orbits';
 import OrbitImage from './OrbitImage';
+import { useTranslation } from 'react-i18next';
 
 const CampaignFaces = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="flex flex-col-reverse lg:flex-row justify-evenly items-center px-2 md:px-16">
       <div className="relative flex justify-center items-center scale-[0.55] md:scale-90 xl:scale-100 h-[30rem] md:h-[38rem] lg:h-[42rem] lg:ps-20">
@@ -43,8 +46,13 @@ const CampaignFaces = () => {
       </div>
 
       <div className="max-w-lg relative lg:start-52 xl:start-52 text-center  lg:text-center my-16 lg:mt-0 ">
-        <h3 className="text-Heading-3 ">كن أحد وجوه الحملة ، شارك وأضف لمستك ومساهمتك لبلدك</h3>
-        <p className="text-Body-S md:text-Body-L max-w-lg mt-8 text-highlightBlack ">هاي الحملة هي حملة الشعب وهي مسؤوليتنا كلنا نحافظ عليها وننشر روح التغيير والتعاون والمحبة والحملة هاي  <strong> مو بس تخص التنظيف</strong> وانما رسالتها تشمل كل التغييرات الي محتاجين نسويها احنا بأيدنا العراق محتاج العديد من الحملات، سواء كانت تنظيف او غيرها. <strong>وهاي فقط البداية!!</strong></p>
+        <h3 className="text-Heading-3 ">{t('home-page.campaign-faces-section.header')}</h3>
+        <p className="text-Body-S md:text-Body-L max-w-lg mt-8 text-highlightBlack ">
+          {t('home-page.campaign-faces-section.paragraph.0')}
+          <strong>{t('home-page.campaign-faces-section.paragraph.1')}</strong>
+          {t('home-page.campaign-faces-section.paragraph.2')}
+          {t('home-page.campaign-faces-section.paragraph.3')}
+        </p>
       </div>
     </section>
   );
