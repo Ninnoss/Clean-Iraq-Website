@@ -3,7 +3,7 @@ import { upcomingCampaigns } from '../../data/upcomingCampaigns';
 
 const UpcomingCampaigns = () => {
   return (
-    <section className="py-8 px-6 bg-highlightGrey">
+    <section className="py-8 pb-48 px-6 bg-white">
       <header className="text-center pb-16">
         <span className="text-Heading-5 block mb-4  text-primaryOrange">سفراء النظافة بكل مكان</span>
         <p className="text-Heading-3 font-medium py-4">بجهودكم وبمشاركتكم راح نحقق الأفضل لبلدنا تعالوا ننظف سوة</p>
