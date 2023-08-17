@@ -1,0 +1,108 @@
+{
+    "campaigns section": {
+        "little header": "Cleanliness Ambassadors Everywhere",
+        "header": "With your efforts and participation, we will achieve the best for our country. Let's clean together!",
+        "campaigns data": [
+            {
+                "name": "Basra Cleaning Campaign",
+                "description": "Join us in the Basra Cleaning Campaign on Saturday in the Corniche area! Join us in the Basra Cleaning Campaign on Saturday in the Corniche area!",
+                "date": "Saturday, 4:00 PM",
+                "place": "Basra"
+            },
+            {
+                "name": "Baghdad Cleaning Campaign",
+                "description": "There's a cleaning campaign in Baghdad on Sunday in the Liberation Square area! There's a cleaning campaign in Baghdad on Sunday in the Liberation Square area!",
+                "date": "Sunday, 3:00 PM",
+                "place": "Baghdad"
+            },
+            {
+                "name": "Mosul Cleaning Campaign",
+                "description": "Join us on Monday in the streets of Mosul for a comprehensive cleaning campaign! Join now and participate in cleaning on Monday in the forest area!",
+                "date": "Monday, 2:00 PM",
+                "place": "Mosul"
+            },
+            {
+                "name": "Nasiriyah Cleaning Campaign",
+                "description": "Gather with us on Tuesday in Nasiriyah to start the city's cleaning campaign! Gather with us on Tuesday at the Nasiriyah Park.",
+                "date": "Tuesday, 1:00 PM",
+                "place": "Nasiriyah"
+            },
+            {
+                "name": "Maysan Cleaning Campaign",
+                "description": "We invite you to join us on Wednesday for the Maysan Cleaning Campaign and make it more beautiful! We invite you to join us on Wednesday.",
+                "date": "Wednesday, 6:00 PM",
+                "place": "Maysan"
+            },
+            {
+                "name": "Diwaniyah Cleaning Campaign",
+                "description": "Thursday is the start of the Diwaniyah Cleaning Campaign! Join to make the city cleaner and more beautiful. Thursday is the start of the Diwaniyah Cleaning Campaign!",
+                "date": "Thursday, 7:00 PM",
+                "place": "Diwaniyah"
+            }
+        ],
+        "join campaign button": "Join the Campaign"
+    },
+
+    "form section": {
+        "header": "Join Us",
+        "secondary header": "Register your name with #Cleanliness_Ambassadors",
+
+        "name": {
+            "label": "Name",
+            "placeholder": "Full Name"
+        },
+        "age": {
+            "label": "Age",
+            "placeholder": "Age"
+        },
+        "phone": {
+            "label": "Phone Number"
+        },
+        "sex": {
+            "label": "Gender",
+            "options": ["Male", "Female"]
+        },
+        "telegram": {
+            "label": "Telegram ID",
+            "placeholder": "@username"
+        },
+        "occupation": {
+            "label": "Occupation",
+            "options": [
+                "Occupation",
+                "Student",
+                "Worker",
+                "Employee (Private or Government)"
+            ]
+        },
+        "governorate": {
+            "label": "Governorate",
+            "note": "The governorate you will participate in cleaning this week (not necessarily the same as your residence)",
+            "options": [
+                "Governorate",
+                "Baghdad",
+                "Nineveh",
+                "Basra",
+                "Qadisiyah",
+                "Erbil",
+                "Najaf",
+                "Babil",
+                "Anbar",
+                "Dhi Qar",
+                "Kirkuk",
+                "Maysan",
+                "Sulaymaniyah",
+                "Dohuk",
+                "Salah al-Din",
+                "Karbala",
+                "Diyala",
+                "Muthanna",
+                "Wasit"
+            ]
+        },
+
+        "important note": "Fill out this form to receive your barcode and use it at all Cleanliness Ambassadors gatherings.",
+        "note": "Note: If you prefer not to share your information, you can attend without filling out the form, but you won't receive any campaign materials (e.g., t-shirt, water bottle, medal, etc.).",
+        "join us button": "Join Us"
+    }
+}

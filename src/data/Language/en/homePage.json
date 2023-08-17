@@ -1,0 +1,85 @@
+{
+    "hero section": {
+        "little header": "Cleanliness Ambassadors",
+        "header": "Iraq is Proud of You!",
+        "secondary heading": "Be Part of Positive Change, Start with Yourself",
+        "paragraph": "Every individual contributing to this campaign becomes part of a positive change that encompasses the entire community. Start with yourself and be the role model to be emulated. Let your positive energy radiate with enthusiasm and motivation to those around you. Remember that collective effort leads to amazing results, and the challenges we face will appear fragile next to our determination and commitment to bring about change.",
+        "join us button": "Join Us"
+    },
+
+    "info section": {
+        "header": "Far Away but Can't Join Us?",
+        "paragraph": [
+            "Participate with your friends in cleaning up a location in your area and use the hashtag",
+            "#National_Cleaning_Day",
+            " because the goal of the campaign is to clean as many places as possible in Iraq and raise awareness about the importance of cleanliness."
+        ]
+    },
+
+    "stats section": {
+        "header": "Statistics",
+        "trash bag": "Trash Bag",
+        "volunteer": "Volunteer",
+        "place": "Place",
+        "campaign": "Cleaning Campaign"
+    },
+
+    "upcoming events section": {
+        "header": "Our Campaigns",
+        "paragraph": "Our message to all institutions, companies, departments, and media is to join us and support the campaign so that we can contribute together to change on a day that brings all Iraqis together under the slogan ",
+        "hashtag": "#National_Cleaning_Day.",
+        "see more button": "See More"
+    },
+
+    "faces section": {
+        "header": "Be One of the Faces of the Campaign, Participate and Contribute to Your Country",
+        "paragraph": [
+            "This campaign is the people's campaign and it's our responsibility to preserve it and spread the spirit of change, cooperation, love, and this campaign is not just about cleaning",
+            " but its message includes all the changes we need to make with our own hands. Iraq needs many campaigns, whether they are cleaning or others.",
+            "And this is just the beginning!!"
+        ]
+    },
+
+    "map section": {
+        "little header": "Cleanliness Ambassadors",
+        "header": [
+            "Our Campaigns are Everywhere in Iraq,",
+            " What are You Waiting for?",
+            " Join and Be Part of This Change"
+        ],
+        "paragraph": "Most of the waste we collect will be recycled! That's right: glass, plastic, aluminum. The first step of recycling is waste sorting."
+    },
+
+    "faq section": {
+        "header": "Frequently Asked Questions",
+        "faq data": [
+            {
+              "question": "What is the Cleaning Campaign?",
+              "answer": "The Cleaning Campaign is a collective effort to clean public areas and the environment in Iraq to contribute to improving the appearance of cities and maintaining their cleanliness."
+            },
+            {
+              "question": "How can I participate in the Cleaning Campaign?",
+              "answer": "You can participate in the Cleaning Campaign by volunteering in the dedicated events and following the announced instructions to participate effectively."
+            },
+            {
+              "question": "What are the benefits of participating in the Cleaning Campaign?",
+              "answer": "Your participation in the Cleaning Campaign contributes to improving the environment, preserving city cleanliness, and enhancing environmental awareness in the community."
+            },
+            {
+              "question": "Can I participate regardless of age?",
+              "answer": "Yes, everyone can participate in the Cleaning Campaign regardless of age, as promoting the importance of cleanliness is essential for everyone."
+            },
+            {
+              "question": "What should I bring to participate in the campaign?",
+              "answer": "You may need to bring gloves and simple cleaning tools like a garbage bag and a brush to facilitate the cleaning process."
+            }
+          ]
+    },
+
+    "newsletter section": {
+        "header": "Subscribe for the Latest News",
+        "paragraph": "Stay informed about our campaigns, events, and announcements! Feel free to subscribe with your email address.",
+        "input placeholder": "Enter your email",
+        "subscribe button": "Subscribe"
+    }
+}

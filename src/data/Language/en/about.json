@@ -1,0 +1,29 @@
+{
+    "paragraphs": [
+        {
+            "title": "How Did Our Idea Start?",
+            "description": "The idea started with our friend Murtadha Al-Tamimi, who decided to clean the Tigris River to enjoy the sunset view by the riverbank. After the support of the Warriors team and the Tree Planting Campaign, the initiative evolved and the #Cleanliness_Ambassadors campaign was launched.",
+            "description2": "In a short period of time, the campaign reached most provinces in Baghdad and Iraq, with hundreds of people of all genders and ages participating."
+        },
+        {
+            "title": "Who Are the Cleanliness Ambassadors?",
+            "description": "This campaign is from you and for you. You, me, and all of us are Cleanliness Ambassadors. If we care about the cleanliness of this country, we commit to:",
+            "description2": "-Never throwing garbage in public streets. -Educating others if we see them littering. -Contributing to the cleaning of public places."
+        },
+        {
+            "title": "Campaign Message and Our Next Steps",
+            "description": "Campaign Message: We can all make a positive change, and we must cooperate and strive for a cleaner and more beautiful Iraq.",
+            "description2": "Next Step: Our team continues to expand the project and organize events that make the day of the campaign a big celebration of cleanliness and the achievements that #Cleanliness_Ambassadors achieve daily."
+        }
+    ],
+
+    "our team section": {
+        "header": "Our Exceptional Team, the Source of Our Strength and the Foundation for Cleanliness Ambassadors"
+    },
+
+    "join team section": {
+        "header": "Be Part of This Team",
+        "paragraph": "More than 50 campaigns in most provinces of Iraq, with more than 10,000 volunteers participating. We cleaned kilometers of rivers and collected more than 75,000 garbage bags. Join us and leave a significant mark in the spread and success of the campaign with the Cleanliness Ambassadors team and the dedicated volunteers who work day and night behind the scenes with sincerity and love for this country.",
+        "join us button": "Join Us"
+    }
+}

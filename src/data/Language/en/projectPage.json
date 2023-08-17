@@ -1,0 +1,55 @@
+{
+    "previous events section": {
+        "slider": {
+            "text": "We",
+            "words": [
+                "Collaborate",
+                "Clean",
+                "Plant",
+                "Recycle",
+                "Spread Message"
+            ]
+        },
+        "secondary header": "Thank you to all participants in the cleaning campaign. Thanks to you, we have achieved significant change and made these places clean and beautiful.",
+        "location description": "Location Description"
+    },
+
+    "testimonials section": {
+        "header": "Volunteers' Testimonials About the Campaign",
+        "testimonials data": [
+            {
+              "name": "Ninos Isho",
+              "title": "Volunteer",
+              "review":
+                "The cleaning campaign is important efforts to preserve the environment's beauty and human health. It contributes to preventing air and water pollution and reducing the effects of climate change. Additionally, local community campaigns promote collective spirit and awareness of the importance of maintaining environmental cleanliness."
+            },
+            {
+              "name": "Shahad",
+              "title": "Volunteer",
+              "review":
+                "Thanks to the cleaning campaign's efforts, we have achieved a tangible improvement in the quality of our surrounding environment. We have witnessed a noticeable reduction in air and water pollution, positively impacting our health and the health of our families. We have learned the importance of collective work and community participation in maintaining environmental cleanliness and have gained greater awareness of our impact on climate change."
+            },
+            {
+              "name": "Humam",
+              "title": "Volunteer",
+              "review":
+                "When I participated in the local cleaning campaign, I didn't realize the positive impact we have on our environment. I learned that cleaning streets and collecting waste is not just a task but our duty towards our planet and health. Through our community collaboration, we have achieved a simple yet significant change in our local environment. We feel pride and responsibility for the place we live in, and we are committed to continuing to work for a clean and healthy environment."
+            },
+            {
+              "name": "Mohammed Taqi",
+              "title": "Volunteer",
+              "review":
+                "My experience with the cleaning campaign was truly amazing. I didn't expect that joining efforts to clean the area would be this much fun and inspiring. I saw how ordinary individuals can have a significant positive impact on their environment. By collecting waste and cleaning public places, the environment became more beautiful and healthy. My participation in this campaign positively influenced my vision for the future, believing that small change can lead to significant improvements in our lives and surroundings."
+            }
+          ]
+    },
+
+    "suggestion form section": {
+        "header": "Where do you want our next campaign to be?",
+        "input": {
+            "email": "Email",
+            "message": "Your Message",
+            "submit button": "Submit Now"
+        }
+    }
+}
