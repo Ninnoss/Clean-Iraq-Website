@@ -20,6 +20,11 @@ import computiq from '../assets/Imgs/About-Page/computiq.svg';
 import giz from '../assets/Imgs/About-Page/giz.svg';
 import earthlink from '../assets/Imgs/About-Page/earthlink.svg';
 import asiacell from '../assets/Imgs/About-Page/asiacell.svg';
+// out team
+import hasan from '../assets/Imgs/About-Page/hasan.svg';
+import mustafa from '../assets/Imgs/About-Page/mustafa.svg';
+import murtada from '../assets/Imgs/About-Page/murtada.svg';
+import ali from '../assets/Imgs/About-Page/ali.svg';
 
 // Project page
 import cardPlaceHolder from '../assets/Imgs/Projects-Page/card-place-holder.png';
@@ -48,6 +53,11 @@ export default {
   giz,
   earthlink,
   asiacell,
+  //our team
+  hasan,
+  mustafa,
+  murtada,
+  ali,
   // Campaigns-page
   cardLogo,
   //Projects page
