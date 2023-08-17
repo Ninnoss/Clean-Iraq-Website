@@ -4,7 +4,7 @@ import OrbitImage from './OrbitImage';
 const CampaignFaces = () => {
   return (
     <section className="flex flex-col-reverse lg:flex-row justify-evenly items-center px-2 md:px-16">
-      <div className="relative flex justify-center items-center scale-[0.55] md:scale-90 xl:scale-100 h-[30rem] md:h-[38rem] lg:h-[42rem] lg:pr-20">
+      <div className="relative flex justify-center items-center scale-[0.55] md:scale-90 xl:scale-100 h-[30rem] md:h-[38rem] lg:h-[42rem] lg:ps-20">
         {/* Orbit 1 */}
         <div className="w-[10rem] h-[10rem] border-2 border-[##EFECEB] rounded-full absolute">
           {orbits[0].map((item, index) => (
@@ -42,7 +42,7 @@ const CampaignFaces = () => {
         <div className="w-3 h-3 rounded-full bg-[#89807A] absolute top-[550px] left-60 animate-moon lg:mr-20"></div>
       </div>
 
-      <div className="max-w-lg relative lg:right-52 xl:right-52 text-center  lg:text-center my-16 lg:mt-0 ">
+      <div className="max-w-lg relative lg:start-52 xl:start-52 text-center  lg:text-center my-16 lg:mt-0 ">
         <h3 className="text-Heading-3 ">كن أحد وجوه الحملة ، شارك وأضف لمستك ومساهمتك لبلدك</h3>
         <p className="text-Body-S md:text-Body-L max-w-lg mt-8 text-highlightBlack ">هاي الحملة هي حملة الشعب وهي مسؤوليتنا كلنا نحافظ عليها وننشر روح التغيير والتعاون والمحبة والحملة هاي  <strong> مو بس تخص التنظيف</strong> وانما رسالتها تشمل كل التغييرات الي محتاجين نسويها احنا بأيدنا العراق محتاج العديد من الحملات، سواء كانت تنظيف او غيرها. <strong>وهاي فقط البداية!!</strong></p>
       </div>

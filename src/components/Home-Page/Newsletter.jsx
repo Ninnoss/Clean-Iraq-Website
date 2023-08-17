@@ -47,7 +47,7 @@ const Newsletter = () => {
         </div>
         <Button
           aria-label="اشترك"
-          className="mr-6 px-3 py-1 lg:px-6 tracking-wider lg:py-2 text-Button-M font-medium">
+          className="mx-6 px-3 py-1 lg:px-6 tracking-wider lg:py-2 text-Button-M font-medium">
           اشترك
         </Button>
       </form>

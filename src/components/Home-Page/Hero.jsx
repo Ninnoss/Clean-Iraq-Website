@@ -17,8 +17,8 @@ const Hero = () => {
               src={images.girlWithTrashCan}
               alt="A girl picking up trash"
             />
-            <div className="w-36 h-36 lg:w-44 lg:h-44 absolute -top-10 -right-4 lg:-top-20 lg:-right-8 rounded-lg bg-[#bbd1c2] -z-10"></div>
-            <div className="w-36 h-36 absolute -top-5 right-10 lg:-top-10 lg:right-20  rounded-lg bg-[#F4DDBC] -z-10"></div>
+            <div className="w-36 h-36 lg:w-44 lg:h-44 absolute -top-10 -start-4 lg:-top-20 lg:-start-8 rounded-lg bg-[#bbd1c2] -z-10"></div>
+            <div className="w-36 h-36 absolute -top-5 start-10 lg:-top-10 lg:start-20  rounded-lg bg-[#F4DDBC] -z-10"></div>
             <figcaption className="sr-only">A girl picking up trash</figcaption>
           </figure>
         </div>
