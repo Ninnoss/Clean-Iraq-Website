@@ -7,24 +7,7 @@
     transform: scale(1.1);
 }
 
-.effect {
-    cursor: pointer;
-}
 
-.effect:after{
-    content: "";
-    position: absolute;
-    background-color: #548C67;
-    height: 3px;
-    width: 0;
-    left: 0;
-    bottom: -6px;
-    transition: 0.3s;
-}
-
-.effect:hover:after{
-    width: 100%;
-}
 
 .wrapper {
     text-align: center;

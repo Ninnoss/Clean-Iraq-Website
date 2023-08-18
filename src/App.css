@@ -102,8 +102,20 @@
   border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
 }
 
-.lightgreen {
-  border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
-  background-color: #548c67;
+/* Blogs */
+.underline-effect:after{
+    content: "";
+    position: absolute;
+    background-color: #548C67;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -6px;
+    transition: 0.3s;
 }
+
+.underline-effect:hover:after{
+    width: 100%;
+}
+
 

@@ -269,58 +269,73 @@
 
   "blogs-page": {
     "banner": {
-      "header": "The Impact of Cleanup Campaigns on Aquatic Environment and Preserving Rivers and Lakes",
-      "paragraph": "Join us in the Basra cleanup campaign on Friday in Corniche Al-Numa Street! Join us",
-      "see-more-button": "Read More"
+      "header": "Cleaning Campaigns in Iraq: Our Efforts for a Clean and Sustainable Environment",
+      "paragraph": "Explore the impact of cleaning campaigns in Iraq and our efforts to preserve our environment.",
+      "read-more-button": "Read More"
     },
-    "stats": {
+
+    "blog-stats": {
       "shares": "1K Shares",
       "date": "May 28, 2018",
-      "read more button": "Read More"
+      "read-more-button": "Read More"
     },
     "latest-blogs-section": {
       "header": "Latest Articles",
-      "article": [
+      "articles": [
         {
-          "header": "The Importance of Cleanup Campaigns in Environmental Preservation and Health",
-          "paragraph": "Join us in the Basra cleanup campaign on Friday in Corniche Al-Numa Street! Join us ..."
+          "header": "The Positive Impact of Cleaning Campaigns on Our Environment",
+          "paragraph": "Discover how positive cleaning campaigns affect our environment, making it cleaner and healthier."
         },
         {
-          "header": "The Importance of Cleanup Campaigns in Environmental Preservation and Health",
-          "paragraph": "Join us in the Basra cleanup campaign on Friday in Corniche Al-Numa Street! Join us ..."
+          "header": "Changing the Face of Iraq through Cleaning Efforts",
+          "paragraph": "Join the journey of change in Iraq by participating in cleaning campaigns aimed at creating a better environment for all."
         },
         {
-          "header": "The Importance of Cleanup Campaigns in Environmental Preservation and Health",
-          "paragraph": "Join us in the Basra cleanup campaign on Friday in Corniche Al-Numa Street! Join us ..."
+          "header": "Your Contribution to Making Iraq More Beautiful and Healthy",
+          "paragraph": "Learn how your participation in cleaning efforts contributes to creating a more beautiful and healthy environment in Iraq's cities."
         }
       ]
     },
-    "blogs-section": [
-      {
-        "title": "The March of Cleanliness and Beautification: Striving for a Pollution-Free and Flourishing Environment Reflecting Values and Harmony",
-        "content": "Don't miss the opportunity to learn about this year's events through our platform, offering you a comprehensive and balanced view of the events. Join us on this journey ..."
-      },
-      {
-        "title": "Successful Models of Social and Environmental Cleanup Campaigns Around the World",
-        "content": "Don't miss the opportunity to learn about this year's events through our platform, offering you a comprehensive and balanced view of the events. Join us on this journey ..."
-      },
-      {
-        "title": "Our City's Cleanliness, Our Shared Responsibility",
-        "content": "Don't miss the opportunity to learn about this year's events through our platform, offering you a comprehensive and balanced view of the events. Join us on this journey ..."
-      },
-      {
-        "title": "Thoughtful Cleanup Campaign: Health and Beauty for Our Environment",
-        "content": "Don't miss the opportunity to learn about this year's events through our platform, offering you a comprehensive and balanced view of the events. Join us on this journey ..."
-      },
-      {
-        "title": "A Green Future Vision: Long-Term Awareness and Cleanup Campaign for Developing a Healthy and Sustainable Environment",
-        "content": "Don't miss the opportunity to learn about this year's events through our platform, offering you a comprehensive and balanced view of the events. Join us on this journey ..."
-      },
-      {
-        "title": "Clean Heart Starts with a Clean Environment",
-        "content": "Don't miss the opportunity to learn about this year's events through our platform, offering you a comprehensive and balanced view of the events. Join us on this journey ..."
-      }
-    ]
+    "blogs-section": {
+      "articles": [
+        {
+          "title": "Cleaning Campaigns in Iraq: Our Efforts for a Clean and Sustainable Environment",
+          "paragraph": "Join us to explore the importance of cleaning campaigns in Iraq and how our efforts contribute to preserving our wonderful environment.",
+          "dateShared": "June 15, 2023",
+          "shares": "350 shares"
+        },
+        {
+          "title": "Tangible Change Through Cleaning Campaigns",
+          "paragraph": "Join us on a journey to explore the impact of cleaning campaigns in Iraq and how these campaigns contribute to achieving positive and tangible change.",
+          "dateShared": "July 5, 2023",
+          "shares": "220 shares"
+        },
+        {
+          "title": "Community Efforts Towards a Better Environment",
+          "paragraph": "Learn about the community efforts made in cleaning campaigns in Iraq and how they contribute to creating a better and more beautiful environment.",
+          "dateShared": "August 10, 2023",
+          "shares": "180 shares"
+        },
+        {
+          "title": "Collective Work for Achieving Change",
+          "paragraph": "Join our efforts in cleaning campaigns in Iraq and discover how collective work can achieve effective and positive change.",
+          "dateShared": "September 20, 2023",
+          "shares": "300 shares"
+        },
+        {
+          "title": "Vision for a Clean and Sustainable Future",
+          "paragraph": "Learn about our vision for the future through cleaning campaigns in Iraq, where we strive to create a clean and sustainable environment for future generations.",
+          "dateShared": "October 8, 2023",
+          "shares": "250 shares"
+        },
+        {
+          "title": "Simplicity of Daily Decisions in Maintaining Cleanliness",
+          "paragraph": "Discover how daily decisions impact public cleanliness in Iraq and how everyone can contribute to this change.",
+          "dateShared": "November 15, 2023",
+          "shares": "280 shares"
+        }
+      ]
+    }
   },
 
   "card": {
