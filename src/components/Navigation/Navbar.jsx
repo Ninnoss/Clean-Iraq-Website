@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <nav className="flex justify-between md:justify-around items-center px-4 py-2 border-b-[#DDE1E6] border-[1px]">
+      <nav className="flex justify-between md:justify-around items-center px-4 py-2 border-b-[#DDE1E6] border-[1px] relative">
         <div>
           <NavLink
             to="/"

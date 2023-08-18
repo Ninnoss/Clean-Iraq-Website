@@ -121,39 +121,39 @@
   "campaigns-page": {
     "small-header": "Clean Ambassadors Everywhere",
     "header": "With your efforts and participation, we will achieve the best for our country. Come join us in cleaning!",
-    "campaigns data": [
+    "campaigns-data": [
       {
-        "name": "Basra Cleanup Campaign",
+        "name": "Basra Campaign",
         "description": "Join us in the Basra Cleanup Campaign on Saturday at the Corniche area! Join us in the Basra Cleanup Campaign on Saturday at the Corniche area!",
         "date": "Saturday, 4:00 PM",
         "place": "Basra"
       },
       {
-        "name": "Baghdad Cleanup Campaign",
-        "description": "There is a cleanup campaign in Baghdad on Sunday at Tahrir Square! There is a cleanup campaign in Baghdad on Sunday at Tahrir Square! There is a cleanup campaign in Baghdad.",
+        "name": "Baghdad Campaign",
+        "description": "There is a cleanup campaign in Baghdad on Sunday at Tahrir Square! There is a cleanup campaign in Baghdad on Sunday",
         "date": "Sunday, 3:00 PM",
         "place": "Baghdad"
       },
       {
-        "name": "Mosul Cleanup Campaign",
+        "name": "Mosul Campaign",
         "description": "Join us on Monday in the streets of Mosul for a comprehensive cleanup campaign! Join now and participate in the cleaning on Monday in the forest area!",
         "date": "Monday, 2:00 PM",
         "place": "Mosul"
       },
       {
-        "name": "Nasiriyah Cleanup Campaign",
+        "name": "Nasiriyah Campaign",
         "description": "Gather with us on Tuesday in Nasiriyah to start a city-wide cleanup campaign! Gather with us on Tuesday at the Nasiriyah Park.",
         "date": "Tuesday, 1:00 PM",
         "place": "Nasiriyah"
       },
       {
-        "name": "Maysan Cleanup Campaign",
+        "name": "Maysan Campaign",
         "description": "We invite you to join the Maysan Cleanup Campaign on Wednesday and make it more beautiful! We invite you to join on Wednesday.",
         "date": "Wednesday, 6:00 PM",
         "place": "Maysan"
       },
       {
-        "name": "Diwaniyah Cleanup Campaign",
+        "name": "Diwaniyah Campaign",
         "description": "Thursday marks the start of the Diwaniyah Cleanup Campaign! Join to make the city cleaner and more beautiful. Thursday marks the start of the Diwaniyah Cleanup Campaign!",
         "date": "Thursday, 7:00 PM",
         "place": "Diwaniyah"
@@ -268,7 +268,7 @@
   },
 
   "card": {
-    "join-campaign-button": "Join the Campaign",
+    "join-campaign-button": "Join Campaign",
     "date": "Date: ",
     "volunteers": "Number of Volunteers: ",
     "trash bags": "Number of Trash Bags: "

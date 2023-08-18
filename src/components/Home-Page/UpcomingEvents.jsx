@@ -7,8 +7,19 @@ import { useTranslation } from 'react-i18next';
 
 const UpcomingEvents = () => {
   const { t } = useTranslation();
-
   const first3Campaigns = upcomingCampaigns.slice(0, 3);
+
+  // Translate campaigns data before passing them to the Card
+  // adjust the campaigns data to preserve the img, but change the text to use the texts form the .json files
+  const translatedUpcomingEvents = first3Campaigns.map((campaign, index) => {
+    return {
+      ...campaign,
+      name: t(`campaigns-page.campaigns-data.${index}.name`),
+      description: t(`campaigns-page.campaigns-data.${index}.description`),
+      date: t(`campaigns-page.campaigns-data.${index}.date`),
+      place: t(`campaigns-page.campaigns-data.${index}.place`),
+    };
+  });
 
   return (
     <section className="py-16 bg-[#FAFBFA]">
@@ -20,7 +31,7 @@ const UpcomingEvents = () => {
         </p>
       </div>
       <div className="pt-24 pb-6 flex justify-center flex-wrap gap-8">
-        {first3Campaigns.map((campaign, index) => (
+        {translatedUpcomingEvents.map((campaign, index) => (
           <Card
             key={index}
             name={campaign.name}

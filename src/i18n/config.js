@@ -11,8 +11,8 @@ i18n
   .use(Backend)
   .init({
     // debug: true,
-    fallbackLng: 'en',
-    lng: 'en',
+    fallbackLng: 'ar',
+    lng: 'ar',
     resources: {
       en: {
         translations: enTranslations,
@@ -22,11 +22,6 @@ i18n
       },
     },
     ns: ['translations'],
-    // defaultNS: 'translations',
-    // Set language direction for Arabic
-    // This will automatically set the dir attribute to "rtl" when using Arabic language
-    // rtl: ['ar'],
-    // ltr: ['en'],
   });
 
 i18n.languages = ['en', 'ar'];
