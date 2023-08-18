@@ -21,35 +21,37 @@ const Card = ({ name, img, description, trashBags, volunteers, date, location, i
       </figure>
 
       <div className="px-6">
-        <header className="">
+        <header>
           <h3 className="my-4 text-Heading-4 text-center tracking-tight">{t(name)}</h3>
         </header>
         <p className={`mb-3 text-Body-S text-center ${date && location ? 'h-28 md:h-20' : ''}  text-[#777E90]`}>{t(description)}</p>
       </div>
 
       {date && location && (
-        <>
-          <div className="flex justify-between items-center p-5 date-place">
-            <span className="text-Body-M block text-highlightBlack">{date}</span>
-            <div className="flex items-center gap-3">
-              <img
-                src={pin}
-                alt="pin"
-              />{' '}
-              {t(location)}
-            </div>
+        <div className="flex justify-between items-center p-5 date-place">
+          <span className="text-Body-M block text-highlightBlack">{date}</span>
+          <div className="flex items-center gap-3">
+            <img
+              src={pin}
+              alt="pin"
+            />
+            {t(location)}
+          </div>
+        </div>
+      )}
 
-          <h3 className="mt-4 text-Heading-6 text-center tracking-tight">{name}</h3>
-        </header>
-      </div>
+      <h3 className="mt-4 text-Heading-6 text-center tracking-tight">{name}</h3>
 
       {date && location && (
-        <div  className="px-6 text-center">
+        <div className="px-6 text-center">
           <span className="text-Body-s block text-highlightBlack">{date}</span>
           <p className={`my-3 text-Body-s text-center line-clamp-3  text-[#777E90]`}>{description}</p>
           <div className="flex justify-center text-Body-s gap-3">
-              <img src={pin} alt="pin" /> {location}
-
+            <img
+              src={pin}
+              alt="pin"
+            />
+            {t(location)}
           </div>
           <Link to={`/campaigns/${name}`}>
             <Button
@@ -63,42 +65,53 @@ const Card = ({ name, img, description, trashBags, volunteers, date, location, i
           </Link>
         </div>
       )}
-      {date && trashBags && volunteers && description &&(
-        <>
 
+      {date && trashBags && volunteers && description && (
+        <div>
           <div className="text-Body-M px-5 pb-3">
             <span>
               {t('card.date')}
               {date}
-            </span>{' '}
+            </span>
             <br />
             <span>
               {t('card.volunteers')}
               {volunteers}
-            </span>{' '}
+            </span>
             <br />
             <span>
               {t('card.trash bags')}
               {trashBags}
             </span>
-
-        <div className="text-center px-5 pb-3" >
-          <div className="flex justify-center text-Body-s gap-3">
-              <img src={pin} alt="pin" /> {description}
           </div>
-          <div className=" flex justify-center gap-4 py-3">
+
+          <div className="text-center px-5 pb-3">
+            <div className="flex justify-center text-Body-s gap-3">
+              <img
+                src={pin}
+                alt="pin"
+              />
+              {t(description)}
+            </div>
+            <div className="flex justify-center gap-4 py-3">
               <div className="flex-grow flex-col items-center bg-[#F1F5F3] rounded-xl ">
-              <h1 className="text-Subtitile-M"> <strong>{volunteers}</strong> </h1>
-                <p className="text-Body-XS">متطوع</p>
+                <h1 className="text-Subtitile-M">
+                  {' '}
+                  <strong>{volunteers}</strong>{' '}
+                </h1>
+                <p className="text-Body-XS">{t('card.volunteer')}</p>
               </div>
-              <div className=" flex-grow flex-col  items-center  bg-[#F1F5F3]  rounded-xl ">
-                <h1 className="text-Subtitile-M"> <strong>{trashBags}</strong> </h1>
-                <p className="text-Body-S">كيس قمامة  </p>
+              <div className="flex-grow flex-col items-center bg-[#F1F5F3] rounded-xl ">
+                <h1 className="text-Subtitile-M">
+                  {' '}
+                  <strong>{trashBags}</strong>{' '}
+                </h1>
+                <p className="text-Body-S">{t('card.trash-bag')}</p>
               </div>
             </div>
             <span className="text-Body-XS block text-[#777E90]">{date}</span>
           </div>
-        </>
+        </div>
       )}
     </article>
   );
