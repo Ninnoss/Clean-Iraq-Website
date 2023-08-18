@@ -17,7 +17,7 @@ const UpcomingCampaigns = () => {
     };
   });
   return (
-    <section className="py-8 px-6 bg-highlightGrey">
+    <section className="py-8 pb-48 px-6 bg-white">
       <header className="text-center pb-16">
         <span className="text-Heading-5 block mb-4  text-primaryOrange">{t('campaigns-page.small-header')}</span>
         <p className="text-Heading-3 font-medium py-4">{t('campaigns-page.header')}</p>

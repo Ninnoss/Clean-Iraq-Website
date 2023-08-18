@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import images from '../../data/images';
+import { ourTeam } from '../../data/outTeam';
 
 const OurTeam = () => {
   const { t } = useTranslation();
@@ -12,13 +13,15 @@ const OurTeam = () => {
 
       {/* TODO: Placeholder Imgs. CHANGE THEM */}
       <div className="py-20 px-10 flex justify-center flex-wrap gap-10">
-        {[1, 2, 3, 4].map((image, index) => (
+        {ourTeam.map((image, index) => (
           <figure key={index}>
             <img
-              className="w-[200px] h-[250px] rounded-lg"
-              src={images.murtadha2}
+            className='rounded-lg'
+              src={image.img}
               loading="lazy"
-              alt={`picture of ${images.murtadha2}`}
+              alt={`picture of ${image.alt}`}
+              alt={image.alt}
+
             />
             <figcaption className="sr-only">{`picture of ${images.murtadha2}`}</figcaption>
           </figure>

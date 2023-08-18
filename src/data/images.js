@@ -12,6 +12,27 @@ import mona from '../assets/Imgs/Home-Page/Mona.webp';
 import sarah from '../assets/Imgs//Home-Page/Sarah.webp';
 import video from '../assets/Imgs//Home-Page/cleaniraq.mp4';
 
+//orbits
+import participant1 from '../assets/Imgs//Home-Page/orbits/participant1.svg';
+import participant2 from '../assets/Imgs//Home-Page/orbits/participant2.svg';
+import participant3 from '../assets/Imgs//Home-Page/orbits/participant3.svg';
+import participant4 from '../assets/Imgs//Home-Page/orbits/participant4.svg';
+import participant5 from '../assets/Imgs//Home-Page/orbits/participant5.svg';
+import participant6 from '../assets/Imgs//Home-Page/orbits/participant6.svg';
+import participant7 from '../assets/Imgs//Home-Page/orbits/participant7.svg';
+import participant8 from '../assets/Imgs//Home-Page/orbits/participant8.svg';
+import participant9 from '../assets/Imgs//Home-Page/orbits/participant9.svg';
+import participant10 from '../assets/Imgs//Home-Page/orbits/participant10.svg';
+import participant11 from '../assets/Imgs//Home-Page/orbits/participant11.svg';
+import participant12 from '../assets/Imgs//Home-Page/orbits/participant12.svg';
+import participant13 from '../assets/Imgs//Home-Page/orbits/participant13.svg';
+import participant14 from '../assets/Imgs//Home-Page/orbits/participant14.svg';
+import participant15 from '../assets/Imgs//Home-Page/orbits/participant15.svg';
+
+
+
+
+
 // About page
 import murtadhaPeaceSign from '../assets/Imgs/About-Page/Murtadha-peace-sign.webp';
 import murtadha2 from '../assets/Imgs/About-Page/Murtadha.jpg';
@@ -20,6 +41,11 @@ import computiq from '../assets/Imgs/About-Page/computiq.svg';
 import giz from '../assets/Imgs/About-Page/giz.svg';
 import earthlink from '../assets/Imgs/About-Page/earthlink.svg';
 import asiacell from '../assets/Imgs/About-Page/asiacell.svg';
+// out team
+import hasan from '../assets/Imgs/About-Page/hasan.svg';
+import mustafa from '../assets/Imgs/About-Page/mustafa.svg';
+import murtada from '../assets/Imgs/About-Page/murtada.svg';
+import ali from '../assets/Imgs/About-Page/ali.svg';
 
 // Project page
 import cardPlaceHolder from '../assets/Imgs/Projects-Page/card-place-holder.png';
@@ -57,6 +83,22 @@ export default {
   video,
   mona,
   sarah,
+  //orbit
+  participant1,
+  participant2,
+  participant3,
+  participant4,
+  participant5,
+  participant6,
+  participant7,
+  participant8,
+  participant9,
+  participant10,
+  participant11,
+  participant12,
+  participant13,
+  participant14,
+  participant15,
   // About page
   murtadhaPeaceSign,
   murtadha2,
@@ -65,6 +107,11 @@ export default {
   giz,
   earthlink,
   asiacell,
+  //our team
+  hasan,
+  mustafa,
+  murtada,
+  ali,
   // Campaigns-page
   cardLogo,
   //Projects page

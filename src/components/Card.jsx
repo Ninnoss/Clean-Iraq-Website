@@ -9,7 +9,7 @@ const Card = ({ name, img, description, trashBags, volunteers, date, location, i
   const { t } = useTranslation();
 
   return (
-    <article className="relative w-72 sm:w-80 bg-white border border-gray-200 rounded-lg shadow transition-all duration-300 hover:shadow-lg hover:bg-[whitesmoke]">
+    <article className="relative w-72 sm:w-80 bg-white rounded-lg shadow transition-all duration-300 hover:shadow-2xl ">
       <figure>
         <img
           className={imgStyle}
@@ -38,6 +38,18 @@ const Card = ({ name, img, description, trashBags, volunteers, date, location, i
               />{' '}
               {t(location)}
             </div>
+
+          <h3 className="mt-4 text-Heading-6 text-center tracking-tight">{name}</h3>
+        </header>
+      </div>
+
+      {date && location && (
+        <div  className="px-6 text-center">
+          <span className="text-Body-s block text-highlightBlack">{date}</span>
+          <p className={`my-3 text-Body-s text-center line-clamp-3  text-[#777E90]`}>{description}</p>
+          <div className="flex justify-center text-Body-s gap-3">
+              <img src={pin} alt="pin" /> {location}
+
           </div>
           <Link to={`/campaigns/${name}`}>
             <Button
@@ -49,10 +61,11 @@ const Card = ({ name, img, description, trashBags, volunteers, date, location, i
               {t('card.join-campaign-button')}
             </Button>
           </Link>
-        </>
+        </div>
       )}
-      {date && trashBags && volunteers && (
+      {date && trashBags && volunteers && description &&(
         <>
+
           <div className="text-Body-M px-5 pb-3">
             <span>
               {t('card.date')}
@@ -68,6 +81,22 @@ const Card = ({ name, img, description, trashBags, volunteers, date, location, i
               {t('card.trash bags')}
               {trashBags}
             </span>
+
+        <div className="text-center px-5 pb-3" >
+          <div className="flex justify-center text-Body-s gap-3">
+              <img src={pin} alt="pin" /> {description}
+          </div>
+          <div className=" flex justify-center gap-4 py-3">
+              <div className="flex-grow flex-col items-center bg-[#F1F5F3] rounded-xl ">
+              <h1 className="text-Subtitile-M"> <strong>{volunteers}</strong> </h1>
+                <p className="text-Body-XS">متطوع</p>
+              </div>
+              <div className=" flex-grow flex-col  items-center  bg-[#F1F5F3]  rounded-xl ">
+                <h1 className="text-Subtitile-M"> <strong>{trashBags}</strong> </h1>
+                <p className="text-Body-S">كيس قمامة  </p>
+              </div>
+            </div>
+            <span className="text-Body-XS block text-[#777E90]">{date}</span>
           </div>
         </>
       )}

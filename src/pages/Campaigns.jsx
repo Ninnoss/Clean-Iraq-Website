@@ -5,7 +5,6 @@ const Campaigns = () => {
   return (
     <>
       <UpcomingCampaigns />
-      <JoinUs />
     </>
   );
 };
