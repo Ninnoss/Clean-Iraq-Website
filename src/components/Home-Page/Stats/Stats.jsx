@@ -1,15 +1,18 @@
+import { useTranslation } from 'react-i18next';
 import { useInView } from 'react-intersection-observer';
 import Stat from './Stat';
 import { stats } from '../../../data/stats';
 
 const Stats = () => {
+  const { t } = useTranslation();
+
   const [ref, inView] = useInView({
     triggerOnce: true,
   });
 
   return (
     <section className="py-16">
-      <h2 className="text-center text-Heading-2">احصائيات</h2>
+      <h2 className="text-center text-Heading-2">{t('home-page.stats-section.header')}</h2>
 
       <div
         ref={ref}
@@ -17,7 +20,7 @@ const Stats = () => {
         {stats.map((stat) => (
           <Stat
             key={stat.title}
-            title={stat.title}
+            title={t(`home-page.stats-section.${stat.title}`)}
             number={inView ? stat.number : 0}
             logo={stat.logo}
           />

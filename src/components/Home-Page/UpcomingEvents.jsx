@@ -3,21 +3,35 @@ import Button from '../Button';
 import { upcomingCampaigns } from '../../data/upcomingCampaigns';
 import { Link } from 'react-router-dom';
 import { scrollToTop } from '../../utils/scrollToTop';
+import { useTranslation } from 'react-i18next';
 
 const UpcomingEvents = () => {
-  // Slice the array to get the first 3 elements
+  const { t } = useTranslation();
   const first3Campaigns = upcomingCampaigns.slice(0, 3);
+
+  // Translate campaigns data before passing them to the Card
+  // adjust the campaigns data to preserve the img, but change the text to use the texts form the .json files
+  const translatedUpcomingEvents = first3Campaigns.map((campaign, index) => {
+    return {
+      ...campaign,
+      name: t(`campaigns-page.campaigns-data.${index}.name`),
+      description: t(`campaigns-page.campaigns-data.${index}.description`),
+      date: t(`campaigns-page.campaigns-data.${index}.date`),
+      place: t(`campaigns-page.campaigns-data.${index}.place`),
+    };
+  });
+
   return (
     <section className="py-16 bg-[#FAFBFA]">
-      <div className="flex flex-col justify-center items-center ">
-        <h2 className="text-Heading-2 text-center">حملاتنا </h2>
+      <div className="flex flex-col justify-center items-center">
+        <h2 className="text-Heading-2 text-center">{t('home-page.upcoming-events-section.header')}</h2>
         <p className="text-center text-Body-S md:text-Body-L max-w-lg mt-8 text-highlightBlack">
-          رسالتنا لجميع المؤسسات، الشركات، الدوائر، وسائل الإعلام.. ينضمون ويانه ويدعمـــون الحملة حتى نســـاهم سوية بالتغيير بيــــوم يجمـــــــع كلّ العراقيين
-          تحت شعار <strong>#اليوم_الوطني_للتنظيف.</strong>
+          {t('home-page.upcoming-events-section.paragraph')}
+          <strong>{t('home-page.upcoming-events-section.hashtag')}</strong>
         </p>
       </div>
       <div className="pt-24 pb-6 flex justify-center flex-wrap gap-8">
-        {first3Campaigns.map((campaign, index) => (
+        {translatedUpcomingEvents.map((campaign, index) => (
           <Card
             key={index}
             name={campaign.name}
@@ -32,9 +46,9 @@ const UpcomingEvents = () => {
           onClick={scrollToTop}
           type="button"
           role="link"
-          aria-label="See More"
+          aria-label={t('home-page.upcoming-events-section.see-more-button')}
           className="my-5 tracking-wider text-Button-M block mx-auto font-medium">
-          شاهد المزيد
+          {t('home-page.upcoming-events-section.see-more-button')}
         </Button>
       </Link>
     </section>

@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import Button from '../Button';
+import { useTranslation, Trans } from 'react-i18next';
+
 const SuggestionForm = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     email: '',
     message: '',
@@ -26,8 +29,11 @@ const SuggestionForm = () => {
   return (
     <section className="py-16 px-4">
       <div className="relative">
-        <h2 className="text-center text-Heading-3 text-[#23262F] mb-10">
-          وين تريد تكون حملتنه <span className="peach bg-[#FAD7B5] ">الجاية؟ </span>
+        <h2 className="text-center text-Heading-3 text-[#23262F] mb-10 ">
+          <Trans
+            i18nKey="projects-page.suggestions-form-section.header"
+            components={{ span: <span className="peach bg-[#FAD7B5]" /> }}
+          />
         </h2>
       </div>
 
@@ -38,10 +44,10 @@ const SuggestionForm = () => {
           <label
             htmlFor="email"
             className="block mb-3 text-[#777E90]">
-            البريد الالكتروني
+            {t('projects-page.suggestions-form-section.input.email')}
           </label>
           <input
-            className=" form-inputs"
+            className="form-inputs"
             type="email"
             id="email"
             name="email"
@@ -55,7 +61,7 @@ const SuggestionForm = () => {
           <label
             htmlFor="message"
             className="block mb-3 text-[#777E90]">
-            رسالتك
+            {t('projects-page.suggestions-form-section.input.message')}
           </label>
           <textarea
             className="form-inputs !h-24 md:!h-44"
@@ -70,9 +76,9 @@ const SuggestionForm = () => {
 
         <Button
           role="submit"
-          aria-label="Send a message"
+          aria-label={t('projects-page.suggestions-form-section.input.submit-button')}
           className="mt-10 px-3 py-1 mx-auto block lg:px-6 tracking-wider lg:py-2 text-Button-M font-medium">
-          ارسل الان
+          {t('projects-page.suggestions-form-section.input.submit-button')}
         </Button>
       </form>
     </section>

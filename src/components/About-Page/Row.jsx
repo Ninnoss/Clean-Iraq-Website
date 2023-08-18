@@ -13,7 +13,7 @@ const Row = ({ title, description, description2, imageSrc, imageAlt, isLTR }) =>
     <div
       ref={ref}
       className={`reveal ${animationClass}`}>
-      <div className={`p-4 md:p-7 flex flex-col space-y-8  lg:items-center mx-auto ${!isLTR ? 'md:flex-row' : 'md:flex-row-reverse'}`}>
+      <div className={`p-4 md:p-6 flex flex-col space-y-8  lg:items-center mx-auto ${!isLTR ? 'md:flex-row' : 'md:flex-row-reverse'}`}>
         <div className={`sm:w-10/12 md:w-5/12 lg:w-4/12 mx-auto my-8 text-highlightBlack`}>
           <h3 className="mb-3 md:mb-5 xl:mb-10 text-Heading-2">{title}</h3>
           <p className="text-justify mb-4 text-Body-L">{description}</p>

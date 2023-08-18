@@ -1,16 +1,17 @@
 import { useState } from 'react';
-import { faqData } from '../../data/faqData';
+import { useTranslation } from 'react-i18next';
 
 const CampaignFAQ = () => {
+  const { t } = useTranslation();
   const [selectedIdx, setSelectedIdx] = useState(null);
 
   const toggleQuestion = (index) => {
     setSelectedIdx(selectedIdx === index ? null : index);
   };
-
+  const faqData = t('home-page.faq-section.faq-data', { returnObjects: true });
   return (
     <section className="py-16">
-      <h2 className="text-Heading-2 text-center mb-8">الأسئلة الشائعة</h2>
+      <h2 className="text-Heading-2 text-center mb-8">{t('home-page.faq-section.header')}</h2>
       <div className="flex justify-center items-center">
         <div className="md:w-8/12 lg:w-5/12 p-6">
           <div className="space-y-4">
@@ -20,7 +21,7 @@ const CampaignFAQ = () => {
                   className="cursor-pointer border border-gray-200 rounded-sm p-3 bg-white transition-all duration-300 ease-in-out"
                   onClick={() => toggleQuestion(index)}>
                   <div>
-                    <span className={`transition-transform font-semibold text-xl ml-4`}>{selectedIdx === index ? '-' : '+'}</span>
+                    <span className={`transition-transform font-semibold text-xl mx-2`}>{selectedIdx === index ? '-' : '+'}</span>
                     {item.question}
                   </div>
                 </div>

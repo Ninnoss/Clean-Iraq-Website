@@ -1,15 +1,29 @@
+import { useTranslation } from 'react-i18next';
 import Card from '../Card';
 import { upcomingCampaigns } from '../../data/upcomingCampaigns';
 
 const UpcomingCampaigns = () => {
+  const { t } = useTranslation();
+
+  // Translate campaigns data before passing them to the Card
+  // adjust the campaigns data to preserve the img, but change the text to use the texts form the .json files
+  const translatedUpcomingCampaigns = upcomingCampaigns.map((campaign, index) => {
+    return {
+      ...campaign,
+      name: t(`campaigns-page.campaigns-data.${index}.name`),
+      description: t(`campaigns-page.campaigns-data.${index}.description`),
+      date: t(`campaigns-page.campaigns-data.${index}.date`),
+      place: t(`campaigns-page.campaigns-data.${index}.place`),
+    };
+  });
   return (
     <section className="py-8 pb-48 px-6 bg-white">
       <header className="text-center pb-16">
-        <span className="text-Heading-5 block mb-4  text-primaryOrange">سفراء النظافة بكل مكان</span>
-        <p className="text-Heading-3 font-medium py-4">بجهودكم وبمشاركتكم راح نحقق الأفضل لبلدنا تعالوا ننظف سوة</p>
+        <span className="text-Heading-5 block mb-4  text-primaryOrange">{t('campaigns-page.small-header')}</span>
+        <p className="text-Heading-3 font-medium py-4">{t('campaigns-page.header')}</p>
       </header>
       <div className="flex justify-center flex-wrap gap-16">
-        {upcomingCampaigns.map((campaign, index) => (
+        {translatedUpcomingCampaigns.map((campaign, index) => (
           <Card
             key={index}
             name={campaign.name}
