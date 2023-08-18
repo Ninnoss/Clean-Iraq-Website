@@ -1,8 +1,11 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
 import Button from '../Button';
+import { useTranslation } from 'react-i18next';
 
 const ContactForm = ({ onClose }) => {
+  const { t } = useTranslation();
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -38,7 +41,7 @@ const ContactForm = ({ onClose }) => {
           <label
             htmlFor="name"
             className="block mb-4  text-[#777E90]">
-            الاسم
+            {t('contact-us.name')}
           </label>
           <input
             className="form-inputs h-4 md:h-8"
@@ -56,7 +59,7 @@ const ContactForm = ({ onClose }) => {
           <label
             htmlFor="email"
             className="block mb-4 text-[#777E90]">
-            البريد الالكتروني
+            {t('contact-us.email')}
           </label>
           <input
             className="form-inputs h-4 md:h-8"
@@ -73,7 +76,7 @@ const ContactForm = ({ onClose }) => {
         <label
           htmlFor="message"
           className="block mb-4 text-[#777E90]">
-          رسالتك
+          {t('contact-us.message')}
         </label>
         <textarea
           className="form-inputs !h-24 md:!h-44"
@@ -87,9 +90,9 @@ const ContactForm = ({ onClose }) => {
 
         <Button
           role="submit"
-          aria-label="Send a message"
+          aria-label={t('contact-us.submit-button')}
           className="mt-10 px-3 py-1 mx-auto block lg:px-6 tracking-wider lg:py-2 text-Button-M font-medium">
-          ارسل الان
+          {t('contact-us.submit-button')}
         </Button>
       </form>
     </div>

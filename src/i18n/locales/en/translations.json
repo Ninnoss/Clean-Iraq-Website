@@ -117,6 +117,7 @@
       "join-us-button": "Join Us"
     }
   },
+
   "campaigns-page": {
     "small-header": "Clean Ambassadors Everywhere",
     "header": "With your efforts and participation, we will achieve the best for our country. Come join us in cleaning!",
@@ -216,5 +217,68 @@
       "note": "Note: If you prefer not to share your information, you can still participate without filling out the form. However, you won't receive any campaign materials (such as t-shirts, water bottles, medals, etc.)",
       "join-us-button": "Join Us"
     }
+  },
+
+  "projects-page": {
+    "previous-events-section": {
+      "slider": {
+        "text": "We",
+        "words": ["Collaborate", "Clean", "Plant", "Recycle", "Spread Message"]
+      },
+
+      "secondary-header": "Thank you to all participants in the cleanup campaign. Thanks to you, we have made a significant change and made these places clean and beautiful.",
+
+      "location-description": "Location Description Arabic"
+    },
+
+    "testimonials-section": {
+      "header": "Volunteers' Feedback on the Campaign",
+      "testimonials-data": [
+        {
+          "name": "Ninos Isho",
+          "title": "Volunteer",
+          "review": "The cleanup campaign is an important effort to preserve the beauty of the environment and human health. It contributes to preventing air and water pollution and reduces the impacts of climate change. Additionally, the campaigns organized by local communities enhance collective spirit and awareness of the importance of maintaining environmental cleanliness."
+        },
+        {
+          "name": "Shahad",
+          "title": "Volunteer",
+          "review": "Thanks to the cleanup campaign's efforts, we have achieved tangible improvements in the quality of our surrounding environment. We have witnessed a noticeable reduction in air and water pollution, positively impacting our health and the health of our families. We have learned the importance of collective work and community participation in maintaining environmental cleanliness, and we now have a greater awareness of our impact on climate changes. We are proud to contribute to building a healthy and sustainable future for the next generations."
+        },
+        {
+          "name": "Hammam",
+          "title": "Volunteer",
+          "review": "When I participated in the local cleanup campaign, I didn't realize the extent of our positive impact on our environment. I learned that cleaning streets and collecting waste is not just a task, but our duty to our planet and our health. Through our cooperation as a community, we were able to achieve a simple yet significant change in our local environment. We now have a sense of pride and responsibility towards the place we live in, and we are determined to continue working for a clean and healthy environment."
+        },
+        {
+          "name": "Mohammed Taqi",
+          "title": "Volunteer",
+          "review": "My experience with the cleanup campaign was truly amazing. I didn't expect that joining the effort to clean the area would be so enjoyable and inspiring. I saw how ordinary individuals can make a significant positive impact on their environment. By collecting waste and cleaning public areas, the environment became more beautiful and healthier. My participation in this campaign has positively influenced my vision for the future, as I believe that small changes can lead to significant improvements in our lives and surroundings."
+        }
+      ]
+    },
+
+    "suggestions-form-section": {
+      "header": "Where do you want our <span>next</span> campaign to be?",
+      "input": {
+        "email": "Email",
+        "message": "Your Message",
+        "submit-button": "Send Now"
+      }
+    }
+  },
+
+  "card": {
+    "join-campaign-button": "Join the Campaign",
+    "date": "Date: ",
+    "volunteers": "Number of Volunteers: ",
+    "trash bags": "Number of Trash Bags: "
+  },
+
+  "contact-us": {
+    "header": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Your Message",
+    "submit-button": "Send Now"
   }
 }
