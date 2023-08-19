@@ -341,6 +341,13 @@
       ]
     }
   },
+  
+  "not-found-page": {
+    "heading": "Sorry...",
+    "subheading": "Page Not Found",
+    "message": "We're sorry about that! Please visit our homepage to navigate to the destination you intended.",
+    "back-to-home-button": "Back to Homepage"
+  },
 
   "card": {
     "join-campaign-button": "Join Campaign",

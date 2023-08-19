@@ -48,6 +48,9 @@ import user from '../assets/Imgs/Projects-Page/User.png';
 import banner from '../assets/Imgs/Blogs-Page/banner.webp';
 import cleaningRiverSide from '../assets/Imgs/Blogs-Page/cleaning-river-side.webp';
 import teamGroupPhoto from '../assets/Imgs/Blogs-Page/team-group-photo.webp';
+//Not Found 404
+import error from '../assets/Imgs/404/cuate.png';
+import lines from '../assets/Imgs/404/lines.svg';
 
 export default {
   navLogo,
@@ -95,4 +98,7 @@ export default {
   banner,
   cleaningRiverSide,
   teamGroupPhoto,
+  //Not Found
+  error,
+  lines,
 };

@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import images from '../../data/images';
 import { ourTeam } from '../../data/outTeam';
 
 const OurTeam = () => {
