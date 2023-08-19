@@ -71,6 +71,10 @@ import most6 from '../assets/Imgs/Blog-Page/most_importint6.png';
 import share from '../assets/Imgs/Blog-Page/sharelogo.svg';
 import dot from '../assets/Imgs/Blog-Page/Dot.svg';
 
+//Not Found 404
+import error from '../assets/Imgs/cuate.png';
+import lines from '../assets/Imgs/lines.svg'
+
 export default {
   navLogo,
   logoPin,
@@ -134,4 +138,8 @@ export default {
    most6,
    share,
    dot,
+
+   //Not Found 
+   error,
+   lines,
 };
