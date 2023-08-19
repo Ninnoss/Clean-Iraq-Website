@@ -37,7 +37,7 @@ const CampaignDetailsPage = () => {
 
         <section className="relative ">
           <JoinUs />
-          {/* Square designs */}
+          {/* Square designs*/}
           <div className="w-12 md:w-16 xl:w-20 h-16 md:h-24 absolute bottom-[1rem] end-[2rem] rounded-lg bg-[#bbd1c2]"></div>
           <div className="w-12 md:w-16 h-12 md:h-16 absolute bottom-0 end-0 rounded-lg bg-[#F4DDBC]"></div>
         </section>
