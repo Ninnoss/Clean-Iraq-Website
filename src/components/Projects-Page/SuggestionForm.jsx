@@ -32,7 +32,7 @@ const SuggestionForm = () => {
         <h2 className="text-center text-Heading-3 text-[#23262F] mb-10 ">
           <Trans
             i18nKey="projects-page.suggestions-form-section.header"
-            components={{ span: <span className="peach bg-[#FAD7B5]" /> }}
+            components={{ span: <span className="scratch-effect bg-[#FAD7B5]" /> }}
           />
         </h2>
       </div>

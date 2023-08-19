@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* Navbar slide bottom animations */
 .slide-bottom {
   -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -49,8 +53,7 @@
   font-weight: 600;
 }
 
-/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* Solar system stuff */
+/* Home-page campaign faces animations */
 
 @keyframes translate-sun {
   0% {
@@ -98,24 +101,22 @@
 }
 
 /*  */
-.peach {
+.scratch-effect {
   border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
 }
 
 /* Blogs */
-.underline-effect:after{
-    content: "";
-    position: absolute;
-    background-color: #548C67;
-    height: 3px;
-    width: 0;
-    left: 0;
-    bottom: -6px;
-    transition: 0.3s;
+.underline-effect:after {
+  content: '';
+  position: absolute;
+  background-color: #548c67;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -6px;
+  transition: 0.3s;
 }
 
-.underline-effect:hover:after{
-    width: 100%;
+.underline-effect:hover:after {
+  width: 100%;
 }
-
-
