@@ -1,5 +1,5 @@
 // Retrieve cached events data from localStorage
-const cachedEventsData = sessionStorage.getItem('eventsData');
+const cachedEventsData = sessionStorage.getItem('previousEventsData');
 const pastEvents = JSON.parse(cachedEventsData) || []; // Parse the data or provide an empty array if it's not available
 
 // Calculate the total trash bags and volunteers

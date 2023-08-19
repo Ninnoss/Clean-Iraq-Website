@@ -123,42 +123,43 @@
     "header": "With your efforts and participation, we will achieve the best for our country. Come join us in cleaning!",
     "campaigns-data": [
       {
-        "name": "Basra Campaign",
-        "description": "Join us in the Basra Cleanup Campaign on Saturday at the Corniche area! Join us in the Basra Cleanup Campaign on Saturday at the Corniche area!",
+        "name": "Basrah Cleaning Campaign",
+        "description": "Join us for the Basrah Cleaning Campaign on Saturday in the Corniche area! Don't miss out on this opportunity to participate and contribute to the cleanliness of Basrah.",
         "date": "Saturday, 4:00 PM",
-        "place": "Basra"
+        "place": "Al-Zubair Port"
       },
       {
-        "name": "Baghdad Campaign",
-        "description": "There is a cleanup campaign in Baghdad on Sunday at Tahrir Square! There is a cleanup campaign in Baghdad on Sunday",
+        "name": "Baghdad Cleaning Campaign",
+        "description": "There's a cleaning campaign in Baghdad on Sunday in the Liberation Square area! Don't miss out on this opportunity to participate and contribute to the cleanliness of Baghdad.",
         "date": "Sunday, 3:00 PM",
-        "place": "Baghdad"
+        "place": "Tahrir Square"
       },
       {
-        "name": "Mosul Campaign",
-        "description": "Join us on Monday in the streets of Mosul for a comprehensive cleanup campaign! Join now and participate in the cleaning on Monday in the forest area!",
+        "name": "Mosul Cleaning Campaign",
+        "description": "Join us on Monday in the streets of Mosul for a comprehensive cleaning campaign! Join now and participate in cleaning the forests in the Mosul area.",
         "date": "Monday, 2:00 PM",
-        "place": "Mosul"
+        "place": "Al-Jisr Al-Kabeer Bridge"
       },
       {
-        "name": "Nasiriyah Campaign",
-        "description": "Gather with us on Tuesday in Nasiriyah to start a city-wide cleanup campaign! Gather with us on Tuesday at the Nasiriyah Park.",
+        "name": "Nasiriyah Cleaning Campaign",
+        "description": "Gather with us on Tuesday in Nasiriyah to start the city's cleaning campaign! Join us on Tuesday at Nasiriyah Park.",
         "date": "Tuesday, 1:00 PM",
-        "place": "Nasiriyah"
+        "place": "Al-Mualim Bridge"
       },
       {
-        "name": "Maysan Campaign",
-        "description": "We invite you to join the Maysan Cleanup Campaign on Wednesday and make it more beautiful! We invite you to join on Wednesday.",
+        "name": "Maysan Cleaning Campaign",
+        "description": "We invite you to join us on Wednesday for the Maysan cleaning campaign and make it even more beautiful! Join us on Wednesday at Najaf Ashraf Temple.",
         "date": "Wednesday, 6:00 PM",
-        "place": "Maysan"
+        "place": "Najaf Ashraf Temple"
       },
       {
-        "name": "Diwaniyah Campaign",
-        "description": "Thursday marks the start of the Diwaniyah Cleanup Campaign! Join to make the city cleaner and more beautiful. Thursday marks the start of the Diwaniyah Cleanup Campaign!",
+        "name": "Diwaniyah Cleaning Campaign",
+        "description": "Thursday marks the beginning of the Diwaniyah cleaning campaign! Join to make the city cleaner and more beautiful. Thursday marks the beginning of the Diwaniyah cleaning campaign!",
         "date": "Thursday, 7:00 PM",
-        "place": "Diwaniyah"
+        "place": "Amir Bridge"
       }
     ],
+
     "join-campaign-button": "Join the Campaign",
 
     "form-section": {
@@ -343,6 +344,9 @@
 
   "card": {
     "join-campaign-button": "Join Campaign",
+    "go-back-button": "Campaigns",
+    "campaign-not-found": "Campaign not found. Go back to the campaigns page",
+
     "date": "Date: ",
     "volunteers": "Number of Volunteers: ",
     "trash bags": "Number of Trash Bags: "

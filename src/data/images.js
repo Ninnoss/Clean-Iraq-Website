@@ -44,9 +44,6 @@ import ali from '../assets/Imgs/About-Page/ali.svg';
 import cardPlaceHolder from '../assets/Imgs/Projects-Page/card-place-holder.png';
 import user from '../assets/Imgs/Projects-Page/User.png';
 
-//Campaigns page
-import cardLogo from '../assets/Imgs/Campaigns/campaigns-img.jpg';
-
 //Blog-Page
 import banner from '../assets/Imgs/Blog-Page/banner.webp';
 import cleaningRiverSide from '../assets/Imgs/Blog-Page/cleaning-river-side.webp';
@@ -90,7 +87,6 @@ export default {
   murtada,
   ali,
   // Campaigns-page
-  cardLogo,
   //Projects page
   cardPlaceHolder,
   user,

@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 const TestimonialCard = ({ img, review, name, title }) => {
   return (
-    <article className="p-6 md:h-[22rem] w-8/12 md:max-w-screen-xl bg-white rounded-xl">
+    <article className="p-6 md:h-[25rem] w-8/12 md:max-w-screen-xl bg-white rounded-xl">
       <figure className="flex justify-center mb-6">
         <img
           className="w-20  h-20 rounded-full object-cover"

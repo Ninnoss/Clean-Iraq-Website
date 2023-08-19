@@ -3,26 +3,8 @@ import { useTranslation } from 'react-i18next';
 import Button from '../Button';
 
 const JoinUsForm = () => {
-  const cities = [
-    'بغداد',
-    'نينوى',
-    'البصرة',
-    'القادسية',
-    'اربيل',
-    'النجف',
-    'بابل',
-    'الانبار',
-    'ذي قار',
-    'كركوك',
-    'ميسان',
-    'السليمانية',
-    'دهوك',
-    'صلاح الدين',
-    'كربلاء',
-    'ديالى',
-    'المثنى',
-    'واسط',
-  ];
+  const { t } = useTranslation();
+  const governorateOptions = t('campaigns-page.form-section.governorate.options', { returnObjects: true });
 
   const initialFormData = {
     name: '',
@@ -33,8 +15,6 @@ const JoinUsForm = () => {
     occupation: '',
     governorate: '',
   };
-
-  const { t } = useTranslation();
 
   const [formData, setFormData] = useState(initialFormData);
 
@@ -66,6 +46,7 @@ const JoinUsForm = () => {
           value={formData.name}
           onChange={handleChange}
           className="form-inputs"
+          required="true"
         />
       </div>
 
@@ -80,6 +61,7 @@ const JoinUsForm = () => {
           value={formData.age}
           onChange={handleChange}
           className="form-inputs"
+          required="true"
         />
       </div>
 
@@ -93,6 +75,7 @@ const JoinUsForm = () => {
           value={formData.number}
           onChange={handleChange}
           className="form-inputs"
+          required="true"
         />
       </div>
 
@@ -109,6 +92,7 @@ const JoinUsForm = () => {
               name="sex"
               checked={formData.sex === 'male'}
               onChange={handleChange}
+              required="true"
             />
             {t('campaigns-page.form-section.sex.options.0')}
           </label>
@@ -122,6 +106,7 @@ const JoinUsForm = () => {
               name="sex"
               checked={formData.sex === 'female'}
               onChange={handleChange}
+              required="true"
             />
             {t('campaigns-page.form-section.sex.options.1')}
           </label>
@@ -138,6 +123,7 @@ const JoinUsForm = () => {
           value={formData.telegramId}
           onChange={handleChange}
           className="form-inputs"
+          required="true"
         />
       </div>
 
@@ -166,7 +152,7 @@ const JoinUsForm = () => {
           onChange={handleChange}
           className="form-inputs">
           <option value="">{t('campaigns-page.form-section.governorate.options.0')}</option>
-          {cities.map((city, index) => (
+          {governorateOptions.map((city, index) => (
             <option
               key={index}
               value={city}>

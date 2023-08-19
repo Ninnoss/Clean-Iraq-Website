@@ -4,7 +4,7 @@ import images from '../../../data/images';
 
 const CampaignsMap = () => {
   const apiKey = import.meta.env.VITE_REACT_APP_GOOGLE_MAPS_API_KEY;
-  const cachedEventsData = localStorage.getItem('eventsData');
+  const cachedEventsData = sessionStorage.getItem('previousEventsData');
   const pastEvents = JSON.parse(cachedEventsData) || [];
 
   const [mapLoaded, setMapLoaded] = useState(false);
