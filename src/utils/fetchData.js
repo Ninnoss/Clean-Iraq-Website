@@ -10,7 +10,7 @@ export const fetchData = (setData) => {
       .then((response) => response.json())
       .then((data) => {
         setData(data);
-        sessionStorage.setItem('previousEventsData', JSON.stringify(data)); // Store data in sessionStorage
+        sessionStorage.setItem('previousEventsData', JSON.stringify(data)); // Store the data in sessionStorage
       })
       .catch((error) => {
         console.error('Error fetching data:', error);
