@@ -11,20 +11,23 @@ const OurTeam = () => {
         <h2 className="text-Heading-3 text-center max-w-lg">{t('about-page.our-team-section.header')}</h2>
       </div>
 
-      {/* TODO: Placeholder Imgs. CHANGE THEM */}
-      <div className="py-20 px-10 flex justify-center flex-wrap gap-10">
+      <div className="py-20 px-10 flex justify-center flex-wrap gap-16 md:gap-24">
         {ourTeam.map((image, index) => (
-          <figure key={index}>
-            <img
-            className='rounded-lg'
-              src={image.img}
-              loading="lazy"
-              alt={`picture of ${image.alt}`}
-              alt={image.alt}
-
-            />
-            <figcaption className="sr-only">{`picture of ${images.murtadha2}`}</figcaption>
-          </figure>
+          <div key={index}>
+            <figure>
+              <img
+                className="rounded-lg"
+                src={image.img}
+                loading="lazy"
+                alt={`picture of ${image.alt}`}
+              />
+              <figcaption className="sr-only">{`picture of ${image.name}`}</figcaption>
+            </figure>
+            <div>
+              <h4 className="text-Heading-4 text-center pt-2 ">{image.name}</h4>
+              <span className="text-center block">Founder</span>
+            </div>
+          </div>
         ))}
       </div>
     </section>

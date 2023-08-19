@@ -120,3 +120,27 @@ html {
 .underline-effect:hover:after {
   width: 100%;
 }
+
+/* Projects page slider header */
+.slide-header {
+    transform: translateY(-80px);
+    animation: slide 8s ease-in-out infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateY(-100px);
+    }
+    15%, 25% {
+      transform: translateY(-50px);
+    }
+    40%, 50% {
+      transform: translateY(0);
+    }
+    65%, 75% {
+      transform: translateY(50px);
+    }
+    90%, 100% {
+      transform: translateY(100px);
+    }
+  }

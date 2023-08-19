@@ -45,9 +45,9 @@ import cardPlaceHolder from '../assets/Imgs/Projects-Page/card-place-holder.png'
 import user from '../assets/Imgs/Projects-Page/User.png';
 
 //Blog-Page
-import banner from '../assets/Imgs/Blog-Page/banner.webp';
-import cleaningRiverSide from '../assets/Imgs/Blog-Page/cleaning-river-side.webp';
-import teamGroupPhoto from '../assets/Imgs/Blog-Page/team-group-photo.webp';
+import banner from '../assets/Imgs/Blogs-Page/banner.webp';
+import cleaningRiverSide from '../assets/Imgs/Blogs-Page/cleaning-river-side.webp';
+import teamGroupPhoto from '../assets/Imgs/Blogs-Page/team-group-photo.webp';
 
 export default {
   navLogo,

@@ -46,7 +46,7 @@ const JoinUsForm = () => {
           value={formData.name}
           onChange={handleChange}
           className="form-inputs"
-          required="true"
+          required
         />
       </div>
 
@@ -61,7 +61,7 @@ const JoinUsForm = () => {
           value={formData.age}
           onChange={handleChange}
           className="form-inputs"
-          required="true"
+          required
         />
       </div>
 
@@ -75,7 +75,7 @@ const JoinUsForm = () => {
           value={formData.number}
           onChange={handleChange}
           className="form-inputs"
-          required="true"
+          required
         />
       </div>
 
@@ -92,7 +92,7 @@ const JoinUsForm = () => {
               name="sex"
               checked={formData.sex === 'male'}
               onChange={handleChange}
-              required="true"
+              required
             />
             {t('campaigns-page.form-section.sex.options.0')}
           </label>
@@ -106,7 +106,7 @@ const JoinUsForm = () => {
               name="sex"
               checked={formData.sex === 'female'}
               onChange={handleChange}
-              required="true"
+              required
             />
             {t('campaigns-page.form-section.sex.options.1')}
           </label>
@@ -123,7 +123,7 @@ const JoinUsForm = () => {
           value={formData.telegramId}
           onChange={handleChange}
           className="form-inputs"
-          required="true"
+          required
         />
       </div>
 

@@ -1,8 +1,8 @@
-import images from "./images";
+import images from './images';
 
 export const ourTeam = [
-    { img: images.hasan, alt: "hasan" },
-    { img: images.mustafa, alt: "mustafa" },
-    { img: images.murtada, alt: "murtada" },
-    { img: images.ali, alt: "ali" },
-]
+  { name: 'Hasan', img: images.hasan, alt: 'Hasan' },
+  { name: 'Mustafa', img: images.mustafa, alt: 'Mustafa' },
+  { name: 'Murtada', img: images.murtada, alt: 'Murtada' },
+  { name: 'Ali', img: images.ali, alt: 'Ali' },
+];

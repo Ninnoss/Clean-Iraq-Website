@@ -18,9 +18,9 @@ const UpcomingCampaigns = () => {
   });
   return (
     <section className="py-8 pb-36 px-6 bg-white">
-      <header className="text-center pb-16">
+      <header className="flex flex-col items-center pb-16">
         <span className="text-Heading-5 block mb-4  text-primaryOrange">{t('campaigns-page.small-header')}</span>
-        <p className="text-Heading-3 font-medium py-4">{t('campaigns-page.header')}</p>
+        <p className="text-Heading-3 !font-normal text-center py-4 md:max-w-[80%]">{t('campaigns-page.header')}</p>
       </header>
       <div className="flex justify-center flex-wrap gap-16">
         {translatedUpcomingCampaigns.map((campaign, index) => (

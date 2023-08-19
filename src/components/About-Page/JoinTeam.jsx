@@ -19,13 +19,16 @@ const JoinTeam = () => {
         </Button>
       </div>
 
-      <figure>
+      <figure className="relative">
         <img
           className="w-full md:w-[575px] md:h-[345px] rounded-lg"
           src={images.teamSectionMember}
           loading="lazy"
           alt={'Team member photo'}
         />
+        <div className="w-36 h-36 lg:w-40 lg:h-40 absolute -top-6 -start-6 lg:-start-8 rounded-lg bg-[#F4DDBC] -z-10"></div>
+        <div className="w-36 h-36 lg:w-40 lg:h-40 absolute top-24 md:top-56 -end-6  rounded-lg bg-[#bbd1c2] -z-10"></div>
+
         <figcaption className="sr-only">{'Team member photo'}</figcaption>
       </figure>
     </section>
