@@ -22,12 +22,12 @@ const CampaignDetails = () => {
           </div>
         
           <div className="text-start max-w-[600px] pt-6 sm:pt-8">
-            <h2 className="text-Heading-2">{selectedCampaign.name}</h2>
-            <p className="text-Body-L text-highlightBlack">{selectedCampaign.description}</p>
+            <h2 className="text-Heading-4 pb-5">{selectedCampaign.name}</h2>
+            <p className="text-Body-M text-highlightBlack">{selectedCampaign.description}</p>
             
             <div className="text-Heading-6 flex justify-between pt-10">
-              <h6 className="text-primaryGreen"><img src={pin} alt="pin" className="inline-block" /> {selectedCampaign.place}</h6>
-              <h6 className="text-highlightBlack">{selectedCampaign.date}</h6>
+              <h6 className="text-primaryGreen text-Subtitile-M"><img src={pin} alt="pin" className="inline-block" /><strong> {selectedCampaign.place}</strong></h6>
+              <h6 className="text-highlightBlack text-Subtitile-M"><strong>{selectedCampaign.date}</strong></h6>
             </div>
             
           </div>
