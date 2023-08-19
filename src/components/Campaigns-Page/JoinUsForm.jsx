@@ -35,7 +35,7 @@ const JoinUsForm = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="mx-auto w-9/12 sm:w-7/12 md:w-6/12 lg:w-4/12  text-Body-L">
+      className="mx-auto w-9/12 sm:w-7/12 md:w-6/12 lg:w-4/12 text-Body-L">
       <div className="w-full py-2">
         <label htmlFor="name">{t('campaigns-page.form-section.name.label')}</label>
         <input

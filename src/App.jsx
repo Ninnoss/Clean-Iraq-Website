@@ -5,10 +5,10 @@ import Footer from './components/Navigation/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Campaigns from './pages/Campaigns';
-import CampaignDetails from './components/Campaigns-Page/CampaignDetails';
 import Projects from './pages/Projects';
 import NotFound from './pages/NotFound';
 import Blogs from './pages/Blogs';
+import CampaignDetailsPage from './pages/CampaignDetailsPage';
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
         />
         <Route
           path="/campaigns/:campaignName"
-          element={<CampaignDetails />}
+          element={<CampaignDetailsPage />}
         />
 
         <Route
