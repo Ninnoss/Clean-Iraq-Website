@@ -1,13 +1,13 @@
 import PreviousEvents from '../components/Projects-Page/PreviousEvents';
 import Testimonials from '../components/Projects-Page/Testimonials/Testimonials';
-import SuggestionForm from '../components/Projects-Page/SuggestionForm';
+import CampaignLocations from '../components/Projects-Page/Map/CampaignLocations';
 
 const Projects = () => {
   return (
     <>
       <PreviousEvents />
       <Testimonials />
-      <SuggestionForm />
+      <CampaignLocations />
     </>
   );
 };

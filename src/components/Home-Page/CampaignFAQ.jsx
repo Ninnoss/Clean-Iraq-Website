@@ -10,7 +10,7 @@ const CampaignFAQ = () => {
   };
   const faqData = t('home-page.faq-section.faq-data', { returnObjects: true });
   return (
-    <section className="py-16">
+    <section className="py-16 bg-highlightGrey">
       <h2 className="text-Heading-2 text-center mb-8">{t('home-page.faq-section.header')}</h2>
       <div className="flex justify-center items-center">
         <div className="md:w-8/12 lg:w-5/12 p-6">
@@ -18,7 +18,7 @@ const CampaignFAQ = () => {
             {faqData.map((item, index) => (
               <div key={index}>
                 <div
-                  className="cursor-pointer border border-gray-200 rounded-sm p-3 bg-white transition-all duration-300 ease-in-out"
+                  className="cursor-pointer border border-gray-200 rounded-md p-3  transition-all duration-300 ease-in-out"
                   onClick={() => toggleQuestion(index)}>
                   <div>
                     <span className={`transition-transform font-semibold text-xl mx-2`}>{selectedIdx === index ? '-' : '+'}</span>

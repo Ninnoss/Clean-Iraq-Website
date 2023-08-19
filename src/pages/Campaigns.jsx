@@ -1,10 +1,11 @@
+import SuggestionForm from '../components/Campaigns-Page/SuggestionForm';
 import UpcomingCampaigns from '../components/Campaigns-Page/UpcomingCampaigns';
-import JoinUs from '../components/Campaigns-Page/JoinUs';
 
 const Campaigns = () => {
   return (
     <>
       <UpcomingCampaigns />
+      <SuggestionForm />
     </>
   );
 };

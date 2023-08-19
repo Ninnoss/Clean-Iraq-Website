@@ -1,6 +1,5 @@
 import CampaignFAQ from '../components/Home-Page/CampaignFAQ';
 import CampaignFaces from '../components/Home-Page/Campaign-Faces/CampaignFaces';
-import CampaignLocations from '../components/Home-Page/Map/CampaignLocations';
 import Hero from '../components/Home-Page/Hero';
 import Info from '../components/Home-Page/Info';
 import Newsletter from '../components/Home-Page/Newsletter';
@@ -15,7 +14,6 @@ const Home = () => {
       <Stats />
       <UpcomingEvents />
       <CampaignFaces />
-      <CampaignLocations />
       <CampaignFAQ />
       <Newsletter />
     </main>

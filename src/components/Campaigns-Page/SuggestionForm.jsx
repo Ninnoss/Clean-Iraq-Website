@@ -27,7 +27,7 @@ const SuggestionForm = () => {
   };
 
   return (
-    <section className="py-16 px-4">
+    <section className="py-16 px-4 bg-highlightGrey/75">
       <div className="relative">
         <h2 className="text-center text-Heading-3 text-[#23262F] mb-10 ">
           <Trans
