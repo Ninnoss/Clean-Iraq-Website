@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
 import images from '../../data/images';
 import { scrollToTop } from '../../utils/scrollToTop';
 import { useTranslation } from 'react-i18next';
@@ -81,29 +81,22 @@ const Footer = () => {
         <div>
           <div className="flex gap-3 mt-2 text-highlightGrey">
             <a
-              href="#"
+              href="https://www.instagram.com/clean.iraq/"
               className="hover:scale-110 transition-all duration-200 mx-2"
               aria-label="Instagram">
               <FaInstagram />
             </a>
             <a
-              href="#"
-              className="hover:scale-110 transition-all duration-200 mx-2"
-              aria-label="Instagram">
-              <FaYoutube />
-            </a>
-
-            <a
-              href="#"
+              href="https://www.facebook.com/clean.iraq/"
               className="hover:scale-110 transition-all duration-200 mx-2"
               aria-label="Facebook">
               <FaFacebook />
             </a>
             <a
-              href="#"
+              href="https://youtu.be/nvzqgJXEdkk"
               className="hover:scale-110 transition-all duration-200 mx-2"
-              aria-label="Twitter">
-              <FaTwitter />
+              aria-label="Instagram">
+              <FaYoutube />
             </a>
           </div>
         </div>

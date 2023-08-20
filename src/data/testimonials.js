@@ -1,29 +1,35 @@
-import images from './images';
+// Project page: testimonials
+import user from '../assets/Imgs/Projects-Page/User.png';
+import john from '../assets/Imgs/Projects-Page/John.webp';
+import jane from '../assets/Imgs/Projects-Page/Jane.webp';
+import david from '../assets/Imgs//Projects-Page/David.webp';
+// import mona from '../assets/Imgs/Projects-Page/Mona.webp';
+// import sarah from '../assets/Imgs//Projects-Page/Sarah.webp';
 
 export const testimonials = [
   {
-    img: images.user,
+    img: user,
     name: 'نينوس ايشو',
     title: 'متطوع',
     review:
       'تعتبر حملة التنظيف جهودًا هامة للحفاظ على جمال البيئة وصحة الإنسان، حيث تساهم في منع تلوث الهواء والمياه والتقليل من تأثيرات التغير المناخي. إلى جانب ذلك، تعزز الحملات التي تعقدها المجتمعات المحلية الروح الجماعية والوعي بأهمية المحافظة على نظافة البيئة ',
   },
   {
-    img: images.jane,
+    img: jane,
     name: 'شهد',
     title: 'متطوع',
     review:
       'بفضل جهود حملة التنظيف، نجحنا في تحقيق تحسن ملموس في جودة البيئة المحيطة بنا. فقد شهدنا تقليلًا ملحوظًا في تلوث الهواء والمياه، مما أثر إيجابيًا على صحتنا وصحة عائلاتنا. لقد تعلمنا أهمية العمل الجماعي والمشاركة المجتمعية في المحافظة على نظافة البيئة، وأصبح لدينا وعي أكبر بأثرنا على التغيرات المناخية. نشعر بفخر بالمساهمة في بناء مستقبل صحي ومستدام للأجيال القادمة. ',
   },
   {
-    img: images.david,
+    img: david,
     name: 'همام',
     title: 'متطوع',
     review:
       'عندما شاركت في حملة التنظيف المحلية، لم أكن أدرك بمدى تأثيرنا الإيجابي على بيئتنا. تعلمت أن تنظيف الشوارع وجمع النفايات ليس مجرد مهمة، بل هو واجبنا تجاه كوكبنا وصحتنا. من خلال تعاوننا كمجتمع، استطعنا تحقيق تغيير ملموس وبسيط في بيئتنا المحلية. أصبح لدينا شعور بالفخر والمسؤولية تجاه المكان الذي نعيش فيه، ونحن عازمون على الاستمرار في العمل من أجل بيئة نظيفة وصحية.',
   },
   {
-    img: images.john,
+    img: john,
     name: 'محمد تقي',
     title: 'متطوع',
     review:

@@ -1,4 +1,4 @@
-import { orbits } from '../../../data/orbits';
+import { orbits } from '../../../data/orbitsImgs';
 import OrbitImage from './OrbitImage';
 import { useTranslation } from 'react-i18next';
 

@@ -1,4 +1,4 @@
-import { FiGlobe } from 'react-icons/fi';
+import { MdGTranslate } from 'react-icons/md';
 import { useTranslation } from 'react-i18next';
 
 const LanguageSwitcher = () => {
@@ -12,12 +12,11 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <div className="flex items-center absolute end-36 md:top-7 md:end-4">
+    <div className="flex items-center absolute end-36 md:top-4 md:-me-32 lg:me-0 lg:top-7 lg:end-4">
       <button
         onClick={handleLanguageChange}
-        className="flex items-center justify-center bg-primaryOrange text-white py-1.5 px-3 rounded-lg">
-        <FiGlobe className="mx-2" />
-        {i18n.language === 'en' ? 'عربي' : 'English'}
+        className="flex items-center justify-center text-primaryOrange font-bold text-xl  py-1.5 px-3 md:px-0 lg:px-3 rounded-lg">
+        {i18n.language === 'en' ? 'Ar' : 'En'} <MdGTranslate className="mx-2" />
       </button>
     </div>
   );

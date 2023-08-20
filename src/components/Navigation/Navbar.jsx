@@ -60,7 +60,7 @@ const Navbar = () => {
 
         <NavLink
           to="/campaigns"
-          className="hidden md:block">
+          className="hidden md:block md:me-16">
           <Button
             onClick={scrollToTop}
             type="button"
