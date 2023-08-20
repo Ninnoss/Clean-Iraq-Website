@@ -12,11 +12,16 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <div className="flex items-center absolute end-36 md:top-4 md:-me-32 lg:me-0 lg:top-7 lg:end-4">
+    <div className="flex items-center absolute end-10 md:top-4 lg:me-0 lg:top-7 lg:end-4">
       <button
         onClick={handleLanguageChange}
-        className="flex items-center justify-center text-primaryOrange font-bold text-xl  py-1.5 px-3 md:px-0 lg:px-3 rounded-lg">
-        {i18n.language === 'en' ? 'Ar' : 'En'} <MdGTranslate className="mx-2" />
+        className="flex items-center justify-center text-highlightBlack  font-bold text-md py-1.5 px-3 md:px-0 lg:px-3 rounded-lg">
+        {i18n.language === 'en' ? 'Ar' : 'En'}{' '}
+        <MdGTranslate
+          color="#E4AA58"
+          size={20}
+          className="mx-2"
+        />
       </button>
     </div>
   );

@@ -30,7 +30,7 @@ const NotFound = () => {
             type="button"
             role="link"
             aria-label={''}
-            className="my-5 tracking-wider text-Button-M block mx-auto font-medium">
+            className="my-5 tracking-wider text-Button-M block font-medium">
             {t('not-found-page.back-to-home-button')}
           </Button>
         </Link>

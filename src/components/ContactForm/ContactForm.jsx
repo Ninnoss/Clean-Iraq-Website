@@ -40,11 +40,11 @@ const ContactForm = ({ onClose }) => {
         <div className="mb-4">
           <label
             htmlFor="name"
-            className="block mb-4  text-[#777E90]">
+            className="block mb-1  text-[#777E90]">
             {t('contact-us.name')}
           </label>
           <input
-            className="form-inputs h-4 md:h-8"
+            className="form-inputs h-10 md:h-10"
             type="text"
             id="name"
             name="name"
@@ -58,11 +58,11 @@ const ContactForm = ({ onClose }) => {
         <div className="mb-4">
           <label
             htmlFor="email"
-            className="block mb-4 text-[#777E90]">
+            className="block mb-1 text-[#777E90]">
             {t('contact-us.email')}
           </label>
           <input
-            className="form-inputs h-4 md:h-8"
+            className="form-inputs h-10 md:h-10"
             type="email"
             id="email"
             name="email"
@@ -75,7 +75,7 @@ const ContactForm = ({ onClose }) => {
 
         <label
           htmlFor="message"
-          className="block mb-4 text-[#777E90]">
+          className="block mb-1 text-[#777E90]">
           {t('contact-us.message')}
         </label>
         <textarea

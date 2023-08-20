@@ -1,6 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import Button from '../Button';
 import images from '../../data/images';
+import { NavLink } from 'react-router-dom';
+import { scrollToTop } from '../../utils/scrollToTop';
 
 const JoinTeam = () => {
   const { t } = useTranslation();
@@ -10,13 +12,18 @@ const JoinTeam = () => {
       <div className="pt-6 pb-8  md:text-start md:max-w-[50%]">
         <h2 className="text-Heading-2">{t('about-page.join-team-section.header')}</h2>
         <p className="text-Body-L pt-6 md:pt-12 pb-6">{t('about-page.join-team-section.paragraph')}</p>
-        <Button
-          type="button"
-          role="link"
-          aria-label="Join us"
-          className="my-5 lg:px-6 lg:py-1.5  tracking-wider text-Button-M block self-start font-medium">
-          {t('about-page.join-team-section.join-us-button')}
-        </Button>
+        <NavLink
+          to="/campaigns"
+          className="hidden md:block md:me-16">
+          <Button
+            onClick={scrollToTop}
+            type="button"
+            role="link"
+            aria-label={t('navigation.join-us-button')}
+            className="rounded-3xl px-3 py-1 lg:px-4 lg:py-2 text-Button-M font-medium">
+            {t('navigation.join-us-button')}
+          </Button>
+        </NavLink>
       </div>
 
       <figure className="relative">

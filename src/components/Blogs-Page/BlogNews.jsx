@@ -18,14 +18,14 @@ const BlogNews = () => {
   return (
     <section
       id="news"
-      className="pt-16 pb-16 md:pb-28 px-10 relative">
-      <div className=" md:px-24 py-6">
+      className="pt-16 pb-16 md:pb-28 md:px-24 lg:px-40  relative">
+      <div className="flex flex-col items-center xl:items-start px-10 md:px-14 py-6">
         <h2 className="text-Heading-2 mb-4 text-center lg:text-start">{t(`blogs-page.blogs-section.header`)}</h2>
-        <p className="text-Body-L lg:w-1/2 ">{t(`blogs-page.blogs-section.paragraph`)}</p>
+        <p className="text-Body-L md:w-3/4 lg:w-1/2 text-center md:text-start">{t(`blogs-page.blogs-section.paragraph`)}</p>
       </div>
       <span className="text-Heading-5 text-[#777E90] absolute end-[8%] top-28 hidden lg:block"> {t('blogs-page.blogs-section.our-blogs')}</span>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-16 my-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-10 sm:gap-20 lg:gap-12 my-10">
         {translatedBlogs.map((article, index) => (
           <Article
             key={index}

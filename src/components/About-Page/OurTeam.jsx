@@ -15,7 +15,7 @@ const OurTeam = () => {
           <div key={index}>
             <figure className="group overflow-hidden">
               <img
-                className="rounded-lg aspect-square max-w-[15rem] group-hover:scale-110 transition-all duration-500   "
+                className="rounded-lg aspect-square object-cover max-w-[15rem] group-hover:scale-110 transition-all duration-500   "
                 src={image.img}
                 loading="lazy"
                 alt={`picture of ${image.alt}`}
