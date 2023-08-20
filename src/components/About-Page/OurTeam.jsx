@@ -15,7 +15,7 @@ const OurTeam = () => {
           <div key={index}>
             <figure>
               <img
-                className="rounded-lg"
+                className="rounded-lg aspect-square max-w-[15rem]  "
                 src={image.img}
                 loading="lazy"
                 alt={`picture of ${image.alt}`}
@@ -24,7 +24,7 @@ const OurTeam = () => {
             </figure>
             <div>
               <h4 className="text-Heading-4 text-center pt-2 ">{image.name}</h4>
-              <span className="text-center block">Founder</span>
+              <span className="text-center block">{t('about-page.our-team-section.founder')}</span>
             </div>
           </div>
         ))}

@@ -108,7 +108,8 @@
     ],
 
     "our-team-section": {
-      "header": "Our Outstanding Team, the Source of Our Strength and the Foundation of Clean Ambassadors"
+      "header": "Our Outstanding Team, the Source of Our Strength and the Foundation of Clean Ambassadors",
+      "founder": "Founder"
     },
 
     "join-team-section": {
@@ -341,7 +342,7 @@
       ]
     }
   },
-  
+
   "not-found-page": {
     "heading": "Sorry...",
     "subheading": "Page Not Found",
