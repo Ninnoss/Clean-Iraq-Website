@@ -13,7 +13,7 @@ const JoinTeam = () => {
         <h2 className="text-Heading-2">{t('about-page.join-team-section.header')}</h2>
         <p className="text-Body-L pt-6 md:pt-12 pb-6">{t('about-page.join-team-section.paragraph')}</p>
         <NavLink
-          to="/campaigns"
+          to="*"
           className="hidden md:block md:me-16">
           <Button
             onClick={scrollToTop}
