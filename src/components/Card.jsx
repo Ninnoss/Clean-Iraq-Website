@@ -5,13 +5,14 @@ import { scrollToTop } from '../utils/scrollToTop';
 import { useTranslation } from 'react-i18next';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 
-const Card = ({ name, img, description, trashBags, volunteers, date, location, maxHeight}) => {
+const Card = ({ name, img, description, trashBags, volunteers, date, location, maxHeight =200}) => {
   const { t } = useTranslation();
 
   return (
     <article className="relative w-72 sm:w-80 bg-white rounded-lg shadow transition-all duration-300 hover:shadow-2xl ">
       <figure>
         <img
+          // className="rounded-t-lg max-h-[255px] object-cover w-full"
           className={`rounded-t-lg max-h-[${maxHeight}px] object-cover w-full`}
           src={img}
           loading="lazy"

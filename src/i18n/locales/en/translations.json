@@ -125,38 +125,38 @@
     "header": "With your efforts and participation, we will achieve the best for our country. Come join us in cleaning!",
     "campaigns-data": [
       {
-        "name": "Basrah Cleaning Campaign",
-        "description": "Join us for the Basrah Cleaning Campaign on Saturday in the Corniche area! Don't miss out on this opportunity to participate and contribute to the cleanliness of Basrah.",
+        "name": "Basra Cleaning Campaign",
+        "description": "Join us in the Basra Cleaning Campaign and participate in making our city cleaner and more beautiful! The campaign will take place on Saturday in the Corniche area. We need committed volunteers to help us achieve this commendable goal.",
         "date": "Saturday, 4:00 PM",
-        "place": "Al-Zubair Port"
+        "place": "Zubair Port"
       },
       {
         "name": "Baghdad Cleaning Campaign",
-        "description": "There's a cleaning campaign in Baghdad on Sunday in the Liberation Square area! Don't miss out on this opportunity to participate and contribute to the cleanliness of Baghdad.",
+        "description": "Join us in the Baghdad Cleaning Campaign and contribute to improving our local environment! The campaign will be held on Sunday in the Liberation Square area. Join us to make this event successful and productive for everyone.",
         "date": "Sunday, 3:00 PM",
-        "place": "Tahrir Square"
+        "place": "Liberation Square"
       },
       {
         "name": "Mosul Cleaning Campaign",
-        "description": "Join us on Monday in the streets of Mosul for a comprehensive cleaning campaign! Join now and participate in cleaning the forests in the Mosul area.",
+        "description": "Do you care about your community and the environment? Join us in the Mosul Cleaning Campaign on Monday and be a part of our effort to make the streets cleaner and more beautiful. The campaign will cover the forests and streets of the city comprehensively.",
         "date": "Monday, 2:00 PM",
-        "place": "Al-Jisr Al-Kabeer Bridge"
+        "place": "Great Bridge"
       },
       {
         "name": "Nasiriyah Cleaning Campaign",
-        "description": "Gather with us on Tuesday in Nasiriyah to start the city's cleaning campaign! Join us on Tuesday at Nasiriyah Park.",
+        "description": "We invite all citizens of Nasiriyah to join us in the City Cleaning Campaign on Tuesday. The gathering will take place at Nasiriyah Park, and together, we will work to improve our environment and make it cleaner and more beautiful.",
         "date": "Tuesday, 1:00 PM",
-        "place": "Al-Mualim Bridge"
+        "place": "Teacher's Bridge"
       },
       {
         "name": "Maysan Cleaning Campaign",
-        "description": "We invite you to join us on Wednesday for the Maysan cleaning campaign and make it even more beautiful! Join us on Wednesday at Najaf Ashraf Temple.",
+        "description": "Are you looking for an opportunity to be part of a positive change in your community? Join us in the Maysan Cleaning Campaign on Wednesday and contribute to improving the local environment, making it cleaner and more beautiful.",
         "date": "Wednesday, 6:00 PM",
         "place": "Najaf Ashraf Temple"
       },
       {
         "name": "Diwaniyah Cleaning Campaign",
-        "description": "Thursday marks the beginning of the Diwaniyah cleaning campaign! Join to make the city cleaner and more beautiful. Thursday marks the beginning of the Diwaniyah cleaning campaign!",
+        "description": "Do you want to improve your community and add beauty to your city? Join us in the Diwaniyah Cleaning Campaign on Thursday and participate in achieving this noble goal. The campaign will start from the Amir Bridge.",
         "date": "Thursday, 7:00 PM",
         "place": "Amir Bridge"
       }
