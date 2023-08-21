@@ -9,6 +9,7 @@ import Projects from './pages/Projects';
 import NotFound from './pages/NotFound';
 import Blogs from './pages/Blogs';
 import CampaignDetailsPage from './pages/CampaignDetailsPage';
+import Map from './pages/Map';
 
 function App() {
   return (
@@ -38,6 +39,10 @@ function App() {
           element={<Projects />}
         />
 
+        <Route
+          path="/map"
+          element={<Map />}
+        />
         <Route
           path="/blogs"
           element={<Blogs />}
