@@ -38,6 +38,7 @@ const PreviousEvents = () => {
               trashBags={event['Number of Trash Bags']}
               volunteers={event['Number of Volunteers']}
               location={event['Location Description Arabic']}
+              maxHeight={200}
             />
           ))
         ) : (

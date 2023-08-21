@@ -21,7 +21,7 @@ const UpcomingCampaigns = () => {
       {/* Square designs */}
       <div className="w-12 md:w-16 xl:w-20 h-16 md:h-24 xl:h-32 absolute top-0 end-0 xl:top-12 rounded-lg  bg-[#bbd1c2] -z-10"></div>
       <div className="w-12 md:w-16 xl:w-20 h-12 md:h-16 xl:h-20 absolute top-8 end-4 md:end-7  xl:top-28 xl:end-10 rounded-lg bg-[#F4DDBC] -z-10"></div>
-     
+
       <header className="flex flex-col items-center pb-16">
         <span className="text-Heading-5 block mb-4  text-primaryOrange">{t('campaigns-page.small-header')}</span>
         <p className="text-Heading-3 !font-normal text-center py-4 md:max-w-[80%]">{t('campaigns-page.header')}</p>
@@ -35,7 +35,7 @@ const UpcomingCampaigns = () => {
             img={campaign.img}
             date={campaign.date}
             location={campaign.place}
-            imgStyle="rounded-t-lg max-h-[640px] max-w-[640px] w-full"
+            maxHeight={260}
           />
         ))}
       </div>
