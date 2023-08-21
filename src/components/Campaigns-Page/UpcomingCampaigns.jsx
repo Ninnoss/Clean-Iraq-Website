@@ -35,7 +35,7 @@ const UpcomingCampaigns = () => {
             img={campaign.img}
             date={campaign.date}
             location={campaign.place}
-            maxHeight={255}
+            // maxHeight={255}
           />
         ))}
       </div>

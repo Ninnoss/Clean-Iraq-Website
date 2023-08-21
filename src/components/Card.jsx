@@ -9,11 +9,11 @@ const Card = ({ name, img, description, trashBags, volunteers, date, location, m
   const { t } = useTranslation();
 
   return (
-    <article className="relative w-72 sm:w-80 bg-white rounded-lg shadow transition-all duration-300 hover:shadow-2xl ">
+    <article className="relative w-72 sm:w-80 bg-white rounded-lg shadow transition-all duration-300 hover:shadow-2xl">
       <figure>
         <img
-          // className="rounded-t-lg max-h-[255px] object-cover w-full"
-          className={`rounded-t-lg max-h-[${maxHeight}px] object-cover w-full`}
+          className="rounded-t-lg max-h-[220px] w-full"
+          // className={`rounded-t-lg max-h-[${maxHeight}px] object-cover w-full`}
           src={img}
           loading="lazy"
           alt={`Image of ${name}`}
