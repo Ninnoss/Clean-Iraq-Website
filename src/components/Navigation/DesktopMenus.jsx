@@ -26,6 +26,9 @@ const DesktopMenus = ({ open, setOpen }) => {
           <NavLink to="/projects">{t('navigation.projects')}</NavLink>
         </li>
         <li className="hover:text-primaryGreen">
+          <NavLink to="/map">{t('navigation.map')}</NavLink>
+        </li>
+        <li className="hover:text-primaryGreen">
           <NavLink to="/blogs">{t('navigation.blogs')}</NavLink>
         </li>
         <li className="hover:text-primaryGreen">

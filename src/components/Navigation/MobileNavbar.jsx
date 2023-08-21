@@ -16,7 +16,7 @@ const MobileNavbar = ({ setToggleMenu, open, setOpen }) => {
         size={'2.2rem'}
         className="fixed top-5 right-5 text-highlightBlack hover:text-primaryGreen "
         onClick={() => setToggleMenu(false)}
-        aria-label={t('navigation.close-menu')} 
+        aria-label={t('navigation.close-menu')}
       />
       <ul
         role="menu"
@@ -51,6 +51,14 @@ const MobileNavbar = ({ setToggleMenu, open, setOpen }) => {
             to="/projects"
             role="menuitem">
             {t('navigation.projects')}
+          </NavLink>
+        </li>
+        <li className="hover:text-primaryGreen tracking-wider">
+          <NavLink
+            onClick={() => setToggleMenu(false)}
+            to="/map"
+            role="menuitem">
+            {t('navigation.map')}
           </NavLink>
         </li>
         <li className="hover:text-primaryGreen tracking-wider">
