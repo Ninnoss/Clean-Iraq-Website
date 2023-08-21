@@ -5,7 +5,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 import Modal from '..//ContactForm/Modal';
 
 const MobileNavbar = ({ setToggleMenu, open, setOpen }) => {
-  const { t } = useTranslation(); 
+  const { t } = useTranslation();
 
   return (
     <nav

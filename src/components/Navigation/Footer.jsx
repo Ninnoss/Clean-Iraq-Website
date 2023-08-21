@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <ul className="grid grid-cols-3 lg:grid-cols-6 justify-center gap-4 lg:gap-x-10 text-Subtitile-M text-highlightGrey">
+          <ul className="grid grid-cols-3 lg:grid-cols-7 justify-center gap-4 lg:gap-x-10 text-Subtitile-M text-highlightGrey">
             <li className="hover:text-primaryGreen">
               <NavLink
                 onClick={scrollToTop}
@@ -64,12 +64,19 @@ const Footer = () => {
             <li className="hover:text-primaryGreen">
               <NavLink
                 onClick={scrollToTop}
+                to="/map">
+                {t('navigation.map')}
+              </NavLink>
+            </li>
+            <li className="hover:text-primaryGreen">
+              <NavLink
+                onClick={scrollToTop}
                 to="/blogs">
                 {t('navigation.blogs')}
               </NavLink>
             </li>
             <li className="hover:text-primaryGreen">
-              <button onClick={() => setOpen(true)}>{t('navigation.contact-us')}</button>
+              <button className='relative start-16 lg:start-0' onClick={() => setOpen(true)}>{t('navigation.contact-us')}</button>
             </li>
           </ul>
           <Modal

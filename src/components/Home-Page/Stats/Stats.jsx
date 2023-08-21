@@ -1,9 +1,14 @@
 import { useState, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
-import Stat from './Stat';
+import { useInView } from 'react-intersection-observer';
 import { fetchData } from '../../../utils/fetchData';
+import Stat from './Stat';
 
 const Stats = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.5
+  });
   const { t } = useTranslation();
   const [data, setData] = useState([]);
 
@@ -41,12 +46,14 @@ const Stats = () => {
     <section className="py-16">
       <h2 className="text-center text-Heading-2">{t('home-page.stats-section.header')}</h2>
 
-      <div className="pt-14 flex flex-row-reverse flex-wrap-reverse justify-center gap-10">
+      <div
+        ref={ref}
+        className="pt-14 flex flex-row-reverse flex-wrap-reverse justify-center gap-10">
         {stats.map((stat) => (
           <Stat
             key={stat.title}
             title={t(`home-page.stats-section.${stat.title}`)}
-            number={data.length > 0 ? stat.number(data) : 0}
+            number={inView && data.length > 0 ? stat.number(data) : 0}
             logo={stat.logo}
           />
         ))}

@@ -14,7 +14,7 @@ const JoinTeam = () => {
         <p className="text-Body-L pt-6 md:pt-12 pb-6">{t('about-page.join-team-section.paragraph')}</p>
         <NavLink
           to="*"
-          className="hidden md:block md:me-16">
+          className="md:me-16">
           <Button
             onClick={scrollToTop}
             type="button"
@@ -26,7 +26,7 @@ const JoinTeam = () => {
         </NavLink>
       </div>
 
-      <figure className="relative">
+      <figure className="relative mt-5">
         <img
           className="w-full md:w-[575px] md:h-[345px] rounded-lg"
           src={images.teamSectionMember}
