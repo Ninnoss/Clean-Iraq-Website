@@ -6,7 +6,7 @@ const Slider = () => {
 
   return (
     <div className="flex items-center justify-center text-Heading-3 mb-3 ">
-      <div className="flex items-center justify-center relative start-20 h-[50px] overflow-hidden gap-2">
+      <div className="flex items-center justify-center relative start-8 md:start-0 lg:start-4 h-[50px] overflow-hidden gap-2">
         <h1 className="flex items-center h-[50px] leading-10">{t('projects-page.previous-events-section.slider.text')}</h1>
         <div className="slide-header">
           {[1, 2, 3, 4, 5].map((word, index) => (
