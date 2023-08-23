@@ -1,5 +1,15 @@
+import PreviousEvents from '../components/Projects-Page/PreviousEvents';
+import Testimonials from '../components/Projects-Page/Testimonials/Testimonials';
+import CampaignLocations from '../components/Projects-Page/Map/CampaignLocations';
+
 const Projects = () => {
-  return <div>Projects</div>;
+  return (
+    <>
+      <PreviousEvents />
+      <Testimonials />
+      <CampaignLocations />
+    </>
+  );
 };
 
 export default Projects;

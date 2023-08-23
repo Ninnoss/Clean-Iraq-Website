@@ -8,6 +8,8 @@ import Campaigns from './pages/Campaigns';
 import Projects from './pages/Projects';
 import NotFound from './pages/NotFound';
 import Blogs from './pages/Blogs';
+import CampaignDetailsPage from './pages/CampaignDetailsPage';
+import Map from './pages/Map';
 
 function App() {
   return (
@@ -28,10 +30,19 @@ function App() {
           element={<Campaigns />}
         />
         <Route
+          path="/campaigns/:campaignName"
+          element={<CampaignDetailsPage />}
+        />
+
+        <Route
           path="/projects"
           element={<Projects />}
         />
 
+        <Route
+          path="/map"
+          element={<Map />}
+        />
         <Route
           path="/blogs"
           element={<Blogs />}

@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* Navbar slide bottom animations */
 .slide-bottom {
   -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -27,6 +31,116 @@
 }
 
 /* React Router NavLink active class */
-/* .active {
-  color: #ee9972;
-} */
+.active {
+  color: #548c67;
+  /* font-weight: 600; */
+}
+
+/* About page: revealing the content */
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.active {
+  color: #548c67;
+  font-weight: 600;
+}
+
+/* Home-page campaign faces animations */
+
+@keyframes translate-sun {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(2rem) translateY(2rem);
+  }
+
+  50% {
+    transform: translateX(4rem) translateY(4rem);
+  }
+  75% {
+    transform: translateX(5rem) translateY(6rem);
+  }
+  100% {
+    transform: translateX(6rem) translateY(8rem);
+  }
+}
+
+@keyframes translate-moon {
+  0% {
+    transform: translateX(1rem) translateY(-1);
+  }
+  25% {
+    transform: translateX(2rem) translateY(-2rem);
+  }
+  50% {
+    transform: translateX(3rem) translateY(-2rem);
+  }
+  75% {
+    transform: translateX(4rem) translateY(-4rem);
+  }
+  100% {
+    transform: translateX(5rem) translateY(-6rem);
+  }
+}
+
+.animate-sun {
+  animation: translate-sun 12s linear infinite alternate;
+}
+
+.animate-moon {
+  animation: translate-moon 12s linear infinite alternate;
+}
+
+/*  */
+.scratch-effect {
+  border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
+}
+
+/* Blogs */
+.underline-effect:after {
+  content: '';
+  position: absolute;
+  background-color: #548c67;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -6px;
+  transition: 0.3s;
+}
+
+.underline-effect:hover:after {
+  width: 100%;
+}
+
+/* Projects page slider header */
+.slide-header {
+    transform: translateY(-80px);
+    animation: slide 8s ease-in-out infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateY(-100px);
+    }
+    15%, 25% {
+      transform: translateY(-50px);
+    }
+    40%, 50% {
+      transform: translateY(0);
+    }
+    65%, 75% {
+      transform: translateY(50px);
+    }
+    90%, 100% {
+      transform: translateY(100px);
+    }
+  }

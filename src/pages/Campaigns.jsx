@@ -1,5 +1,13 @@
+import SuggestionForm from '../components/Campaigns-Page/SuggestionForm';
+import UpcomingCampaigns from '../components/Campaigns-Page/UpcomingCampaigns';
+
 const Campaigns = () => {
-  return <div>Campaigns</div>;
+  return (
+    <>
+      <UpcomingCampaigns />
+      <SuggestionForm />
+    </>
+  );
 };
 
 export default Campaigns;

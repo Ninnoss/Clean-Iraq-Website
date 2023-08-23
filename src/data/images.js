@@ -1,56 +1,34 @@
-// // Nav, Home, Footer
-// import headerLogo from '../assets/Imgs/Header-logo-yellow.svg';
-// import heroPizza from '../assets/Imgs/hero-pizza.webp';
-// import pastaFork from '../assets/Imgs/Pasta-Fork.webp';
-// import greekSalad from '../assets/Imgs/greek-salad.webp';
-// import brucheta from '../assets/Imgs/bruchettaa.webp';
-// import fishTacos from '../assets/Imgs/Fish-Tacos.webp';
-// import FlyingPasta from '../assets/Imgs/Flying-Pasta.webp';
-// import mealVideo from '../assets/Imgs/meal.mp4';
-// import marioAdrianA from '../assets/Imgs/Mario-and-Adrian-A.webp';
-// import marioAdrianB from '../assets/Imgs/Mario-and-Adrian-b.webp';
-// import restauranFood from '../assets/Imgs/restaurant-food.webp';
-// import restaurantView from '../assets/Imgs/restaurant-view.webp';
-// import footerLogo from '../assets/Imgs/Footer-Logo-White.webp';
+// Note: other images used in map are imported from 'data'
+// Nav, Home, Footer
+import navLogo from '../assets/Imgs/Logo.webp';
+import logoPin from '../assets/Imgs/logo-pin.webp';
+import girlWithTrashCan from '../assets/Imgs/Home-Page/girl-with-trash-can.webp';
+import iraqMap from '../assets/Imgs/Home-Page/Iraq-map.webp';
+import video from '../assets/Imgs/Home-Page/cleaniraq.mp4';
+// About page
+import teamSectionMember from '../assets/Imgs/About-Page/team-section-image.png';
 
-// // about page
-// import menuAtmoshphere from '../assets/Imgs/Menu-Page/Restaurant-atmosphere.webp';
-// import greenLemonBg from '../assets/Imgs/Menu-Page/Green-lemon-bg.webp';
+//Blog-Page
+import banner from '../assets/Imgs/Blogs-Page/banner.webp';
+import cleaningRiverSide from '../assets/Imgs/Blogs-Page/cleaning-river-side.webp';
+import teamGroupPhoto from '../assets/Imgs/Blogs-Page/team-group-photo.webp';
+//Not Found 404
+import error from '../assets/Imgs/404/cuate.png';
+import lines from '../assets/Imgs/404/lines.svg';
 
-// campagins page
-// import aboutBg from '../assets/Imgs/About-Page/about-bg.webp';
-// import cuisines from '../assets/Imgs/About-Page/Cuisines.webp';
-
-
-// Projects page
-// import makingPizza from '../assets/Imgs/About-Page/Making-pizza.webp';
-// import italianMenu from '../assets/Imgs/About-Page/Italian-menu.webp';
-
-// // Not Found page
-// import notFound from '../assets/Imgs/404.webp';
-// import powerOut from '../assets/Imgs/power-out.webp';
-
-
-// export default {
-//   headerLogo,
-//   heroPizza,
-//   pastaFork,
-//   greekSalad,
-//   brucheta,
-//   fishTacos,
-//   FlyingPasta,
-//   mealVideo,
-//   marioAdrianA,
-//   marioAdrianB,
-//   restauranFood,
-//   restaurantView,
-//   footerLogo,
-//   menuAtmoshphere,
-//   greenLemonBg,
-//   aboutBg,
-//   cuisines,
-//   makingPizza,
-//   italianMenu,
-//   notFound,
-//   powerOut,
-// };
+export default {
+  navLogo,
+  logoPin,
+  girlWithTrashCan,
+  video,
+  iraqMap,
+  // About page
+  teamSectionMember,
+  //Blog-Page
+  banner,
+  cleaningRiverSide,
+  teamGroupPhoto,
+  //Not Found
+  error,
+  lines,
+};
