@@ -2,16 +2,15 @@
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 
 const CampaignDetails = ({ selectedEvent, currentPhotoIndex, setCurrentPhotoIndex }) => {
-
   const handleNextPhoto = () => {
-    if (selectedEvent.Photos && currentPhotoIndex < selectedEvent.Photos.length - 1) {
-      setCurrentPhotoIndex(currentPhotoIndex + 1);
+    if (selectedEvent.Photos && selectedEvent.Photos.length > 1) {
+      setCurrentPhotoIndex((currentPhotoIndex + 1) % selectedEvent.Photos.length);
     }
   };
 
   const handlePrevPhoto = () => {
-    if (selectedEvent.Photos && currentPhotoIndex > 0) {
-      setCurrentPhotoIndex(currentPhotoIndex - 1);
+    if (selectedEvent.Photos && selectedEvent.Photos.length > 1) {
+      setCurrentPhotoIndex((currentPhotoIndex - 1 + selectedEvent.Photos.length) % selectedEvent.Photos.length);
     }
   };
 
