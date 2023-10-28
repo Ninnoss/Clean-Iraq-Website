@@ -14,7 +14,7 @@ const CampaignDetails = ({ selectedEvent, currentPhotoIndex, setCurrentPhotoInde
       setCurrentPhotoIndex(currentPhotoIndex - 1);
     }
   };
-  
+
   return (
     <div className="flex-col items-center justify-center rounded-lg pr-8 pb-4">
       <div className="text-center mb-2">
@@ -26,7 +26,7 @@ const CampaignDetails = ({ selectedEvent, currentPhotoIndex, setCurrentPhotoInde
           <img
             src={selectedEvent.Photos[currentPhotoIndex].full.url}
             alt="Event"
-            className="w-[300px] h-[120px]  sm:h-[250px] object-cover"
+            className="w-[300px] h-[120px]  sm:h-[250px] object-cover rounded-sm"
           />
           <div
             className="cursor-pointer absolute top-[55%] -right-1 font-bold text-xl transform -translate-y-1/2 mx-2"
