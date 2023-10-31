@@ -28,10 +28,6 @@ const ContactForm = ({ onClose }) => {
     onClose();
   };
 
-  // const handleInputClick = (e) => {
-  //   e.stopPropagation();
-  // };
-
   return (
     <div className="w-[300px]  md:w-[500px]">
       <form

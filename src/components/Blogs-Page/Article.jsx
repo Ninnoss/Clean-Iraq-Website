@@ -6,7 +6,6 @@ const Article = ({ img, title, paragraph, shares, date }) => {
   const { t } = useTranslation();
 
   return (
-    //   TODO: fix the zoom effect
     <article className="max-w-[18rem] h-fit overflow-hidden ">
       <figure className="group">
         <img
