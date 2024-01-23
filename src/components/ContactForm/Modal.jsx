@@ -2,14 +2,9 @@
 import { AiOutlineClose } from 'react-icons/ai';
 import ContactForm from '../ContactForm/ContactForm';
 import { useTranslation } from 'react-i18next';
-// import { useRef } from 'react';
-// import useOutsideClick from '../../hooks/useOutsideClick';
 
 const Modal = ({ open, onClose }) => {
   const { t } = useTranslation();
-  
-  // const modalRef = useRef(null);
-  // useOutsideClick(modalRef, onClose);
 
   return (
     <div className={`fixed inset-0 flex justify-center items-center transition-colors z-10 ${open ? 'visible bg-black/20' : 'invisible'}`}>

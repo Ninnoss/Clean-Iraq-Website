@@ -16,16 +16,6 @@
   font-family: 'IBMPlexSansArabic', sans-serif;
 }
 
-/* Apply Arabic font */
-/* [dir='rtl'] {
-  font-family: 'IBMPlexSansArabic', sans-serif;
-} */
-
-/* Apply English font */
-/* [dir='ltr'] {
-  font-family: 'Poppins', sans-serif;
-} */
-
 .form-inputs {
   @apply w-full bg-[#F4F5F6] rounded-lg h-8 md:h-12 p-2
         placeholder-slate-400
